@@ -1,0 +1,33 @@
+ 
+
+					~$        directorio HOME del usuario actual
+
+							simbolo $ ---  usuario normal
+							simbolo # ---  usuario ROOT
+
+					
+
+ r !cd    == r !pwd
+		devuelven la ruta dónde estamos :)  
+        cd == pwd
+
+
+
+
+				whoami     muestra el usuario en curso
+				hostname   muestra el nombre de la maquina
+
+				cd				 usando solo cd te lleva a HOME del usuario
+
+
+				ls -a    archivos ocultos
+				ls -all			"   "   "     y más detalles
+
+
+
+
+
+				xdg-open .      abre el gestor de archivo el la ubicación actual
+				xdg-open archivo      abre el archivo como si le hubieras dado dobleClick
+
+
