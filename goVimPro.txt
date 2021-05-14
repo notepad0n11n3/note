@@ -4,8 +4,6 @@ mio
 											C:\vim -p archivo1.* archivo2.*
 											C:\vim -p *
 
-	:set hlsearch
-	:set nohlsearch
 	:nohlsearch					cancelar últimaBusqueda con resaltado
 
 	:set ic							ignora camelCase al momento de buscar
@@ -15,9 +13,8 @@ mio
 
 	:set tabstop=2    espacio de indentación  TAB
 
-	:split "archivo.*"
-	:vsplit "archivo.*"
-
+	:split "archivo.*"      :new  "archivo.*"
+	:vsplit "archivo.*"     :vnew "archivo.*"
 
 
 Seleccionar Texto  ( modo visual de linea y bloques )
@@ -26,7 +23,7 @@ Seleccionar Texto  ( modo visual de linea y bloques )
 	v
 
 
-	ctrl + v --- selección por BLOQUE :)
+Ctrl + v --- selección por BLOQUE :)
 									
 									oro viejo ORO ORO, lo que logre papá
 									  
@@ -74,8 +71,6 @@ JUGANDO CON MIS BUFFERS
 
 
 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
-
-
 
 
 	ZZ --- sale guardando ( ZZ ó shift + zz );

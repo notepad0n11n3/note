@@ -17,8 +17,6 @@ concatenar comandos en cmdWindows
 
 				ejem:   chrome.exe & firefox.exe & msedge.exe 
 
-	
-		 
 cd escrito sin ningun parámetro devolverá elDirectorioActual
 					en vim ayuda mucho para jalar rápido la ruta actual con ( :r !cd )
 
@@ -29,7 +27,6 @@ dir > sauronDir.txt       jo jo jo jo jo jo hoho
 echo > sauron.txt meep moop woop no necesita comillas para agrupar todo el texto
 
 type sauron.txt
-
 
 cd       cd desktop\panda8hat\python
 
