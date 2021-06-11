@@ -1,5 +1,7 @@
 
 			vim vim vim VIM VIM VIM VIM VIM VIM VIM VIM vim vim vim vim VIM VIM 
+ :r !cd   ==  :r !pwd    # imprime en vim la salida del comando ejecutado
+
 mio
 											C:\vim -p archivo1.* archivo2.*
 											C:\vim -p *

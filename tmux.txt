@@ -1,0 +1,70 @@
+          @ d   no congela las cesiones, siguen corriendo en segundo plano, aircrack :)
+  @ ?   manual tmux
+::: tmux new -s "aeo8Session
+::: tmux new -s panda8hatGO
+
+@ == Ctrl b     <<<======<<<---=======
+
+@ : setw -g mode-keys vi      teclas vim para usar con @ [  *** *** *** ***
+
+      ###   ventanas/divisiones
+@ "    vnew
+@ %    new
+@ c    tabNew   *** *** 
+@ !    independizar exclamaci[on en tabnew  *** *** *** 
+@ : join-pane -s 1 -t 3  unir a ventana 1 la ventana 3 como una division
+      'solo junta ventana continuas/seguidas'
+@ q   numero de paneles en ventana actual
+@ z  dar zoom a la divisionFocus          *** *** *** 
+
+
+
+      ### modificar ven/div
+@ : setw synchronize-panes     sinconizar paneles ***
+@ "numeroPesta~aHere"   saltar entre ventanas
+@ ,    rename ventanaActual
+@ : swap-window -s 1 -t 3       intercambiar ventana **
+
+@ flechaUpDownLR  "mantenemos Ctrl" redimensionar divisiones
+
+@ spaceHere   vnew to new / new to vnew !!!! DANGER DANGER DANGER...!!!
+        si lo ejecutas desde vim, genera error, no vim!!!!
+        reorganiza las ventanas si hay mas de 2
+
+@ m  funcionDe ohMyTMux, integra mouse, redimensi[on de divisiones
+
+@ b @ o  rotaci[on de divisiones 
+@ o  saltar focus divisiones
+
+@ { o }   alterna divisi[on    ***
+
+
+      ### copiar / buscar 
+@ [   modo copia
+        Ctrl Espacio    modoSelecci[on
+            Alt w      para copiar
+              @ ]     pegarPaste
+
+@ [ Ctrl S   buscar         /// q para salir
+
+
+###### Sessions
+
+  @ $   rename SESSION   RENAME  session                      *** ***
+  @ d    detached session
+  ::: tmux list-sessions   :: tmux ls
+  ::: tmux a    conecta ultimaSession usada
+  ::: tmux attach -t nameSessionHere  :: tmux a -t nameHere   *** *** ***
+        3140 3140 3140
+  @ s   "dentro de sessionTmux, lista las sesiones " :: @ w 
+  @ (    SALTAR ENTRE SESSIONES.....                          *** *** *** 
+
+
+#### cerrar ventana con paneles
+  @ &   cerrar ventana      *** *** *** *
+  ::: tmux kill-session -t nameHere
+
+
+### EXTRA
+  @ t    reloj :)
+  @ q    numberPanel

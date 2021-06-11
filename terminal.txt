@@ -1,0 +1,8 @@
+
+							simbolo $ ---  usuario normal
+							simbolo # ---  usuario ROOT
+
+		xdg-open .      abre el gestor de archivo el la ubicación actual
+				xdg-open archivo      abre el archivo como si le hubieras dado dobleClick
+
+
