@@ -1,6 +1,14 @@
+              ####     sivvi    ####
 
+  ejecuta una shell para more
+  ::: more /etc/passwd    # solo muestra lo que entre en pantalla  like a 89%  40%
+          si presionar  v  entraras en el modo vi
+   .:  :set shell=/bin/bash
+    .:  :shell             # devuelve una shell :)
 
  :e  /etc/bandit_pass/bandit26   #editara el archivo especificado de la ruta introducida :)  :)
+
+              ####     sivi     ####
 
 			vim vim vim VIM VIM VIM VIM VIM VIM VIM VIM vim vim vim vim VIM VIM 
  :r !cd   ==  :r !pwd    # imprime en vim la salida del comando ejecutado
