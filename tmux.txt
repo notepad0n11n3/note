@@ -1,3 +1,5 @@
+  copiar Vimode  Espacio para seleccionar despues enter,  pegar con @ ]
+
           @ d   no congela las cesiones, siguen corriendo en segundo plano, aircrack :)
   @ ?   manual tmux
 ::: tmux new -s "aeo8Session
@@ -33,10 +35,10 @@
 
 @ m  funcionDe ohMyTMux, integra mouse, redimensi[on de divisiones
 
-@ b @ o  rotaci[on de divisiones 
+@ b @ o  rotar divisiones/paneles 
 @ o  saltar focus divisiones
 
-@ { o }   alterna divisi[on    ***
+@ { o }   intercambiar paneles  INTERCAMBIAR PANELES    ***
 
 
       ### copiar / buscar 

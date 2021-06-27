@@ -1,4 +1,7 @@
 
+
+ :e  /etc/bandit_pass/bandit26   #editara el archivo especificado de la ruta introducida :)  :)
+
 			vim vim vim VIM VIM VIM VIM VIM VIM VIM VIM vim vim vim vim VIM VIM 
  :r !cd   ==  :r !pwd    # imprime en vim la salida del comando ejecutado
 
