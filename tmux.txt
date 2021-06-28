@@ -7,6 +7,7 @@
 
 @ == Ctrl b     <<<======<<<---=======
 
+  VI MODE vi mode VI MODE vi mode 
 @ : setw -g mode-keys vi      teclas vim para usar con @ [  *** *** *** ***
 
       ###   ventanas/divisiones
