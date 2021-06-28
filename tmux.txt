@@ -30,6 +30,7 @@
 
 @ flechaUpDownLR  "mantenemos Ctrl" redimensionar divisiones
 
+      panelVertical a horizontal *******
 @ spaceHere   vnew to new / new to vnew !!!! DANGER DANGER DANGER...!!!
         si lo ejecutas desde vim, genera error, no vim!!!!
         reorganiza las ventanas si hay mas de 2
