@@ -1,4 +1,11 @@
 
+
+Shift + r       remplazar 
+u      deshacer cambios
+Ctrl + r    revertir ultima acci[on, sirve para contrarestar a u
+
+
+
 c ->  Change (cambiar)       i -> inside (dentro de)				 w ->  word (palabra)
 d ->  Delete (borrar)				 a -> around (alrededor de)			 p ->  paragraph (parrafo)
 y ->  Yank   (copiar)																				 " ->  Entrecomillado
