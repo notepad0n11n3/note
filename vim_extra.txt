@@ -1,10 +1,25 @@
 
 
+
+stedin en pantalla y guardado n paralelo ********
+      tee   tee        tee      tee
+::: date > /tmp/fecha.txt3
+::: date > /tmp/fecha.txt && cat /tmp/fecha.txt  # guarda la salida de date en /tmp/fecha.txt y mostrar stdin en pantalla
+
+::: date > tee /tmp/fecha.txt  # la salida de date se muestra en pantalla y tambi[en se guarda en fecha.txt
+
+::: ls -lah /home/ | tee listadoHome.txt
+
 Shift + r       remplazar 
 u      deshacer cambios
 Ctrl + r    revertir ultima acci[on, sirve para contrarestar a u
+*********************************
 
 
+  % en un comando hace referencia al nombre del archivo actual ::: tabnew %    vnew %  
+
+
+v:: w ! sudo tee %
 
 c ->  Change (cambiar)       i -> inside (dentro de)				 w ->  word (palabra)
 d ->  Delete (borrar)				 a -> around (alrededor de)			 p ->  paragraph (parrafo)
