@@ -1,5 +1,5 @@
 
-
+  ctrl + n  ==>>  lanza un menu contextual con las palabras del archivo, autocompletado para arch, no plugin :u
 
 stedin en pantalla y guardado n paralelo ********
       tee   tee        tee      tee
