@@ -19,7 +19,7 @@ Ctrl + r    revertir ultima acci[on, sirve para contrarestar a u
   % en un comando hace referencia al nombre del archivo actual ::: tabnew %    vnew %  
 
 
-v:: w ! sudo tee %
+v:: w ! sudo tee %     ##!! GUARDA COMO ROOT SI ESTAMOS COMO USUARIO SIN PRIVILEGIOS....!!!
 
 c ->  Change (cambiar)       i -> inside (dentro de)				 w ->  word (palabra)
 d ->  Delete (borrar)				 a -> around (alrededor de)			 p ->  paragraph (parrafo)
