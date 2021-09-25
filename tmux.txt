@@ -1,3 +1,6 @@
+
+@ Ctrl o       cambiar pesta~a anterior (@ 1   @ 2   @ 3)
+
   copiar Vimode  Espacio para seleccionar despues enter,  pegar con @ ]
 
           @ d   no congela las cesiones, siguen corriendo en segundo plano, aircrack :)
@@ -26,6 +29,7 @@
 @ : setw synchronize-panes     sinconizar paneles ***
 @ "numeroPesta~aHere"   saltar entre ventanas
 @ ,    rename ventanaActual
+
 @ : swap-window -s 1 -t 3       intercambiar ventana **
 
 @ flechaUpDownLR  "mantenemos Ctrl" redimensionar divisiones
