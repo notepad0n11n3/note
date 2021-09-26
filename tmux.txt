@@ -1,5 +1,5 @@
 
-@ Ctrl o       cambiar pesta~a anterior (@ 1   @ 2   @ 3)
+@ Ctrl i       cambiar pesta~a anterior (@ 1   @ 2   @ 3)
 
   copiar Vimode  Espacio para seleccionar despues enter,  pegar con @ ]
 
@@ -8,7 +8,7 @@
 ::: tmux new -s "aeo8Session
 ::: tmux new -s panda8hatGO
 
-@ == Ctrl b     <<<======<<<---=======
+@ == Ctrl k/a/b     <<<======<<<---=======
 
   VI MODE vi mode VI MODE vi mode 
 @ : setw -g mode-keys vi      teclas vim para usar con @ [  *** *** *** ***
