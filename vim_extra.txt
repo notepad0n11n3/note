@@ -8,12 +8,20 @@ stedin en pantalla y guardado n paralelo ********
 
 ::: date > tee /tmp/fecha.txt  # la salida de date se muestra en pantalla y tambi[en se guarda en fecha.txt
 
-::: ls -lah /home/ | tee listadoHome.txt
+::: ls -lah /home/ | tee listadoHome.txt     like a  'ls -lah > listadoHome.txt'
 
 Shift + r       remplazar 
+
 u      deshacer cambios
 Ctrl + r    revertir ultima acci[on, sirve para contrarestar a u
+
+
 *********************************
+stedin en pantalla y guardado n paralelo ********
+
+::: date > tee /tmp/fecha.txt  # la salida de date se muestra en pantalla y tambi[en se guarda en fecha.txt
+
+::: ls -lah /home/ | tee listadoHome.txt     like a  'ls -lah > listadoHome.txt'
 
 
   % en un comando hace referencia al nombre del archivo actual ::: tabnew %    vnew %  
@@ -28,7 +36,8 @@ y ->  Yank   (copiar)																				 " ->  Entrecomillado
 																												(    ) ->  Entre estos simbolos ( )
 																												[    ]
 																												{    }
-	 figlet panda8hat
+
+::: figlet panda8hat
 :r !figlet panda8hat													  
                        _        ___  _           _   
  _ __   __ _ _ __   __| | __ _ ( _ )| |__   __ _| |_ 

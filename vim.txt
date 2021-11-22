@@ -1,7 +1,7 @@
-              ####     sivvi    ####
+         ####     sivvi    ####
 
-  ejecuta una shell para more
-  ::: more /etc/passwd    # solo muestra lo que entre en pantalla  like a 89%  40%
+ ejecuta una shell para more
+ ::: more /etc/passwd    # solo muestra lo que entre en pantalla  like a 89%  40%
           si presionar  v  entraras en el modo vi
    .:  :set shell=/bin/bash
     .:  :shell             # devuelve una shell :)
@@ -14,17 +14,17 @@
  :r !cd   ==  :r !pwd    # imprime en vim la salida del comando ejecutado
 
 mio
-											C:\vim -p archivo1.* archivo2.*
-											C:\vim -p *
+				C:\vim -p archivo1.* archivo2.*
+				C:\vim -p *
 
-	:nohlsearch					cancelar últimaBusqueda con resaltado
+v::nohlsearch					cancelar últimaBusqueda con resaltado
 
-	:set ic							ignora camelCase al momento de buscar
-	:set noic						
+v:: set ic							ignora camelCase al momento de buscar
+v:: set noic						
 
-	:set autoindent			identación automatica
+v:: set autoindent			identación automatica
 
-	:set tabstop=2    espacio de indentación  TAB
+v:: set tabstop=2    espacio de indentación  TAB
 
 	:split "archivo.*"      :new  "archivo.*"
 	:vsplit "archivo.*"     :vnew "archivo.*"

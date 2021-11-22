@@ -28,8 +28,6 @@ echo > sauron.txt meep moop woop no necesita comillas para agrupar todo el texto
 
 type sauron.txt
 
-cd       cd desktop\panda8hat\python
-
 
 comando DIR avanzado 
 			dir /ad       solo carpeta

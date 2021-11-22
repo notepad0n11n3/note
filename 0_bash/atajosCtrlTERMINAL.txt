@@ -1,0 +1,11 @@
+
+Ctrl o/O  ====   Ctrl j/J    =====   <Enter>      termianl/consola/vim   <3  :) :) :) 
+
+    Ctrl o/O  en vim te da un tiro en modo normal para guardar rapido y seguir editando Ctrl o <Espacio> w
+
+Ctrl w             borra palabra completa
+Ctrl u             borra toda la linea
+Ctrl 8 == Ctrl j   borra caracter x caracter
+
+
+Ctrl + e  ---    autocompleta las recomendacion de zsh 

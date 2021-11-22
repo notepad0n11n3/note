@@ -1,8 +1,15 @@
-
-							simbolo $ ---  usuario normal
-							simbolo # ---  usuario ROOT
+							simbolo $ ---  usuario normal           simbolo # ---  usuario ROOT
 
 		xdg-open .      abre el gestor de archivo el la ubicación actual
 				xdg-open archivo      abre el archivo como si le hubieras dado dobleClick
 
+    Ctrl + e      completa sugerencia ZSH / salta al final de linea
+    Ctrl + u      Limpiar Linea
 
+    Ctrl + a      salta al inicio de Linea
+    Ctrl + e      salta al final de Linea / completa la sugerencia de ZSH
+
+
+terminal sin bordes <<--
+	Alt f3        m    n       shortCuts para eliminar la barra superior :)
+ solo en kde 
