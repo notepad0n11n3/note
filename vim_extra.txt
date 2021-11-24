@@ -1,3 +1,4 @@
+comentar linea en cualquier lenguaje, modi visual (zz)  Shift + 7    <3 <3 <3
 
   ctrl + n  ==>>  lanza un menu contextual con las palabras del archivo, autocompletado para arch, no plugin :u
 
