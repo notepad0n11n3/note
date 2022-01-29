@@ -1,0 +1,22 @@
+==> probados en consolaManjaro,  me parece genial go, algunos no funcionan en vim 
+
+
+ Ctrl + o/O           <Enter>
+                     p>w + i ===   Ctrl-o + <Esp>wn VIM te saca al modo NORMAL para realizar 1 sola acci[on,
+                     despu[es regresaras al modo inserci[on :), 
+                     me parece un poco m{as facil que el  vida <3 <3 <3, 
+
+Ctrl + 8           borra caracter     vimReady
+Ctrl + 7           revierte lo borrado por Ctrl 8  vimReady
+
+Ctrl + w           elimina una palabra entera    vimReady
+Ctrl + 7           tambien revierte los cambios realizados :)  <3   vimReady
+
+Ctrl b     retrocede un caracter
+Alt b      retrocede una palabra
+
+Ctrl f     avanza un caracter
+Alt  f     avanza una palabra
+
+Ctrl a     ir al principio de linea
+Ctrl e     ir al final de linea

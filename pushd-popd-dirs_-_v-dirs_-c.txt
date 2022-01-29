@@ -1,0 +1,14 @@
+
+::: dirs -v
+    
+    0  /home
+    1  /var
+    2  /tmp
+
+ :: cd ~1          #  go  /var/    :)
+
+
+
+::: dirs -v
+
+::: dirs -c
