@@ -361,7 +361,7 @@ folding  plegado de codigo
 					zc			cierraFold
 					zC
 
-	zM  cierraTodo los Fold y los deja como nuevos  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+	zM  cierraTodo los Fold y los deja como nuevos  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!     zR  abreTodos lo plegado  !!!!  source=>  v:: help folding
 	zA  lo contrario al de arriba :)
 	za  para abrirCerrar
 
