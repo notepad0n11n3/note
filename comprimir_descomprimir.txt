@@ -1,0 +1,24 @@
+
+ARCHIVOS .tar.gz
+  Comprimir:
+    ::: tar -czvf empaqutado.tr.gz  /carpeta/a/empaquetar/
+  Descomprimier:
+    ::: tar -xzvf archivo.tar.gz
+
+ARCHIVOS .tar
+  Empaquetar:
+    ::: tar -cvf paquete.tar  /dir/a/comprimir/
+  Desempaquetar:
+    ::: tar -xvf paquete.tar
+
+ARCHIVOS .gz
+  Comprimir:
+    ::: gzip -9 index.php
+  Descomprimir:
+    ::: gzip -d index.php.gz
+
+ARCHIVOS .zip
+  Comprimir:
+    ::: zip archivo.zip carpeta
+  Descomprimir:
+    ::: unzip archivo.zip
