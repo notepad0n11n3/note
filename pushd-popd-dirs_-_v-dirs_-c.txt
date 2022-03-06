@@ -1,3 +1,4 @@
+::: pushd rutaDestino
 
 ::: dirs -v
     
@@ -8,7 +9,6 @@
  :: cd ~1          #  go  /var/    :)
 
 
-
 ::: dirs -v
 
-::: dirs -c
+::: dirs -c   /// clear buffer
