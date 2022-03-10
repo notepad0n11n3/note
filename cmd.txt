@@ -1,6 +1,4 @@
 
-								    CMD WINDOWS  CMD WINDOWS
-
 		start cmd      consola desde consola en ubicaciónActual  :)   :)  :)  
 
 abrir explorer desde consola en la ubicación actual:
@@ -17,17 +15,16 @@ concatenar comandos en cmdWindows
 
 				ejem:   chrome.exe & firefox.exe & msedge.exe 
 
-cd escrito sin ningun parámetro devolverá elDirectorioActual
-					en vim ayuda mucho para jalar rápido la ruta actual con ( :r !cd )
+    cd escrito sin ningun parámetro devolverá elDirectorioActual
+              en vim ayuda mucho para jalar rápido la ruta actual con ( :r !cd )
 
 
-pip freeze > ../../src/requirements.txt  #el archivo ya existia, lo sobreescribió y relleno noProblem :)
+    pip freeze > ../../src/requirements.txt  #el archivo ya existia, lo sobreescribió y relleno noProblem :)
 
-dir > sauronDir.txt       jo jo jo jo jo jo hoho  
-echo > sauron.txt meep moop woop no necesita comillas para agrupar todo el texto
+    dir > sauronDir.txt       jo jo jo jo jo jo hoho  
+    echo > sauron.txt meep moop woop no necesita comillas para agrupar todo el texto
 
-type sauron.txt
-
+    type sauron.txt
 
 comando DIR avanzado 
 			dir /ad       solo carpeta
@@ -47,7 +44,6 @@ guardar el resultado de un comando en un  archivo
 
 					>    es un operador, que significa <<enviar a>> alguna parte
 
-
 renonbrar un directorioCarpeta
 				
 					ren "c:\carpeta\carpeta" "nuevo Nombre" 
@@ -56,10 +52,15 @@ renonbrar un directorioCarpeta
 											el punto hace referencia a la ruta actual
 												como en ( explorer . ) 
 
-						
 leer archivo de texto desde consola  ( como cat en Debian )
-
 					type archivo.*
 					type archivo1.* archivo2.*
 
 
+::: whoami /priv
+
+::: whoami /all
+
+::: net user    /// lista de cuentas en el equipo
+
+::: net user aeo8       ::: net user panda8hat   //// info detallada sobre la cuenta especificada
