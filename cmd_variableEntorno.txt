@@ -64,3 +64,18 @@ leer archivo de texto desde consola  ( como cat en Debian )
 ::: net user    /// lista de cuentas en el equipo
 
 ::: net user aeo8       ::: net user panda8hat   //// info detallada sobre la cuenta especificada
+
+
+================================= VARIABLES DE ENTORNO ============================================ 
+
+::: echo %SystemRoot%
+         %UserProfile%        likea a :::  cd == $HOME   en linux
+         %SystemDrive%          unidad de sistema
+
+         %cd%               like a  ::: pwd
+         %ErrorLevel%
+         
+         %number_of_processors%         numero de n[ucleos f[isicos y virtuales
+         %random%                   numero aleatorio de 0 a 32767
+         %date%
+         %time%
