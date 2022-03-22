@@ -1,4 +1,7 @@
 
+@ : new-window -c $HOME/Desktop/burningArea                         ///  nueva pesta~a con ruta personalizada <3
+@ : neww -c $HOME/Desktop/burningArea -n burningArea                  -n nombrePesta~a nueva
+
 @ Ctrl i       cambiar pesta~a anterior (@ 1   @ 2   @ 3)
 
   copiar Vimode  Espacio para seleccionar despues enter,  pegar con @ ]
