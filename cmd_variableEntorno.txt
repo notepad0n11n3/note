@@ -66,6 +66,15 @@ leer archivo de texto desde consola  ( como cat en Debian )
 dir recursivo
 ::: dir /s /b kuma.txt   ===  :::dir /b /s kuma.txt
 
+::: dir /s kuma.txt | findstr "like_a_GrepUnix<3"
+::: dir /s euro.txt | findstr "Directory" 
+
+findstr    ===   grep
+
+::: findstr /i /r /c:".*test" _vimrc        /i  noCaseSensitive        /r regularExpreison       /c:""   stringTarged      .* === * enLinux    (acepta ^,$) <3
+::: findstr /i /r ".*test"  archivoHere          funcionaIgual :)
+
+
 ================================= VARIABLES DE ENTORNO ============================================ 
 
 ::: echo %SystemRoot%
