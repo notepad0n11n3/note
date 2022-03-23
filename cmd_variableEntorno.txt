@@ -36,7 +36,6 @@ comando DIR avanzado
 															dir /ad       solo carpetas 
 															dir  /ah       solo archivos ocultos
 															dir /a-d       todo menos carpetas
-
 		
 guardar el resultado de un comando en un  archivo
 			dir C:\ +  >  +  "archivo.*"
@@ -55,7 +54,6 @@ renonbrar un directorioCarpeta
 leer archivo de texto desde consola  ( como cat en Debian )
 					type archivo.*
 					type archivo1.* archivo2.*
-
 
 ::: whoami /priv
 
