@@ -8,4 +8,4 @@
 
 ::: dir /s archivo.txt            dirRecusivo
 
-::: findstr
+::: findstr /r /i "^go.*hello$"                 .* == * (Unix)    /r regularExpresion      /i  noSensitiveCase
