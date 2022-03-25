@@ -1,3 +1,4 @@
+///     pushd y popd  TAMBI[EN funcionan en cmd  <3 <3 <3
 
 ::: ver       versi[on del sistemaOperativo
 
@@ -5,7 +6,10 @@
 
 ::: whoami        usuario
 ::: whoami /priv  permisos de Usuario 
+           /user  /groups   /all    
 
 ::: dir /s archivo.txt            dirRecusivo
 
 ::: findstr /r /i "^go.*hello$"                 .* == * (Unix)    /r regularExpresion      /i  noSensitiveCase
+
+::: where cmd.exe
