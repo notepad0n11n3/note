@@ -1,0 +1,11 @@
+
+::: ver       versi[on del sistemaOperativo
+
+::: ipconfig
+
+::: whoami        usuario
+::: whoami /priv  permisos de Usuario 
+
+::: dir /s archivo.txt            dirRecusivo
+
+::: findstr

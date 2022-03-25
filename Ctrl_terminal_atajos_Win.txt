@@ -1,0 +1,16 @@
+
+F8            muestra historial de los comandos ejecutados
+F3            ultimo comando ejecutado
+
+Ctrl h          eliminar caracter
+
+Ctrl flechaUp     scroll para arriba, terminal
+Ctrl flechaDown               
+
+
+Ctrl flechaRight    salta de palabra en palabra => derecha
+Ctrl flechaL                                    <= izquierda
+
+
+Ctrl c            like a unix, tambi[en borra todo lo que se este escribiendo en la entrada
+

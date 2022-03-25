@@ -1,0 +1,32 @@
+::: aplicationHere >/dev/null 2>&1 & disown 
+			simbolo $ ---  usuario normal           simbolo # ---  usuario ROOT
+
+	xdg-open .              abre el gestor de archivo el la ubicación actual
+	xdg-open archivoHere    abre el archivo como si le hubieras dado dobleClick
+
+Ctrl + j     <Enter>    <3 <3 <3 
+
+Ctrl + h     borra caracter                          vimReady
+Ctrl + w     elimina una palabra entera              vimReady
+Ctrl + u     Limpiar Linea                           vimReady
+Ctrl + 7     revierte lo borrado, soloTerminalUnix   noVim :( 
+
+Ctrl b     retrocede un caracter
+Alt b      retrocede una palabra
+
+Ctrl f     avanza un caracter
+Alt  f     avanza una palabra
+
+Ctrl a     ir al principio de linea
+Ctrl e     ir al final de linea / TAMBI[EN COMPLETA_SUGERENCIA ZSH
+
+Tab (tabulador)  completaLasPosiblesCoincidencias (bash/zsh)
+
+===========vim
+ Ctrl + o/O           <Enter>
+                     zz w + i == 'Ctrl-o + :w '<-'modoInserci[on'   VIM te saca al modo NORMAL para realizar 1 sola acci[on,
+                     despu[es regresaras al modo inserci[on :), 
+
+terminal sin bordes <<--
+	Alt f3        m    n       shortCuts para eliminar la barra superior :)
+ solo en kde 

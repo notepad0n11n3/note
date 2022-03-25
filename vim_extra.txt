@@ -1,6 +1,9 @@
 comentar linea en cualquier lenguaje, modi visual (zz)  Shift + 7    <3 <3 <3
 
-  ctrl + n  ==>>  lanza un menu contextual con las palabras del archivo, autocompletado para arch, no plugin :u
+f <character>  salta a al primera coincidencia del caracter
+F <character>  saltaRetrocede a la primera coincidencia del caracter
+
+Ctrl + n  ==>>  lanza un menu contextual con las palabras del archivo, autocompletado para arch, no plugin :u
 
 stedin en pantalla y guardado n paralelo ********
       tee   tee        tee      tee
@@ -12,6 +15,7 @@ stedin en pantalla y guardado n paralelo ********
 ::: ls -lah /home/ | tee listadoHome.txt     like a  'ls -lah > listadoHome.txt'
 
 Shift + r       remplazar 
+
 
 u      deshacer cambios
 Ctrl + r    revertir ultima acci[on, sirve para contrarestar a u

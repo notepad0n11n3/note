@@ -1,29 +1,29 @@
 
 ::: cd -       #!regresa al directorio anterior :)
 
-    outputComand | inputNewComand       "pipe operator"
+::: outputComand | inputNewComand       "pipe operator"
 
-    comando1; comando2; comando3; comando4    ejecuci[on sincrona(uno despu[es de otro)
+::: comando1; comando2; comando3        ejecuci[on sincrona(uno despu[es de otro)
 
-    comando1 & comando2 & comando3 & comando4   ejecuci[on simultanea(lo hace en segundo plano, usa hilos propios del procesador)
+::: comando1 & comando2 & comando3      ejecuci[on simultanea(lo hace en segundo plano, usa hilos propios del procesador)
 
-    comando1 && comando2        if comando1 == true  go comand2
+::: comando1 && comando2                if comando1 == true  go comand2
 
-    comando1 || comando2 || comando3    ejecuta unoDetr]as de otro, pero no creo nuevos hilos para su ejecuci[on, parece asincrono pero NO
-          || solo se ejecuta 1, solo ejecuta o toma en cuenta el primer $comand que se ejecuta exitosamente(bajo redundancia) y descarta los demas.
-ls -lh       h== human,  peso legible de los archivos 
-  -r      reverse print
-  -S      order por height(upperCase)
+::: comando1 || comando2 || comando3    si comand1 se ejecuta descarta los demas, si comnd1 no se ejecuta pruebaEjecutando comnd2, si comnd1,2 no se ejecutan intenta con comand3.
 
-mv archivo.txt ..     copiar/mover una carpeta atras
+::: ls -lh       h== human,  peso legible de los archivos 
+        -r      reverse print
+        -S      order por height(upperCase)
 
-mv directorio1 directorio2    mover directorio1 dentro de direc2 
+::: mv archivo.txt ..     copiar/mover una carpeta atras
+
+::: mv directorio1 directorio2    mover directorio1 dentro de direc2 
 
 ::: rm -r directorioHere      directorio y contenido delete :: rm -ri     i recursividad/pregunta
 
 ::: cp -r directorioAcopiar rutaDeseada/
 
-Lectura de archivos terminal...
+LECTURA DE ARCHIVOS TERMINAL...
 
   ::: head archivo.***   
   ::: head archivo.*** -n 5   cincoPrimera_lineas
@@ -45,15 +45,10 @@ Lectura de archivos terminal...
 
 ::: file archivo.***      muestra tipo de archivo/descripci[on
 
-::: Ctrl + A  inicio de linea
-::: Ctrl + E  final de linea
-
 ::: tar -czvf sauron.tar.gz burningArea/
 ::: tar =xzvf sauron.tar.gz burningArea/
 
 ::: ls awefawe >> output.txt 2>&1     >> concatena resultados anteriores,   2>  a 1> == > 
-
-::: echo "hello helo"
 
 PERMISOS...
 
@@ -70,8 +65,6 @@ PERMISOS...
 LINK SIMBOLICO  (acceso directo like win)
 
 ::: ln -s Document/dev nameLinkHere :: permisos dumi === permisos sin valor, los linkSinboli como tal no tienePermisos
-
-
 
 VARIABLES DE ENTORNO
 
