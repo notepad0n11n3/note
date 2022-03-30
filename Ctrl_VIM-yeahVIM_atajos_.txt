@@ -26,6 +26,11 @@ v:: options        // para .vimrc
 
 *** *** *** insertMode (i/a/o/O)
 
+Ctrl y             // CierraElMenuSugerencias Youcompleteme
+let g:ycm_key_list_stop_completion = ['<C-y>']    " .vimrc
+Ctrl <Espace>      // abreElMenuSugerencias Youcompleteme
+let g:ycm_key_invoke_completion = '<C-Space>'     " .vimrc
+
 Ctrl c   ===  zz
 Ctrl n        // menuContextual autocompletado
 
