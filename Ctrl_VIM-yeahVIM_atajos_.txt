@@ -1,0 +1,13 @@
+   visualModel (zz)
+
+Ctrl w  Ctrl v     ===   v:: vsplit %
+
+Ctrl w  Ctrl s     ===   v:: split %   
+
+Ctrl w  Ctrl O     // cierra todos los paneles abiertos <3
+
+
+
+  insertMode (i/a/o/O)
+
+Ctrl c   ===  zz
