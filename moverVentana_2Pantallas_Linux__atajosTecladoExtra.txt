@@ -7,6 +7,8 @@
   Ctrl Atl R/L          // cambio de areaTrabajo
   Ctrl Shift Alt R/L    // mueveVentana aAreaDeTrabajo
 
+	Ctrl f1     Ctrl f2    Ctrl f3    ...etc   //shortCut AreaTrabajo
+
 *** *** Bloqueo Session
   
   Ctrl Atl l           // bloqueoSession
