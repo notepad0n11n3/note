@@ -1,0 +1,12 @@
+
+*** *** Ventana aMonitor 2
+  Alt Espacio m flechas     // tienesQue desplazarVentana hastaQue el cursor pas[e, despu[es Windows+Up
+
+*** *** Area de trabajo
+  
+  Ctrl Atl R/L          // cambio de areaTrabajo
+  Ctrl Shift Alt R/L    // mueveVentana aAreaDeTrabajo
+
+*** *** Bloqueo Session
+  
+  Ctrl Atl l           // bloqueoSession
