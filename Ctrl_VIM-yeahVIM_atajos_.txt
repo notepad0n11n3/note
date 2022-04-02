@@ -1,4 +1,20 @@
+v:: h 
+v:: term      // terminalPantallaDividida :)  like a   <Esc> z   pero prefiero el mio <3
+
+encadenar comandos 
+v:: 17,20 | 122put   // copyLine 17-20 and paste line 122
+
 *** *** *** visualModel (zz)
+Ctrl O    // salta a la anterios linea modificada
+g ;
+
+Ctrl I    //  vuelve en los movimientos de   Ctrl O == g ;
+g ,
+                              /// Evita saltar de archivo, ultimaLineaModificada
+                        v:: jumps        
+                        v:: clearjumps
+
+Ctrl y    Ctrl e     // subir/bajar  pantallasSinMover CursoPosici[on
 
 Ctrl w  Ctrl v     ===   v:: vsplit %
 Ctrl w  Ctrl s     ===   v:: split %   

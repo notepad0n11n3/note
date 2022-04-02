@@ -14,5 +14,5 @@ Ctrl flechaRight    salta de palabra en palabra => derecha
 Ctrl flechaL                                    <= izquierda
 
 
-Ctrl c            like a unix, tambi[en borra todo lo que se este escribiendo en la entrada
-
+Ctrl c     like a unix, tambi[en borra todo lo que se este escribiendo en la entrada
+Ctrl a    // Seleciona toda la linea para copiar (Ctrl c solo copia si primero se selecciona algoPrimero, si no funciona comoEn Unix, termina el proceso)

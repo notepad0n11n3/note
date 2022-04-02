@@ -1,3 +1,4 @@
+@ ;    // salta[UltimaDivisionUsada  *** *** *** *** **
 
 @ : new-window -c $HOME/Desktop/burningArea                         ///  nueva pesta~a con ruta personalizada <3
 @ : neww -c $HOME/Desktop/burningArea -n burningArea                  -n nombrePesta~a nueva
@@ -67,13 +68,15 @@
   ::: tmux a    conecta ultimaSession usada
   ::: tmux attach -t nameSessionHere  :: tmux a -t nameHere   *** *** ***
         3140 3140 3140
-  @ s   "dentro de sessionTmux, lista las sesiones " :: @ w 
+  @ s   "dentro de sessionTmux, lista las sesiones "    :: @ w   *** *** ***
   @ (    SALTAR ENTRE SESSIONES.....                          *** *** *** 
 
 
 #### cerrar ventana con paneles
   @ &   cerrar ventana      *** *** *** *
   ::: tmux kill-session -t nameHere
+
+  @ x    cerrar solo panel  *** *** *** *
 
 
 ### EXTRA
