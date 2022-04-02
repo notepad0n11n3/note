@@ -28,7 +28,7 @@ ls -lhs ??? du -sh .  ??
 ::: history 
  .: !numberComandHistory
 
-::: mkdir -p newDir/Newdir/newNew  creaTodo  *** **
+::: mkdir -p newDir/Newdir/newNew  creaTodo mkdir recursivo *** ** ***
 
 ::: rm -r dir5/fotos    dltFotos noDir5
 
@@ -45,9 +45,9 @@ ln a arhivos y carpetasXigual
 
 
 ::: adduser nameHere
-:ROOT: addgroup nameHere
-:ROOT: usermod -g nameGroup nameUser
-:ROOT: passwd userHere_x89p    <CR>
+  ROOT:: addgroup nameHere
+  ROOT:: usermod -g nameGroup nameUser
+  ROOT:: passwd userHere_x89p    <CR>
 
 
 ::: find ruta  options

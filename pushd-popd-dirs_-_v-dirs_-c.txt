@@ -1,3 +1,5 @@
+// pushd popd  tambi[en funciona en windows <3
+
 ::: pushd rutaDestino
 
 ::: dirs -v
