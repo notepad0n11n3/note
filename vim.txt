@@ -18,12 +18,9 @@ mio
 				C:\vim -p *
 
 v::nohlsearch					cancelar últimaBusqueda con resaltado
-
 v:: set ic							ignora camelCase al momento de buscar
 v:: set noic						
-
 v:: set autoindent			identación automatica
-
 v:: set tabstop=2    espacio de indentación  TAB
 
 	:split "archivo.*"      :new  "archivo.*"
@@ -35,28 +32,22 @@ Seleccionar Texto  ( modo visual de linea y bloques )
 		la selección de texto se puede juntar con "número" + /h/j/k/l 
 	v
 
+VISUAL MODE   MODO VISUAL
+  v + h/j/k/l         v + 8 + j seleccionarSaltoAbajo8_espacios valido para todos... v  V  Ctrl v
+  V            // toda la linea
+  Ctrl + v     // selección por BLOQUE :)
+    
+        seleccionar + u/U    convierte_a lowercase/UPERCASE... <3 <3 <3
 
-Ctrl + v --- selección por BLOQUE :)
-									
-									oro viejo ORO ORO, lo que logre papá
-									  
-									"número" + o  jugamos con una palabra clave para remplazar (maincra) y jugamos con n y N para saltar Y "ciw"(+modoInserción) en vez de "diw"
-															
-																
-																<a href="pagina.html">Home</a>
-																<a href="user.html">Pagina usuario</a>
-																<a href="">maincra</a>
-																<a href="maincra">maincra</a>
+IMPRIMIR LINEA N VECES
+  "número" + o + ESC     // zz ready, no funciona con Ctrl c 
 
 	v/V/ctrl+v  +  d ---  eliminaTextoSeleccionado.
 	ctrl + D --- selcción_por_bloque + eliminaTodasLinea_desdeCaracter_hastaFinalLinea
 
-
-
-Unir lineas separandolas por espacios ( comando Join )
+UNIR LINEAS SEPARANDOLAS POR ESPACIOS ( COMANDO JOIN )
 	J ---  unir lineas separando todo con espacios 
 																<a href="pagina.html">Home</a> <a href="user.html">Pagina usuario</a> <a href="">maincra</a> <a href="maincra">maincra</a>
-
 
 JUGANDO CON MIS BUFFERS
 
@@ -66,12 +57,10 @@ JUGANDO CON MIS BUFFERS
 			:buffer + número     goBufferNúmero
 								nombre
 
-
 								:args *.*
 											 * 
 								:tab all
 								
-
 
 			:badd file.*        agregaArchivoBuffer
 			:bad
@@ -97,35 +86,29 @@ JUGANDO CON MIS BUFFERS
 	M --- mitad de pantalla visible
 	L --- final de pantalla visible
 
-
-movimientoDePantalla
+MOVIMIENTO_DE_PANTALLA
 	ctrl + u --- media pantalla atras 
 	ctrl + d --- media pantalla adelante
 	ctrl + F --- pantalla adelante
 	ctrl + B --- pantalla atras
 
-
-borrar
+BORRAR
 	dd --- cortar linea
 	dw --- borra desde el caracter hasta el final de la palabra
 	diw -- borra toda la palabra
 	D  --- desde el caracter actual hasta el final de la linea
 	d0 --- desde el caracter actual hasta el principio de la linea 
-	dgg
-	dG
+	dgg    borra de focus_a_inicioArchivo
+	dG     borra de focus_a_finalArchivo
 
-
-copiar 
-
+COPIAR 
 	yy --- COPIAR LINEA COPIAR LINEA COPIAR LINEA COPIAR LINEA COPIAR LINEA
-	Y  --- COPIAR LINEA COPIAR LINEA COPIAR LINEA COPIAR LINEA COPIAR LINEA 
+	Y  --- COPIAR LINEA COP0AR LINEA COPIAR LINEA COPIAR LINEA COPIAR LINEA 
 	yw --- copiar palabra completa ( se pega con p ó P, se pega en la misma linea );
 	y$
 	y0
 
-
-
-inserciones
+INSERCIONES
 	i
 	a
 	I --- inicio de linea
@@ -133,62 +116,44 @@ inserciones
 	o --- insercion abajo 
 	O --- inserción arriba
 
-
-
-eliminar palabras + inserción rápida
-
+ELIMINAR PALABRAS + INSERCIÓN RÁPIDA
 	ciw --- borra toda la palabra + inserciónRápida
 	cc  --- borra toda la linea + inserciónRápida
 	C   --- borra desde el caracter hasta el final de linea + inserciónRápida
 
-
-
-repeticiones de comandos
-
-	"numero" + comando --- ejem ( 10 + dd --- elimina 10 lineas );
+REPETICIONES DE COMANDOS
+  "numero" + comando --- ejem ( 10 + dd --- elimina 10 lineas );
 															( 3 + yy --- copia 3 lineas );
 															( 3 + Y  ---    "  "   "    );
+  .   ejecutara la ultimaAcci[onRealizada... <3 <3 <3
 
-	 
-
-	"numero" + G ---  go numero de linea
-	:"numero de linea" ---  número de linea 
-
-	H --- inicio de pantalla visible
-	M --- mitad de pantalla visible
-	L --- final de pantalla visible
-
-
-busqueda de texto
-
-
+BUSQUEDA DE TEXTO
 	/word --- busca para adelante del focus
 	?word --- busca para atras del focus
-	/^ + word --- busca "word" al inicio de cada linea
-	/word + $  --- busca "word" al final de cada linea
+	/^word --- busca "word" al inicio de cada linea
+	/word$  --- busca "word" al final de cada linea
 	/c[ao]sa  --- busca casa y cosa en el archivo :)
-
 						/c[ao]sa$ -----  	/^c[ao]sa     funciona :)
 
 	/c[a-z]sa  ---  de la "a" a la "z"   :) 
 	/[cC][a-z]sa ---   vim es caseSensitive y nadie dice nada :U 
 
+MODO EX  :   :   :   :   :  :  :  :  :  :  :  :  :  :  :  :  :  :  :  :  :  :  :  :
 
+BORRAR_EX
+					:dLinea#,aLine# + d     // borrar
+					:dLinea#,aLine# + co + debjoLine#   // pegaDebajo desde laÜltima lineaIndicada
+					:dLinea#,aLine# + m + debjoLine#   // mover el codigo :)
 
-modo EX  :   :   :   :   :  
-
-					:dLinea#,aLine# + d     :   borrar
-					:dLinea#,aLine# + co + debjoLine#   :   pegaDebajo desde laÜltima lineaIndicada
-					:dLinea#,aLine# + m + debjoLine#  :  mover el codigo :)
-
-					:dLinea#,aLine# + j       :     (j=join)  junta las lineasDividiendo porEspacios
+					:dLinea#,aLine# + j       // (j=join)  junta las lineasDividiendo porEspacios
 
 					:95,102y           copia, si funciona solo y  no yy
+
 					:deLinea#, aLinea# + p : noEjecuta nada,soloMuestraElContenidoDeLasLineas prevenir:u
 
 
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! RESPUESTA DE   DIEGO del zoologicoDsanDiego... :v
-																											CORDOBA  :)
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! RESPUESTA  DIEGO 
+																									CORDOBA  :)
 
 			Los portaPapeles pueden ser como buffers 
 
@@ -199,7 +164,6 @@ modo EX  :   :   :   :   :
 										'<,'> + "ty        "como buffer, t comoPortapapeles, y comoCopiar
  
 
-														
 						1 primera linea de archivo
 						$ última linea de archivo
 						% todo el archivo
@@ -217,25 +181,21 @@ modo EX  :   :   :   :   :
 
 	 
 
-
-cargar codigo al archivo actual desde otro archivo
-
+CARGAR CODIGO AL ARCHIVO ACTUAL DESDE OTRO ARCHIVO
 	:r + archivo.txt   ó     "/carpeta/carpeta/archivo.txt"    "../../desktop/archivo.txt"
-										: pegaDesdeElFocus
-
+										// pegaDesdeElFocus
 
 
 CMD desde Vim
 
-	:! "desu.exe"   : seEjecutaraSobreLaConsolaDondeCorreVIM
+	:! "nee.exe"   : seEjecutaraSobreLaConsolaDondeCorreVIM
 
 									SE PUEDE JUNTAR :r Y :! .................!!!!!!!!!!
 
 									:r !dir       ...................!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 
-
-macros,  pre-grabar ediciones de linea ( <li></li> <a href=""></a> ):
+MACROS,  PRE-GRABAR EDICIONES DE LINEA ( <li></li> <a href=""></a> ):
 				
 				q+caracter    empezar a grabar
 				q							 dejar de grabar
@@ -260,9 +220,6 @@ macros,  pre-grabar ediciones de linea ( <li></li> <a href=""></a> ):
 
 
 
-
-
-
 BUFFER
 buffers...  es casi parecido a Macros, pero no es el buffers con el que estabaJugando :(
 
@@ -284,8 +241,7 @@ buffers...  es casi parecido a Macros, pero no es el buffers con el que estabaJu
 
 
 
-
-pestañas en vim
+PESTAÑAS EN VIM
 			
 						vim -p 
 
@@ -311,7 +267,7 @@ pestañas en vim
 
 						:tabclose
 
-division de ventana
+DIVISION DE VENTANA
 	
 				vim -o archivo.* archivo.*    todo horizontal
 				vim -O archivo.* archivo.*    todo vertical
@@ -324,7 +280,10 @@ division de ventana
 								
 
 
-division de pantalla EXTRA	
+DIVISION DE PANTALLA EXTRA	
+          
+          Ctrl w s       horizontal
+          Ctrl w v       vertical
 				
 					:split archivo.*      división horizontal
 					:vsplit archivo.*     división vertical
@@ -340,8 +299,7 @@ division de pantalla EXTRA
 					:lineas+vnew
 
 
-
-Igualar el tamaño de las divisiones
+IGUALAR EL TAMAÑO DE LAS DIVISIONES
 
 				Ctrl + W + =        iguala todo :)
 				Ctrl + w + '+'      en modo horizontal
@@ -350,20 +308,23 @@ Igualar el tamaño de las divisiones
 				Ctrl + w +  >				en modo vertical
 
 
-
-folding  plegado de codigo 
+FOLDING  PLEGADO DE CODIGO 
 
 				za			abreCierra elFold en cualquierParte delBloque
 				zA			abreTodoSubBloque y cierra  " " "      "
 
-					zo			abreFold
-					zO
-					zc			cierraFold
-					zC
+				zo			abreFold
+				zO
+				zc			cierraFold
+				zC
 
-	zM  cierraTodo los Fold y los deja como nuevos  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!     zR  abreTodos lo plegado  !!!!  source=>  v:: help folding
-	zA  lo contrario al de arriba :)
-	za  para abrirCerrar
+        
+        zM  cierraTodo los Fold y los deja como nuevos  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!     
+        zR  abreTodos lo plegado  !!!!  source=>  v:: help folding
+
+
+        zA  lo contrario al de arriba :)
+        za  para abrirCerrar
 
 
 				zf      creaNuevoFold con modoVisual   '<,'>
@@ -375,8 +336,7 @@ folding  plegado de codigo
 				:set foldmethod=manual
 
 
-
-remplazar texto 
+REMPLAZAR TEXTO 
 		
 			:%s/word/wordNew/g        modificaTodo   Go
 			:%s/word/wordNew/gc       preguntasTodosLosRemplazos  cuestion
@@ -391,7 +351,6 @@ remplazar texto
 
 										Ctrl + E    movimiento de pantalla
 										Ctrl + Y                           subir y bajar mientras remplazas
-
 
 
 NERDTree NERDTree NERDTree NERDTree NERDTree NERDTree NERDTree NERDTree NERDTree 
