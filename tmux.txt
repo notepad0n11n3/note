@@ -1,90 +1,76 @@
-                                      @ ===== Ctrl k/a/b     <<<======<<<---=======  
+                                      @  ->  like_a  ->  Ctrl k/a/b       
 
           @ d   no congela las seciones, siguen corriendo en segundo plano, aircrack :)
 
-::: tmux new -s "nameSession" -c $burn -n "nameWindow"
-::: tmux new -s nameSession
-
-@ ;    // salta[UltimaDivisionUsada  *** *** *** *** **
-
-@ : new-window -c $HOME/Desktop/burningArea                         ///  nueva pesta~a con ruta personalizada <3
-@ : neww -c $HOME/Desktop/burningArea -n burningArea                  -n nombrePesta~a nueva
-
-@ Ctrl i       cambiar pesta~a anterior (@ 1   @ 2   @ 3)
-
-
-*** Nueva Session
+SESSION
+  ::: tmux new -s "nameSession" -c $burn -n "nameWindow"
+  ::: tmux new -s nameSession
   @ : new -s nombreSession -c $HOME -n "nameWindow"
   @ Ctrl c      nueva session ... <3 <3 <3 <3 
 
-*** Cerrar Session
+  @ $   rename SESSION   RENAME  session                      *** ***
+
+  @ d    detached session
+  ::: tmux a    conecta ultimaSession usada
+  ::: tmux attach -t nameSessionHere  :: tmux a -t nameHere   *** *** ***
+
+  @ s     lista_Sesiones  extendido, puedes saltar ingresandoNumeroSession de la lista
+  @ w     lista_Sesiones  minimalista, puedes saltar ingresandoNumeroSession de la lista
+  @ (    SALTAR ENTRE SESSIONES.....                          *** *** *** 
+  @ )    BACK ENTRE SESSIONES...
+
   @ : kill-session -a        // cerrarTodasLasSessionesMENOS laActual
   @ : kill-session -t sessionNombre   // cerrarLaSession sessionNombre
   @ : kill-ses -t sessionName     @ : kill-ses -a
 
-*** *** *** VI MODE vi mode VI MODE vi mode 
-  @ : setw -g mode-keys vi      teclas vim para usar con @ [  *** *** *** ***
-    copiar Vimode  Espacio para seleccionar despues enter,  pegar con @ ]
-
-*** *** *** copiar / buscar 
-  @ [   modo copia
-          Ctrl Espacio    modoSelecci[on
-              Alt w      para copiar
-                @ ]     pegarPaste
-
-  @ [ Ctrl S   buscar         /// q para salir
-
-*** *** ***  Ventanas/Divisiones
-  @ "    vnew             @ -
-  @ %    new              @ _
-  @ c    tabNew   *** *** 
-  @ !    independizar exclamaci[on en tabnew  *** *** *** 
-  @ : join-pane -s 1 -t 3  unir a ventana 1 la ventana 3 como una division
+DIVISIONES
+  @ -   //divisionHorizontal           @ "    vnew      
+  @ _   //divisionVertical             @ %    new 
+ 
+  @ !                         //independizar exclamaci[on en tabnew  *** *** *** 
+  @ : join-pane -s 1 -t 3     //unir a ventana 1 la ventana 3 como una division
         'solo junta ventana continuas/seguidas'
   @ q   numero de paneles en ventana actual
+
+  @ MAYUS H/J/K/L      //modificarDimensi[onDivision
   @ z  dar zoom a la divisionFocus          *** *** *** 
+  @ ;       // salta[UltimaDivisionUsada  *** *** *** *** **
+  @ o @ b   // saltaEntreDivisiones antiHorario
 
-
-*** *** modificar ven/div
-  @ : setw synchronize-panes     sinconizar paneles ***
-  @ "numeroPesta~aHere"   saltar entre ventanas
-  @ ,    rename ventanaActual
-
-  @ : swap-window -s 1 -t 3       intercambiar ventana **
-
-  @ flechaUpDownLR  "mantenemos Ctrl" redimensionar divisiones
-  @ MAYUS H/J/K/L
-
-*** *** panelVertical a horizontal *******
-  @ spaceHere   vnew to new / new to vnew !!!! DANGER DANGER DANGER...!!!
-          si lo ejecutas desde vim, genera error, no vim!!!!
-          reorganiza las ventanas si hay mas de 2
-
-  @ m  funcionDe ohMyTMux, integra mouse, redimensi[on de divisiones
-
-  @ b @ o  rotar divisiones/paneles 
-  @ o  saltar focus divisiones
-
-  @ { o }   intercambiar paneles  INTERCAMBIAR PANELES    ***
-
-*** ***Sessions
-  @ $   rename SESSION   RENAME  session                      *** ***
-  @ d    detached session
-  ::: tmux list-sessions   :: tmux ls
-  ::: tmux a    conecta ultimaSession usada
-  ::: tmux attach -t nameSessionHere  :: tmux a -t nameHere   *** *** ***
-        3140 3140 3140
-  @ s   "dentro de sessionTmux, lista las sesiones "    ::::::       @ w   *** *** ***
-  @ (    SALTAR ENTRE SESSIONES.....                          *** *** *** 
-  @ )    BACK ENTRE SESSIONES...
-
-*** *** cerrar ventana con paneles
-  @ &   cerrar ventana      *** *** *** *
-  ::: tmux kill-session -t nameHere
+  @ : setw synchronize-panes       //sinconizar paneles ***
+  @ SPACE         // 'teclaEspaico'  reorganiza_de_manera aleatoria lasDivisiones
+  @ { o }   intercambiar divisiones  INTERCAMBIAR DIVISIONES    ***
 
   @ x    cerrar solo panel  *** *** *** *
 
+VENTANAS
+  @ ,    rename ventanaActual
+
+  @ c    ventanaNueva   *** *** 
+  @ : new-window -c $HOME/Desktop/burningArea                        //  nueva pesta~a con ruta personalizada <3
+  @ : neww -c $HOME/Desktop/burningArea -n nameWindow   
+
+  @ Ctrl i   cambiar ventana anterior ( @ 1   @ 2   @ 3 )
+  @ "numero_Ventana_Here"   saltar entre ventanas
+  @ : swap-window -s 1 -t 3       intercambiar ventana **
+
+  @ &   cerrar ventana      *** *** *** *
+
+VI MODE vi mode VI MODE vi mode 
+  @ : setw -g mode-keys vi      teclas vim para usar con @ [  *** *** *** ***
+    copiar Vimode  Espacio para seleccionar despues enter,  pegar con @ ]
+
+                        COPIAR / BUSCAR 
+                          @ [   modo copia
+                            ESPACIO    modoSelecci[on
+                              ENTER      para copiar ' Ctrl j == ENTER    READY...<3'
+                                @ ]     pegarPaste
+
+                          @ [ Ctrl S   buscar         /// q para salir
 
 *** EXTRA
+  ::: tmux list-sessions   :: tmux ls
+
   @ t    reloj :)
   @ q    numberPanel
+  @ m  funcionDe ohMyTMux, integra mouse, redimensi[on de divisiones
