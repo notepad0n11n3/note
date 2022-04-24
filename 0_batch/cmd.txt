@@ -13,3 +13,14 @@
 ::: findstr /r /i "^go.*hello$"                 .* == * (Unix)    /r regularExpresion      /i  noSensitiveCase
 
 ::: where cmd.exe
+
+
+CAMBIAR DE UNIDAD  C: D: E: F: ...
+  ::: s:
+  ::: c:        ::: %SystemDrive%           
+
+
+CD RAIZ DISCO C
+  ::: cd %SystemDrive%\          '/' o '\'  echo %SystemDrive% retorna colo C:  , sin el / o \ no ire al inicio
+
+  ::: cd %SytemDrive%\Users\userName\Desktop        << ac[a no da problema alguno
