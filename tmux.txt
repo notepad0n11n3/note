@@ -1,12 +1,16 @@
                                       @  ->  like_a  ->  Ctrl k/a/b       
+                                      @@    Ctrl k  sin_Soltar            @ C-c
 
           @ d   no congela las seciones, siguen corriendo en segundo plano, aircrack :)
+
+          @ f   buscar_porNombreVentana
+          @@ f  saltar_aSessionPorNombre
 
 SESSION
   ::: tmux new -s "nameSession" -c $burn -n "nameWindow"
   ::: tmux new -s nameSession
   @ : new -s nombreSession -c $HOME -n "nameWindow"
-  @ Ctrl c      nueva session ... <3 <3 <3 <3 
+  @@ c      nueva session ... <3 <3 <3 <3     @ C-c
 
   @ $   rename SESSION   RENAME  session                      *** ***
 
@@ -14,8 +18,8 @@ SESSION
   ::: tmux a    conecta ultimaSession usada
   ::: tmux attach -t nameSessionHere  :: tmux a -t nameHere   *** *** ***
 
-  @ s     lista_Sesiones  extendido, puedes saltar ingresandoNumeroSession de la lista
-  @ w     lista_Sesiones  minimalista, puedes saltar ingresandoNumeroSession de la lista
+  @ s     lista_Sesiones  extendido, puedes saltar ingresandoNumeroSession de la lista     !!!  M-a  es Alt a   ( 0 9 )
+  @ w     lista_Sesiones  minimalista, puedes saltar ingresandoNumeroSession de la lista   !!!  M-a  es Alt a   ( 0 9 )
   @ (    SALTAR ENTRE SESSIONES.....                          *** *** *** 
   @ )    BACK ENTRE SESSIONES...
 
@@ -39,7 +43,8 @@ DIVISIONES
 
   @ : setw synchronize-panes       //sinconizar paneles ***
   @ SPACE         // 'teclaEspaico'  reorganiza_de_manera aleatoria lasDivisiones
-  @ { o }   intercambiar divisiones  INTERCAMBIAR DIVISIONES    ***
+  @ { o }   intercambiar divisiones  INTERCAMBIAR DIVISIONES   horario/antiHorario    *** ***
+  @ < o >   intercambiar divisiones  INTERCAMBIAR DIVISIONES
 
   @ x    cerrar solo panel  *** *** *** *
 
@@ -50,7 +55,7 @@ VENTANAS
   @ : new-window -c $HOME/Desktop/burningArea                        //  nueva pesta~a con ruta personalizada <3
   @ : neww -c $HOME/Desktop/burningArea -n nameWindow   
 
-  @ Ctrl i   cambiar ventana anterior ( @ 1   @ 2   @ 3 )
+  @@ i   cambiar ventana anterior ( @ 1   @ 2   @ 3 )     @ C-i
   @ "numero_Ventana_Here"   saltar entre ventanas
   @ : swap-window -s 1 -t 3       intercambiar ventana **
 
