@@ -1,3 +1,5 @@
+]p        Ajusta la identaci[on al copiar
+
 comentar linea en cualquier lenguaje, modi visual (zz)  Shift + 7    <3 <3 <3
 
 f <character>  salta a al primera coincidencia del caracter
