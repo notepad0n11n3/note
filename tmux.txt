@@ -24,7 +24,7 @@ SESSION
   @ )    BACK ENTRE SESSIONES...
 
   @ : kill-session -a        // cerrarTodasLasSessionesMENOS laActual
-  @ : kill-session -t sessionNombre   // cerrarLaSession sessionNombre
+  @ : kill-session -t sessionName   // cerrarLaSession sessionName
   @ : kill-ses -t sessionName     @ : kill-ses -a
 
 DIVISIONES
