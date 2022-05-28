@@ -6,10 +6,14 @@
 
 Ctrl + j     <Enter>    <3 <3 <3 
 
-Ctrl + h     borra caracter                          vimReady
-Ctrl + w     elimina una palabra entera              vimReady
-Ctrl + u     Limpiar Linea                           vimReady
-Ctrl + 7     revierte lo borrado, soloTerminalUnix   noVim :( 
+Ctrl + h     borra caracter                             vimReady
+Ctrl + w     elimina una palabra entera                 vimReady
+Ctrl + u     Limpiar Linea/avecesDesdeFocus_aIncioLine  vimReady
+Ctrl + k     Limpia desdeFocus aFinalLine               noVim :(
+Ctrl + 7     revierte lo borrado, soloTerminalUnix      noVim :( 
+
+  Ctrl + y   PERMITE PEGAR/recuperar LO [ULTIMO QUE SE BORR[O
+  Ctrl + r   buscador de comandos utilizados
 
 Ctrl b     retrocede un caracter
 Alt b      retrocede una palabra

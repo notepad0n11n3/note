@@ -16,3 +16,9 @@
 =================================
 
 ::: cd -           /// salta al ultimo directorio en el que estabas, sin limite de usos :)  <3
+
+
+
+
+::: echo $PWD
+::: echo $OLDPWD
