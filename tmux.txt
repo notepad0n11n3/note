@@ -56,7 +56,9 @@ VENTANAS
   @ : new-window -c $HOME/Desktop/burningArea                        //  nueva pesta~a con ruta personalizada <3
   @ : neww -c $HOME/Desktop/burningArea -n nameWindow   
 
-  @@ i   cambiar ventana anterior ( @ 1   @ 2   @ 3 )     @ C-i   //sinSoltar Ctrl k i
+  @@ i   cambiar ventana anterior ( @ 1   @ 2   @ 3 )     @ C-i   //sinSoltar Ctrl k i   Alt-a Ctrl-i
+                echo  "bind-key C-i last-window " >> ~/.tmux.conf      funciona <3 <3 <3
+
   @ "numero_Ventana_Here"   saltar entre ventanas
   @ : swap-window -s 1 -t 3       intercambiar ventana **
 
