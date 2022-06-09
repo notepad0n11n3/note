@@ -35,6 +35,7 @@ DIVISIONES
   @ : join-pane -s 1 -t 3     //unir a ventana 1 la ventana 3 como una division
         'solo junta ventana continuas/seguidas'
   @ q   numero de paneles en ventana actual
+  @ q 0...9       saltar de division por numero ... ... ... <3 <3 <3
 
   @ MAYUS H/J/K/L      //modificarDimensi[onDivision
   @ z  dar zoom a la divisionFocus          *** *** *** 
@@ -55,7 +56,7 @@ VENTANAS
   @ : new-window -c $HOME/Desktop/burningArea                        //  nueva pesta~a con ruta personalizada <3
   @ : neww -c $HOME/Desktop/burningArea -n nameWindow   
 
-  @@ i   cambiar ventana anterior ( @ 1   @ 2   @ 3 )     @ C-i
+  @@ i   cambiar ventana anterior ( @ 1   @ 2   @ 3 )     @ C-i   //sinSoltar Ctrl k i
   @ "numero_Ventana_Here"   saltar entre ventanas
   @ : swap-window -s 1 -t 3       intercambiar ventana **
 
