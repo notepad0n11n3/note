@@ -1,3 +1,4 @@
+    *** *** ***   Alt Espace    // menuContextualAplication
 
 *** *** Ventana aMonitor 2
   Alt Espacio m flechas     // tienesQue desplazarVentana hastaQue el cursor pas[e, despu[es Windows+Up
