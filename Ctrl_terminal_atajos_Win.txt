@@ -1,7 +1,12 @@
 
 F8            cambia entre los comandosEjecutados del historial
+
 F7            muestra historial de los comandos ejecutados
+                f     subir enListaComandos postF7
+                v     bajar enListaComandos postF7
 Alt F7        BORRA el historial de comandos ejecutados
+
+F5        subeImprime unoXuno en el historial de comandos
 F3            ultimo comando ejecutado
 
 Ctrl h          eliminar caracter
