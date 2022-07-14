@@ -6,10 +6,10 @@ v:: 17,20 | 122put   // copyLine 17-20 and paste line 122
 
 *** *** *** visualModel (zz)
 Ctrl O    // salta a la anterios linea modificada
-g ;
+g ;       // se...  la tecla 'g' + ;
 
-Ctrl I    //  vuelve en los movimientos de   Ctrl O == g ;
-g ,
+Ctrl I    //  vuelve en los movimientos de   Ctrl O  ===  g ;
+g ,       // se...  la tecla 'g' + ,
                               /// Evita saltar de archivo, ultimaLineaModificada
                         v:: jumps        
                         v:: clearjumps
