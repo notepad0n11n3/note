@@ -5,6 +5,9 @@ encadenar comandos
 v:: 17,20 | 122put   // copyLine 17-20 and paste line 122
 
 *** *** *** visualModel (zz)
+J  realiza el join(JUNTA) las lineas debajoDelFocus unaXuna
+K  en visualMode sobre printf dale a K (mayus) y moatrar infoDetallada, funciona con muchos m[as
+
 Ctrl O    // salta a la anterios linea modificada
 g ;       // se...  la tecla 'g' + ;
 
@@ -13,6 +16,9 @@ g ,       // se...  la tecla 'g' + ,
                               /// Evita saltar de archivo, ultimaLineaModificada
                         v:: jumps        
                         v:: clearjumps
+
+
+
 
 Ctrl y    Ctrl e     // subir/bajar  pantallasSinMover CursoPosici[on
 
