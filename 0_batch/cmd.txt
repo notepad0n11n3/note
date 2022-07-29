@@ -8,6 +8,9 @@
 ::: whoami /priv  permisos de Usuario 
            /user  /groups   /all    
 
+//INFO DE UN USUARIO EN ESPECIFICO, grupos, lastLogon
+::: net user  userNameHere       likea a ::: net user svc-printer
+
 ::: dir /s archivo.txt            dirRecusivo
 
 ::: findstr /r /i "^go.*hello$"                 .* == * (Unix)    /r regularExpresion      /i  noSensitiveCase
