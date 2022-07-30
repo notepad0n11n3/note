@@ -1,3 +1,12 @@
+//LISTAR ARCHIVOS COMPRIMIDOS
+  ::: 7z l archivo.zip         // (si... l sin - )
+
+ARCHIVOS .zip
+  Comprimir:
+    ::: zip archivo.zip carpeta
+  Descomprimir:
+    ::: unzip archivo.zip
+    ::: unzip archivo.zip -d carpetaName
 
 ARCHIVOS .tar.gz
   Comprimir:
@@ -17,8 +26,3 @@ ARCHIVOS .gz
   Descomprimir:
     ::: gzip -d index.php.gz
 
-ARCHIVOS .zip
-  Comprimir:
-    ::: zip archivo.zip carpeta
-  Descomprimir:
-    ::: unzip archivo.zip
