@@ -11,10 +11,11 @@ Ctrl + d     borra caracter like Supr KEY               noVim :(
 
 Ctrl + w     elimina una palabra entera                 vimReady
 
-Ctrl + u     Limpiar Linea/avecesDesdeFocus_aIncioLine  vimReady
-Ctrl + k     Limpia desdeFocus aFinalLine               noVim :(
+Ctrl + q     Limpia toda la linea, SIN IMPORTAR el FOCUS  noVim :(
+Ctrl + u     Limpiar Linea/avecesDesdeFOCUS_aIncioLine    vimReady
+Ctrl + k     Limpia desdeFOCUS aFinalLine                 noVim :(
 
-Ctrl + 7     revierte lo borrado, soloTerminalUnix      noVim :( 
+Ctrl + 7     revierte lo borrado, soloTerminalUnix        noVim :( 
 
   Ctrl + y   PERMITE PEGAR/recuperar LO [ULTIMO QUE SE BORR[O
   Ctrl + r   buscador de comandos utilizados
