@@ -94,6 +94,7 @@ leer archivo de texto desde consola  ( como cat en Debian )
          %random%                   // numero aleatorio de 0 a 32767
          %date%
          %time%
+         %UserName%
 
          %errorlevel%               // codigoDeEstado [ultimoComandoEjecutado, como en debian    :)
 
