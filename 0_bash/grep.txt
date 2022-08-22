@@ -1,0 +1,2 @@
+  ::: cat /etc/passwd | grep -oP "sh$"       // muestra solo las coincidencias de la busqueda
+  ::: cat /etc/passwd | grep -E "sh$"        // muestra TODA la linea de la coincidencia de la busqueda

@@ -87,14 +87,18 @@ leer archivo de texto desde consola  ( como cat en Debian )
          %UserProfile%          // likea a :::  cd == $HOME   en linux   ; %homepath%  //noDevuelveRutaAbsoluta OJO
          %SystemDrive%          // unidad de sistema  C:   necesita \ al final para usar con cd o pushd
 
+         %path%                 // path del sistema
+         %temp%                 // folder archivos temporales
          %cd%                   // like a  ::: pwd
          %ErrorLevel%
          
          %number_of_processors%     // numero de n[ucleos f[isicos y virtuales
+         %processor_identifier%
          %random%                   // numero aleatorio de 0 a 32767
          %date%
          %time%
          %UserName%
+         %ComputerName%
 
          %errorlevel%               // codigoDeEstado [ultimoComandoEjecutado, como en debian    :)
 

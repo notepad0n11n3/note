@@ -89,6 +89,8 @@ COMANDOS DE B[USQUEDA
   ::: grep -c the sauron.*** cuantas veces aparece "the" :: grep -ci the sauron.***
   ::: grep -vi panda8hat sauron.***  sin panda8hat
 
+  ::: cat /etc/passwd | grep -oP "sh$"       // muestra solo las coincidencias de la busqueda
+  ::: cat /etc/passwd | grep -E "sh$"        // muestra TODA la linea de la coincidencia de la busqueda
 
 UTILIDADES DE RED
 
