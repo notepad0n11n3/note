@@ -1,3 +1,7 @@
+=i{  ===  =i[     // arreglaLaIdentaci[onDentro de {}   <3....  FOCUS SOBRE CUALQUIER {}
+vi{  // arreglaLaIdentaci[onDentro de {}   <3....  FOCUS SOBRE CUALQUIER {}
+
+
 v:: h 
 v:: term      // terminalPantallaDividida :)  like a   <Esc> z   pero prefiero el mio <3
 
