@@ -21,3 +21,31 @@ Ctrl flechaL                                    <= izquierda
 
 Ctrl c     like a unix, tambi[en borra todo lo que se este escribiendo en la entrada
 Ctrl a    // Seleciona toda la linea para copiar (Ctrl c solo copia si primero se selecciona algoPrimero, si no funciona comoEn Unix, termina el proceso)
+
+
+
+
+win + l  =  BLOQUEAR PANTALLA
+
+win + r  =  ejecutar 
+
+win + i  =  settings del sistema(windowsUpdate)
+
+win + e  =  explorador de archivos
+
+win + x  =  menuContextual del logo de windows(inferiorIzquierda diskManager/deviceManager/system, etc...)
+
+Win + d  =  minimiza/restaura las ventanas
+
+win + numberHere = salta entre las aplicaciones abiertas (1,2,3,4,5... (presionaElMismoNumero para saltar entre las subPestanas de la misma aplicaci[on))
+
+
+win + p  =  miniMenu_opciones proyectarPantalla (extended/duplicated/secondScreen, etc...)
+
+win + a  =  miniMenu_opciones bluetooh/wifi/brillo/sonido/modoVuelo etc...
+
+win + v  =  miniMenu_CLIPBOARD
+
+win + n  =  notificaciones
+
+win + c  =  microsoft Teams
