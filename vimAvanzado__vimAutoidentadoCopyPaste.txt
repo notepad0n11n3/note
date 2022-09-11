@@ -1,0 +1,72 @@
+
+]p        Ajusta la identaci[on al copiar
+
+#JUMPT POINT  (MARK)
+  m"caracterNumber"  asignar punto de salto
+  '"caracterNumber"
+
+  ['  salta entre todos los marks generados (inicio/fin)
+  ]'  salta entre todos los marks generados (fin/inicio)
+
+  vim:: marks
+  vim:: delmarks a-z
+  vim:: delmarks A-Z
+  vim:: delmarks 0-9
+      : delmarks \"	      deletes mark "
+
+    vim:: 'g,'k  s/mango/MANGO/g       tambi[en sirve para rangos <3 <3 <3
+#JUMPT POINT end
+    
+
+#BUSQUEDA EN LINEA
+  fs        busca la proxima 's' del focus al final de la linea
+  Fs        busca la proxima 's' del focus al inicio de la linea
+#BUSQUEDA EN LINEA end
+
+
+b       regresa palabra focusFinal endWord
+B       regresa palabra focusFinal inicioWord
+e       avanza palabra focusFinal endWord
+w       avanza palabra focusFinal inicioWord
+
+
+#REPETIR ACCIONES 
+  .    Repita la ultima acci[on  (dd, yy, etc... (pero no salta entre busquedas de linea  'fe fi Fi Fe' ) )
+  u    para regresa la acci[on
+
+  ;    Repite la [ultima acci[on de busqueda like 'fe Fe vfe'
+  ,    regresa entre los saltos de ';' postBusqueda en linea
+#REPETIR ACCIONES end
+
+
+#BORRAR LINEA HASTA CARACTER PROPIO
+  dt'caracterLimite'  borrar desde el focus hasta el caracterLimite introducido '[,a,1,',etc...' <3 <3 <3
+  ct'caracterLimite'
+
+  dT'caracterLimite'  igual pero borra hacia el inicio de la linea <3 <3 <3
+  cT'caracterLimite'
+#BORRAR LINEA HASTA CARACTER PROPIO end
+
+
+      i === inside     a === around
+
+vi(     selecciona todo dentro de (,{,',",[,<
+vi[
+vi{
+va"
+
+vw
+
+di(     elimina todo dentro de (
+da(
+
+yi[     copio todo dentro de [
+ya[
+
+vffs    seleciona desde el focus hasta la proxima 's' de la linea
+
+
+        
+                me_function(arg: some::long::type)after -> Result< {
+F) yiW f< p   se posiciona en ( pero copia la palabra anterios 'some::lo...::type'
+              con yiw(w lowerCase) copia ')' literal 
