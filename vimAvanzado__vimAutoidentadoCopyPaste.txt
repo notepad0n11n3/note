@@ -1,3 +1,11 @@
+                ::: vim .
+                  {
+                    e   'entrar en la carpeta'
+                    q   'regresar una carpeta'
+
+                    o   'expandir/contraer contenido de carpeta'
+                  }
+
 
 ]p        Ajusta la identaci[on al copiar
 
