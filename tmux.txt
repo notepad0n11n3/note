@@ -28,8 +28,8 @@ SESSION
   @ : kill-ses -t sessionName     @ : kill-ses -a
 
 DIVISIONES
-  @ -   //divisionHorizontal           @ "    vnew      
-  @ _   //divisionVertical             @ %    new 
+  @ -   //divisionHorizontal           @ "    like_aVim  vnew      
+  @ _   //divisionVertical             @ %    like_aVim  new 
  
   @ !                         //independizar exclamaci[on en tabnew  *** *** *** 
   @ : join-pane -s 1 -t 3     //unir a ventana 1 la ventana 3 como una division
