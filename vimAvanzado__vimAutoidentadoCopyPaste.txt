@@ -3,7 +3,24 @@
                     e   'entrar en la carpeta'
                     q   'regresar una carpeta'
 
-                    o   'expandir/contraer contenido de carpeta'
+                    O   'expandir de manera recursiva'
+                    o   'expandir/contraer contenido deCarpeta' 'PUEDEaBRIReLaRCHIVO ENlAvENTANA ACTUAL </3'
+                    x   like  o
+                    X   cierra todo lo expandido por 'O'
+
+                    t  open in new tab
+                    T  open in new tab silently
+
+                    i   open split
+                    gi  preview split silently
+                    s   open vsplit
+                    gs  preview vsplit silently
+
+                    p   focus a la carpeta contenedora  
+
+                            regresa una carpeta like  cd ..
+                    u   regresa una carpeta atras like cd .u
+                    U
                   }
 
 
