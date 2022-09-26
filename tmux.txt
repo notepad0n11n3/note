@@ -82,4 +82,7 @@ VI MODE vi mode VI MODE vi mode
 
   @ t    reloj :)
   @ q    numberPanel
-  @ m  funcionDe ohMyTMux, integra mouse, redimensi[on de divisiones
+
+  @ m  resaltaMARCA panelFocus
+
+
