@@ -11,11 +11,17 @@
 //INFO DE UN USUARIO EN ESPECIFICO, grupos, lastLogon
 ::: net user  userNameHere       likea a ::: net user svc-printer
 
+
+::: dir /ad        solo carpetas
+::: dir /a-d       NO carpetas
+::: dir /ah        solo archivoOcultos
+
 ::: dir /s archivo.txt            dirRecusivo
 
 ::: findstr /r /i "^go.*hello$"                 .* == * (Unix)    /r regularExpresion      /i  noSensitiveCase
 
 ::: where cmd.exe
+
 
 
 CAMBIAR DE UNIDAD  C: D: E: F: ...
@@ -24,6 +30,6 @@ CAMBIAR DE UNIDAD  C: D: E: F: ...
 
 
 CD RAIZ DISCO C
-  ::: cd %SystemDrive%\          '/' o '\'  echo %SystemDrive% retorna colo C:  , sin el / o \ no ire al inicio
+  ::: cd %SystemDrive%\          '/' o '\'  echo %SystemDrive% retorna colo C:  , sin el / o \ no va al inicio
 
   ::: cd %SytemDrive%\Users\userName\Desktop        << ac[a no da problema alguno
