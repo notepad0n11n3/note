@@ -11,9 +11,13 @@ F3            ultimo comando ejecutado
 
 Ctrl h          eliminar caracter
 
-Ctrl flechaUp     scroll para arriba, terminal
-Ctrl flechaDown               
+Ctrl flechaUp     scroll para arriba, terminal                  <3 <3 <3 <3 <3
+Ctrl flechaDown                                                 <3 <3 <3 <3 <3 
 
+Ctrl Left       saltar entre palabras(like a alt+b)
+Ctrl Right      saltar entre palabras(like a alt+f)
+
+Insert        sobrescribir 
 
 Ctrl flechaRight    salta de palabra en palabra => derecha
 Ctrl flechaL                                    <= izquierda
@@ -47,5 +51,4 @@ win + a  =  miniMenu_opciones bluetooh/wifi/brillo/sonido/modoVuelo etc...
 win + v  =  miniMenu_CLIPBOARD
 
 win + n  =  notificaciones
-
 win + c  =  microsoft Teams
