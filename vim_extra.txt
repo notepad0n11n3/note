@@ -1,6 +1,7 @@
         :e       actualizar el archivo abierto en vim
 
-]p        Ajusta la identaci[on al copiar
+]p      Ajusta la identaci[on al copiar
+[p      pega como   p P  arriba([p)/abajo(]p) conservando la identaci[on 
 
 comentar linea en cualquier lenguaje, modi visual (zz)  Shift + 7    <3 <3 <3
 
