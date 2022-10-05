@@ -1,4 +1,9 @@
-                ::: vim .
+### DIVISION DE PANTALLA EXTRA	
+          
+          Ctrl w s       horizontal
+          Ctrl w v       vertical
+
+### ## # ::: vim .
                   {
                     e   'entrar en la carpeta'
                     q   'regresar una carpeta'
@@ -27,8 +32,8 @@
 ]p        Ajusta la identaci[on al copiar
 
 #JUMPT POINT  (MARK)
-  m"caracterNumber"  asignar punto de salto
-  '"caracterNumber"
+  m"caracterNumber"  asignar punto de salto(NORMAL_MODE)
+  '"caracterNumber"  ' salta al punto de salto(NORMAL_MODE) 
 
   ['  salta entre todos los marks generados (inicio/fin)
   ]'  salta entre todos los marks generados (fin/inicio)
@@ -40,7 +45,7 @@
       : delmarks \"	      deletes mark "
 
     vim:: 'g,'k  s/mango/MANGO/g       tambi[en sirve para rangos <3 <3 <3
-#JUMPT POINT end
+#JUMPT POINT 
     
 
 #BUSQUEDA EN LINEA
@@ -95,3 +100,4 @@ vffs    seleciona desde el focus hasta la proxima 's' de la linea
                 me_function(arg: some::long::type)after -> Result< {
 F) yiW f< p   se posiciona en ( pero copia la palabra anterios 'some::lo...::type'
               con yiw(w lowerCase) copia ')' literal 
+

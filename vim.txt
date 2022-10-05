@@ -1,19 +1,15 @@
-         ####     sivvi    ####
+####     sivvi    ####
+  EJECUTA UNA SHELL PARA MORE
+   ::: more /etc/passwd    # solo muestra lo que entre en pantalla  like a 89%  40%
+            si presionas  v  entraras en el modo vi
+     .:  :set shell=/bin/bash
+      .:  :shell             # devuelve una shell :)
 
-]p        Ajusta la identaci[on al copiar
+   :e  /etc/bandit_pass/bandit26   #editara el archivo especificado de la ruta introducida :)  :)
+####     sivi     ####
 
-EJECUTA UNA SHELL PARA MORE
- ::: more /etc/passwd    # solo muestra lo que entre en pantalla  like a 89%  40%
-          si presionar  v  entraras en el modo vi
-   .:  :set shell=/bin/bash
-    .:  :shell             # devuelve una shell :)
 
- :e  /etc/bandit_pass/bandit26   #editara el archivo especificado de la ruta introducida :)  :)
-
-              ####     sivi     ####
-
-			vim vim vim VIM VIM VIM VIM VIM VIM VIM VIM vim vim vim vim VIM VIM 
- :r !cd   ==  :r !pwd    # imprime en vim la salida del comando ejecutado
+vim:: r !cd      vim:: r! pwd     # imprime en vim la salida del comando ejecutado
 
 mio
 				C:\vim -p archivo1.* archivo2.*
@@ -29,49 +25,52 @@ v:: set tabstop=2    espacio de indentación  TAB
 	:vsplit "archivo.*"     :vnew "archivo.*"
 
 
-SELECCIONAR TEXTO  ( MODO VISUAL DE LINEA Y BLOQUES )
-	v
-		la selección de texto se puede juntar con "número" + /h/j/k/l 
-	v
+### SELECCIONAR TEXTO  ( MODO VISUAL DE LINEA Y BLOQUES )
+        v
+          la selección de texto se puede juntar con "número" + /h/j/k/l 
+        v
 
-VISUAL MODE   MODO VISUAL
-  v + h/j/k/l         v + 8 + j seleccionarSaltoAbajo8_espacios valido para todos... v  V  Ctrl v
-  V            // toda la linea
-  Ctrl + v     // selección por BLOQUE :)
-    
-        seleccionar + u/U    convierte_a lowercase/UPERCASE... <3 <3 <3
 
-IMPRIMIR LINEA N VECES
-  "número" + o + ESC     // zz ready, no funciona con Ctrl c 
+### VISUAL MODE   MODO VISUAL
+        v + h/j/k/l         v + 8 + j seleccionarSaltoAbajo8_espacios valido para todos... v  V  Ctrl v
+        V            // toda la linea
+        Ctrl + v     // selección por BLOQUE :)
+          
+              seleccionar + u/U    convierte_a lowercase/UPERCASE... <3 <3 <3
 
-	v/V/ctrl+v  +  d ---  eliminaTextoSeleccionado.
-	ctrl + D --- selcción_por_bloque + eliminaTodasLinea_desdeCaracter_hastaFinalLinea
+### IMPRIMIR LINEA N VECES
 
-UNIR LINEAS SEPARANDOLAS POR ESPACIOS ( COMANDO JOIN )
-	J ---  unir lineas separando todo con espacios 
+        "número" + o + ESC     // zz ready, no funciona con Ctrl c 
+
+        v/V/ctrl+v  +  d ---  eliminaTextoSeleccionado.
+        ctrl + D --- selcción_por_bloque + eliminaTodasLinea_desdeCaracter_hastaFinalLinea
+
+### UNIR LINEAS SEPARANDOLAS POR ESPACIOS ( COMANDO JOIN )
+        J ---  unir lineas separando todo con espacios 
 																<a href="pagina.html">Home</a> <a href="user.html">Pagina usuario</a> <a href="">maincra</a> <a href="maincra">maincra</a>
 
-JUGANDO CON MIS BUFFERS
+### JUGANDO CON MIS BUFFERS
 
-			vim file.* file1.* file2.* file3.* file4.*
+          vim file.* file1.* file2.* file3.* file4.*
 
-			:buffers
-			:buffer + número     goBufferNúmero
-								nombre
+          :buffers
+          :buffer + número     goBufferNúmero
+                    nombre
 
-								:args *.*
-											 * 
-								:tab all
-								
+                    :args *.*
+                           * 
+                    :tab all
+                    
 
-			:badd file.*        agregaArchivoBuffer
-			:bad
-			:badd ./carpeta/archivo.*    agregaArchivoOtraCarpeta
-			:badd ../archivo.*           agregaDesdeOtraCarpeta
+          :badd file.*        agregaArchivoBuffer
+          :bad
+          :badd ./carpeta/archivo.*    agregaArchivoOtraCarpeta
+          :badd ../archivo.*           agregaDesdeOtraCarpeta
 
-			:bdetele + numero       eliminaBufferNumero
+          :bdetele + numero       eliminaBufferNumero
 
-			:%bdelete               delete allBuffers
+          :%bdelete               delete allBuffers
+
 
 
 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
@@ -81,64 +80,66 @@ JUGANDO CON MIS BUFFERS
 	gg --- inicio del archivo
 	G  --- final del archivo
 	
-	"numero" + G ---  go numero de linea
-	:"numero de linea" ---  número de linea 
+	"numero" + G  ---  go numero de linea
+	vim:: "numero de linea"  ---  número de linea 
 
 	H --- inicio de pantalla visible
 	M --- mitad de pantalla visible
 	L --- final de pantalla visible
 
 MOVIMIENTO_DE_PANTALLA
-	ctrl + u --- media pantalla atras 
-	ctrl + d --- media pantalla adelante
-	ctrl + F --- pantalla adelante
-	ctrl + B --- pantalla atras
+    ctrl + u --- media pantalla atras 
+    ctrl + d --- media pantalla adelante
+    ctrl + F --- pantalla adelante
+    ctrl + B --- pantalla atras
 
 BORRAR
-	dd --- cortar linea
-	dw --- borra desde el caracter hasta el final de la palabra
-	diw -- borra toda la palabra
-	D  --- desde el caracter actual hasta el final de la linea
-	d0 --- desde el caracter actual hasta el principio de la linea 
-	dgg    borra de focus_a_inicioArchivo
-	dG     borra de focus_a_finalArchivo
+    dd --- cortar linea
+    dw --- borra desde el caracter hasta el final de la palabra
+    diw -- borra toda la palabra
+    D  --- desde el caracter actual hasta el final de la linea
+    d0 --- desde el caracter actual hasta el principio de la linea 
+    dgg    borra de focus_a_inicioArchivo
+    dG     borra de focus_a_finalArchivo
 
 COPIAR 
-	yy --- COPIAR LINEA COPIAR LINEA COPIAR LINEA COPIAR LINEA COPIAR LINEA
-	Y  --- COPIAR LINEA COP0AR LINEA COPIAR LINEA COPIAR LINEA COPIAR LINEA 
-	yw --- copiar palabra completa ( se pega con p ó P, se pega en la misma linea );
-	y$
-	y0
+    yy --- COPIAR LINEA COPIAR LINEA COPIAR LINEA COPIAR LINEA COPIAR LINEA
+    Y  --- COPIAR LINEA COP0AR LINEA COPIAR LINEA COPIAR LINEA COPIAR LINEA 
+    yw --- copiar palabra completa ( se pega con p ó P, se pega en la misma linea );
+    y$
+    y0
 
 INSERCIONES
-	i
-	a
-	I --- inicio de linea
-	A --- final de linea
-	o --- insercion abajo 
-	O --- inserción arriba
+    i
+    a
+    I --- inicio de linea
+    A --- final de linea
+    o --- insercion abajo 
+    O --- inserción arriba
 
 ELIMINAR PALABRAS + INSERCIÓN RÁPIDA
-	ciw --- borra toda la palabra + inserciónRápida
-	cc  --- borra toda la linea + inserciónRápida
-	C   --- borra desde el caracter hasta el final de linea + inserciónRápida
+    ciw --- borra toda la palabra + inserciónRápida
+    cc  --- borra toda la linea + inserciónRápida
+    C   --- borra desde el caracter hasta el final de linea + inserciónRápida
 
 REPETICIONES DE COMANDOS
-  "numero" + comando --- ejem ( 10 + dd --- elimina 10 lineas );
-															( 3 + yy --- copia 3 lineas );
-															( 3 + Y  ---    "  "   "    );
-  .   ejecutara la ultimaAcci[onRealizada... <3 <3 <3
+    "numero" + comando --- ejem ( 10 + dd --- elimina 10 lineas );
+                                ( 3 + yy --- copia 3 lineas );
+                                ( 3 + Y  ---    "  "   "    );
+    .   ejecutara la ultimaAcci[onRealizada... <3 <3 <3
 
 BUSQUEDA DE TEXTO
-	/word --- busca para adelante del focus
-	?word --- busca para atras del focus
-	/^word --- busca "word" al inicio de cada linea
-	/word$  --- busca "word" al final de cada linea
-	/c[ao]sa  --- busca casa y cosa en el archivo :)
-						/c[ao]sa$ -----  	/^c[ao]sa     funciona :)
+    /word --- busca para adelante del focus
+    ?word --- busca para atras del focus
+    /^word --- busca "word" al inicio de cada linea
+    /word$  --- busca "word" al final de cada linea
+    /c[ao]sa  --- busca casa y cosa en el archivo :)
+              /c[ao]sa$ -----  	/^c[ao]sa     funciona :)
 
-	/c[a-z]sa  ---  de la "a" a la "z"   :) 
-	/[cC][a-z]sa ---   vim es caseSensitive y nadie dice nada :U 
+    /c[a-z]sa  ---  de la "a" a la "z"   :) 
+    /[cC][a-z]sa ---   vim es caseSensitive y nadie dice nada :U 
+
+
 
 MODO EX  :   :   :   :   :  :  :  :  :  :  :  :  :  :  :  :  :  :  :  :  :  :  :  :
 
@@ -184,7 +185,7 @@ BORRAR_EX
 	 
 
 CARGAR CODIGO AL ARCHIVO ACTUAL DESDE OTRO ARCHIVO
-	:r + archivo.txt   ó     "/carpeta/carpeta/archivo.txt"    "../../desktop/archivo.txt"
+	vim:: r  archivo.*   ó     "/carpeta/carpeta/archivo.txt"    "../../desktop/archivo.txt"
 										// pegaDesdeElFocus
 
 
@@ -197,7 +198,7 @@ CMD desde Vim
 									:r !dir       ...................!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 
-MACROS,  PRE-GRABAR EDICIONES DE LINEA ( <li></li> <a href=""></a> ):
+### MACROS,  PRE-GRABAR EDICIONES DE LINEA ( <li></li> <a href=""></a> ):
 				
 				q+caracter    empezar a grabar
 				q							 dejar de grabar
@@ -222,15 +223,15 @@ MACROS,  PRE-GRABAR EDICIONES DE LINEA ( <li></li> <a href=""></a> ):
 
 
 
-BUFFER
-buffers...  es casi parecido a Macros, pero no es el buffers con el que estabaJugando :(
+### BUFFER
+    buffers...  es casi parecido a Macros, pero no es el buffers con el que estabaJugando :(
 
 								con     :registers     podemos ver los buffers de las teclas a-z A-Z 0-9
 																			y algunos caracteres extra
 
-	" + tecla + yy           pondrá en el buffers de la tecla la linea del focus( copia )
+    " + tecla + yy           pondrá en el buffers de la tecla la linea del focus( copia )
 
-	'<,'> + " + tecla + yy   selecciónXModoGráfico paraIngresar lineas al buffers
+    '<,'> + " + tecla + yy   selecciónXModoGráfico paraIngresar lineas al buffers
 												 'al momento de usar el último comando, abajoMuestra cuantaLineas
 													y que es lo que se hizo'
 
@@ -243,7 +244,7 @@ buffers...  es casi parecido a Macros, pero no es el buffers con el que estabaJu
 
 
 
-PESTAÑAS EN VIM
+### PESTAÑAS EN VIM
 			
 						vim -p 
 
@@ -269,7 +270,7 @@ PESTAÑAS EN VIM
 
 						:tabclose
 
-DIVISION DE VENTANA
+### DIVISION DE VENTANA
 	
 				vim -o archivo.* archivo.*    todo horizontal
 				vim -O archivo.* archivo.*    todo vertical
@@ -282,7 +283,7 @@ DIVISION DE VENTANA
 								
 
 
-DIVISION DE PANTALLA EXTRA	
+### DIVISION DE PANTALLA EXTRA	
           
           Ctrl w s       horizontal
           Ctrl w v       vertical
@@ -301,7 +302,7 @@ DIVISION DE PANTALLA EXTRA
 					:lineas+vnew
 
 
-IGUALAR EL TAMAÑO DE LAS DIVISIONES
+### IGUALAR EL TAMAÑO DE LAS DIVISIONES
 
 				Ctrl + W + =        iguala todo :)
 				Ctrl + w + '+'      en modo horizontal
@@ -310,7 +311,7 @@ IGUALAR EL TAMAÑO DE LAS DIVISIONES
 				Ctrl + w +  >				en modo vertical
 
 
-FOLDING  PLEGADO DE CODIGO 
+### FOLDING  PLEGADO DE CODIGO 
 
 				za			abreCierra elFold en cualquierParte delBloque
 				zA			abreTodoSubBloque y cierra  " " "      "
@@ -338,7 +339,7 @@ FOLDING  PLEGADO DE CODIGO
 				:set foldmethod=manual
 
 
-REMPLAZAR TEXTO 
+### REMPLAZAR TEXTO 
 		
 			:%s/word/wordNew/g        modificaTodo   Go
 			:%s/word/wordNew/gc       preguntasTodosLosRemplazos  cuestion
@@ -355,7 +356,7 @@ REMPLAZAR TEXTO
 										Ctrl + Y                           subir y bajar mientras remplazas
 
 
-NERDTree NERDTree NERDTree NERDTree NERDTree NERDTree NERDTree NERDTree NERDTree 
+### NERDTree NERDTree NERDTree NERDTree NERDTree NERDTree NERDTree NERDTree NERDTree 
 
 								i     archivo.* split
 								s			archivo.* vsplit
@@ -367,7 +368,7 @@ NERDTree NERDTree NERDTree NERDTree NERDTree NERDTree NERDTree NERDTree NERDTree
 
 
 
-COMENTAR CODIGO Y BORRADO DEL MISMO
+### COMENTAR CODIGO Y BORRADO DEL MISMO
 
 					'<,'>  : s/^/# ó // ó <!---   /gc ó g   
 
