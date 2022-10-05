@@ -3,6 +3,10 @@
 *** *** Ventana aMonitor 2
   Alt Espacio m flechas     // tienesQue desplazarVentana hastaQue el cursor pas[e, despu[es Windows+Up
 
+              (windowsManager shortcuts propios)
+      winKey ,  j   moverVentaja hasta pasar el puntero, despues usa win a, win d.
+      winKey ,  k    
+
 *** *** Area de trabajo
   
   Ctrl Atl R/L          // cambio de areaTrabajo
