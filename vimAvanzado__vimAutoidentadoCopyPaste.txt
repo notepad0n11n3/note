@@ -9,14 +9,14 @@
                     q   'regresar una carpeta'
 
                     O   'expandir de manera recursiva'
-                    o   'expandir/contraer contenido deCarpeta' 'PUEDEaBRIReLaRCHIVO ENlAvENTANA ACTUAL </3'
+                    o   'expandir/contraer contenido deCarpeta' 'puedeAbrirElArchivo enLaVentana ACTUAL </3'
                     x   like  o
                     X   cierra todo lo expandido por 'O'
 
                     t  open in new tab
                     T  open in new tab silently
 
-                    i   open split
+                    i   open split                <3 <3 <3 <3
                     gi  preview split silently
                     s   open vsplit
                     gs  preview vsplit silently
