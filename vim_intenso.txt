@@ -1,0 +1,87 @@
+    Ctrl -   "aleja el zoom"              tmux ready 2 <3 
+    Ctrl +   (shift =) "aumenta el zoom"  tmux ready 2 <3 
+
+    Ctrl =   "Iguala el tama~o de los paneles(divisiones)"
+
+## Abrir stdin en vim
+  ::: cat /etc/passwd | vim -   "Abre una copiaDel passwd en laUbicaci[on (vim:: q!)actual para poder editar tranquilo"
+      ls -lah | vim -
+## Abrir stdin en vim
+
+
+### Abrir archivos de manera recursiva 
+  ::: vim -p **/**.txt           "Abrir de manera recursiva archivo .c .rb .py etc..."
+
+      vim -p *.c *.txt
+
+        -p     "Abre todos los archivos en pesta~as"
+        -O     "                           divVerticales"
+        -o     "                           divHorizontales"
+
+### Abrir archivos de manera recursiva 
+
+
+
+    vim:: put _     'inserta una nueva linea sin entrar en modiInserci[on, _ es como un dev/null, '
+    vim:: put a
+          put 1
+          put .  etc...
+    vim:: 10put a
+
+    vim:: g/mango/put _    'inserta una lineaEnBlanco despu[es de la palabra mango' <3 <3 
+
+
+        LOS REGISTROS NOMINALES NO SOLO ALMACENAN TEXTO, TAMBIEN LOS MACROS SE GUARDAN AHI... 
+            CUIDADO... puedes sobreescribir un texto con un macros y viceversa
+
+    revisa los registros con (vim:: register 'todos los registros') (vim:: register a  'registro espec[ifico')
+
+### Registros  (los registros sePueden usar enModo inserci[on(pegar) con Ctrl r <registrokey> )
+{  
+                                                                         Ctrl r 0
+                                                                         Ctrl r -
+                                                                         Ctrl r a    etc...
+              ""p   ===    p     P   ('clipboard por defecto')
+    ""p    'RegistroSinNombre, Ultimo texto que modificaste/borraste/copiaste (palabra y linea)' <3 <3
+    ""P
+
+    "0p   'registro al usar yy, pero este no se modifica cuando borras algo(dd) hasta el siguiente yy '
+    "0P
+
+    "-p   'cambios o borrados menores a una l[inea (like a miniRegistro)'
+
+
+   ## Registros 1-9 (se almacenan de forma recursiva segun vas eliminando '1 es lo [ultimo que eliminaste')
+
+    "1p       !!! Con punto(.) despues de "1p puedes Iterar/Repetir entre todos los registros "2p, "3p, "4p... "9p
+
+
+   ## REGISTROS NOMINALES  a-z  <3 
+
+    "a   '(borrar/modificar/copiar) ser[a almacenada en el registro a'
+
+    "ayiw   'yiw  copia la palabra en el registroNominal a'
+
+
+
+    !! Agrega mas datos a un registroNominal ya existente con el UPPERCASE del registro A-Z
+
+      "Ayiw    'Agrega a registro a ' <3 <3 <3
+
+   ## Registros solo lectura
+
+    .   'Almacena el [ultimo texto insertado'
+    :   'Almacena lo [ultimo que fue ejecutado en la l[inea de comandos(vim:: buffers | vim:: help) '
+    %   'Almacena el nombre del archivo actual'
+    #   'Almacena el nombre del [ultimo archivo que abriste'
+
+
+    ".p     ":p      "%p    "#p
+
+  ## DEV NULL en vim  'Eliminar algo sin guardar en ningun registro, incluso el por defecto'
+
+    "_dd
+}
+
+
+
