@@ -8,6 +8,12 @@
       ls -lah | vim -
 ## Abrir stdin en vim
 
+### Buscar archivos     vim:: edit   ====   vim:: e 
+  vim:: edit *.c         'con TAB mostrara las sugerenciasCoincidencias'     <3 <3 <3
+  vim:: edit **/*.c      'Busca archivo de manera recursiva entre las carpetas' <3 
+
+  vim:: edit .
+  vim:: edit $HOME        vim:: edit $desktop             vim:: edit $burn      
 
 ### Abrir archivos de manera recursiva 
   ::: vim -p **/**.txt           "Abrir de manera recursiva archivo .c .rb .py etc..."
@@ -22,7 +28,7 @@
 
 
 
-    vim:: put _     'inserta una nueva linea sin entrar en modiInserci[on, _ es como un dev/null, '
+    vim:: put _     'inserta una nueva linea sin entrar en modiInserci[on, _ es como un dev/null, '  <3 <3 <3
     vim:: put a
           put 1
           put .  etc...
@@ -58,8 +64,10 @@
 
    ## REGISTROS NOMINALES  a-z  <3 
 
-    "a   '(borrar/modificar/copiar) ser[a almacenada en el registro a'
+    "a   '(borrar(dd)/modificar/copiar(yy)) ser[a almacenada en el registro a'
 
+    "add
+    "ayy    'copiar linea al registro a (solo con "ay  da problemas :u )'
     "ayiw   'yiw  copia la palabra en el registroNominal a'
 
 

@@ -31,16 +31,19 @@
 
 ]p        Ajusta la identaci[on al copiar
 
-#JUMPT POINT  (MARK)
-  m"caracterNumber"  asignar punto de salto(NORMAL_MODE)
-  '"caracterNumber"  ' salta al punto de salto(NORMAL_MODE) 
+#JUMPT POINT  (MARK marcas) 
+      las marcas a-z  son marcas locales
+      las marcas A-Z  son marcas GLOBALES (saltoEntreArchivos 'Dentro dLaMisma Session de VIM' ) </3 <3 <3
+
+  m<caracterNumber>  asignar punto de salto(NORMAL_MODE)
+  '<caracterNumber>  ' salta al punto de salto(NORMAL_MODE) 
 
   ['  salta entre todos los marks generados (inicio/fin)
   ]'  salta entre todos los marks generados (fin/inicio)
 
   vim:: marks
-  vim:: delmarks a-z
-  vim:: delmarks A-Z
+  vim:: delmarks a-z    <3
+  vim:: delmarks A-Z    <3 <3 <3 
   vim:: delmarks 0-9
       : delmarks \"	      deletes mark "
 

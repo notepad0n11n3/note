@@ -80,8 +80,9 @@ v:: set tabstop=2    espacio de indentación  TAB
 	gg --- inicio del archivo
 	G  --- final del archivo
 	
-	"numero" + G  ---  go numero de linea
-	vim:: "numero de linea"  ---  número de linea 
+	"numero" + G        go numero de linea
+  50%            go a linea 50% aprox del archivo <3 
+	vim:: "numero de linea"        número de linea 
 
 	H --- inicio de pantalla visible
 	M --- mitad de pantalla visible

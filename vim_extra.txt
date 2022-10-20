@@ -1,18 +1,37 @@
         :e       actualizar el archivo abierto en vim
       v:: w ! sudo tee %     ##!! GUARDA COMO ROOT SI ESTAMOS COMO USUARIO SIN PRIVILEGIOS....!!!
 
+%   sobre () {} []  para saltar entre ellos('normalMode')
+
 Ctrl y    sube un poco el contenido(linea a linea) (NORMAL MODE)
 Ctrl e    baja un poco el contenido(linea a linea) (NORMAL MODE)
 
 ]p      Ajusta la identaci[on al copiar
 [p      pega como   p P  arriba([p)/abajo(]p) conservando la identaci[on 
 
+### Saltar entre palabras ('normalMode')
+    w    e        (' Avanzar   inicio(w) / fin(e)  de palabra')
+    b    ge       ('Retrocede  inicio(b) / fin(ge) de palabra')
 
-comentar linea en cualquier lenguaje, modi visual (;l)  Shift + 7 (noFuncionaEnMuchos Lenguajes) </3 <3 <3
+              ::1     localhost ip6-localhost ip6-loopback    <<- prueba ac[a w y W
+    W    E
+    B    gE
+
+  ^   ('Go inicio de linea que no sea un espacio en blanco') <3 <3 <3 
+  0   ('Go inicio de linea')
+  $   ('Go final de linea')
+
+  I   'Modi inserci[on al principio de linea que no sea espacio en blanco' <3 <3 
+  A   'Modo inserci[on al final de la linea'
 
 
-f <character>  salta a al primera coincidencia del caracter
-F <character>  saltaRetrocede a la primera coincidencia del caracter
+comentar linea en cualquier lenguaje, modi visual (;l)  Shift + 7 (noFuncionaEnMuchos Lenguajes) </3 </3 <3
+
+
+  f <character>  salta a al primera coincidencia del caracter
+  F <character>  saltaRetrocede a la primera coincidencia del caracter
+        ;        salta a la siguiente busqueda con f/F
+        ,        regresa entre las coincidencias con f/F
 
 
 ### STEDIN EN PANTALLA Y GUARDADO N PARALELO ********
@@ -31,14 +50,15 @@ F <character>  saltaRetrocede a la primera coincidencia del caracter
 
  ## ### ####  VIM   VIM   VIM   VIM     VIM
 
-    Ctrl + n  ==>>  lanza un menu contextual con las palabras del archivo, autocompletado para arch, no plugin :u
+    Ctrl n (insertMode) => 'bajar' lanza un menu contextual con las palabras del archivo, autocompletado para arch, no plugin :u
+    Ctrl p (insertMode) => 'subir'
 
-    %   en un comando hace referencia al nombre del archivo actual ::: tabnew %    vnew %  
+    %   en un comando hace referencia al nombre del archivo actual ::: tabnew %    vnew %   <3 <3 <3 <3 <3
 
-      Shift + r       remplazar 
+      Shift + r    'normalMode'   remplazar 
 
       u      deshacer cambios
-      Ctrl + r    revertir ultima acci[on, sirve para contrarestar a u
+      Ctrl + r    'normalMode' revertir ultima acci[on, sirve para contrarestar a u
 
 
       v:: w ! sudo tee %     ##!! GUARDA COMO ROOT SI ESTAMOS COMO USUARIO SIN PRIVILEGIOS....!!!
