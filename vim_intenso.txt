@@ -3,6 +3,9 @@
 
     Ctrl =   "Iguala el tama~o de los paneles(divisiones)"
 
+    Ctrl 6    ===   Ctrl ^       'saltar entre los 2 ultimos archivos abiertos(vim:: files  vim:: buffers)'
+    vim:: buffer?   vim:: b?       ? -->  reemplaza el ? por el numero del archivo en el bufferList
+
 ## Abrir stdin en vim
   ::: cat /etc/passwd | vim -   "Abre una copiaDel passwd en laUbicaci[on (vim:: q!)actual para poder editar tranquilo"
       ls -lah | vim -
@@ -37,10 +40,14 @@
     vim:: g/mango/put _    'inserta una lineaEnBlanco despu[es de la palabra mango' <3 <3 
 
 
+
+
+
         LOS REGISTROS NOMINALES NO SOLO ALMACENAN TEXTO, TAMBIEN LOS MACROS SE GUARDAN AHI... 
             CUIDADO... puedes sobreescribir un texto con un macros y viceversa
 
     revisa los registros con (vim:: register 'todos los registros') (vim:: register a  'registro espec[ifico')
+
 
 ### Registros  (los registros sePueden usar enModo inserci[on(pegar) con Ctrl r <registrokey> )
 {  

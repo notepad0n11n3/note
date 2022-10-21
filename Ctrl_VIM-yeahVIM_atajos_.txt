@@ -2,6 +2,10 @@
 vi{  // arreglaLaIdentaci[onDentro de {}   <3....  FOCUS SOBRE CUALQUIER {}
 
 
+    Ctrl 6    ===   Ctrl ^       'saltar entre los 2 ultimos archivos abiertos(vim:: files  vim:: buffers)'
+    vim:: buffer?   vim:: b?       ? -->  reemplaza el ? por el numero del archivo en el bufferList
+
+
 v:: h 
 v:: term      // terminalPantallaDividida :)  like a   <Esc> z   pero prefiero el mio <3
 

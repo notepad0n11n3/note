@@ -1,13 +1,18 @@
         :e       actualizar el archivo abierto en vim
       v:: w ! sudo tee %     ##!! GUARDA COMO ROOT SI ESTAMOS COMO USUARIO SIN PRIVILEGIOS....!!!
 
+
 %   sobre () {} []  para saltar entre ellos('normalMode')
 
-Ctrl y    sube un poco el contenido(linea a linea) (NORMAL MODE)
-Ctrl e    baja un poco el contenido(linea a linea) (NORMAL MODE)
+
+Ctrl y    sube todo el contenido(linea a linea) (normalMode)
+Ctrl e    baja todo el contenido(linea a linea) (normalMode)
+Ctrl u    sube todo el contenido(media pantalla) (normalMode)
+Ctrl d    baja todo el contenido(media pantalla) (normalMode)
 
 ]p      Ajusta la identaci[on al copiar
 [p      pega como   p P  arriba([p)/abajo(]p) conservando la identaci[on 
+
 
 ### Saltar entre palabras ('normalMode')
     w    e        (' Avanzar   inicio(w) / fin(e)  de palabra')
@@ -23,6 +28,7 @@ Ctrl e    baja un poco el contenido(linea a linea) (NORMAL MODE)
 
   I   'Modi inserci[on al principio de linea que no sea espacio en blanco' <3 <3 
   A   'Modo inserci[on al final de la linea'
+
 
 
 comentar linea en cualquier lenguaje, modi visual (;l)  Shift + 7 (noFuncionaEnMuchos Lenguajes) </3 </3 <3

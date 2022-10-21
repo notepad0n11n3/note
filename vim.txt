@@ -51,10 +51,12 @@ v:: set tabstop=2    espacio de indentación  TAB
 
 ### JUGANDO CON MIS BUFFERS
 
+    Ctrl 6  ===  Ctrl ^     'saltar entre los 2 ultimos archivos abiertos, valido para marks <3' <3 <3 
+
           vim file.* file1.* file2.* file3.* file4.*
 
-          :buffers
-          :buffer + número     goBufferNúmero
+      vim:: buffers     ===      vim:: files
+      vim:: buffer + número     goBufferNúmero
                     nombre
 
                     :args *.*
@@ -62,14 +64,14 @@ v:: set tabstop=2    espacio de indentación  TAB
                     :tab all
                     
 
-          :badd file.*        agregaArchivoBuffer
-          :bad
-          :badd ./carpeta/archivo.*    agregaArchivoOtraCarpeta
-          :badd ../archivo.*           agregaDesdeOtraCarpeta
+      vim:: badd file.*        agregaArchivoBuffer
+      vim:: bad
+      vim:: badd ./carpeta/archivo.*    agregaArchivoOtraCarpeta
+      vim:: badd ../archivo.*           agregaDesdeOtraCarpeta
 
-          :bdetele + numero       eliminaBufferNumero
+      vim:: bdetele + numero       eliminaBufferNumero
 
-          :%bdelete               delete allBuffers
+      vim:: %bdelete               delete allBuffers
 
 
 
@@ -185,8 +187,8 @@ BORRAR_EX
 
 	 
 
-CARGAR CODIGO AL ARCHIVO ACTUAL DESDE OTRO ARCHIVO
-	vim:: r  archivo.*   ó     "/carpeta/carpeta/archivo.txt"    "../../desktop/archivo.txt"
+### CARGAR CODIGO AL ARCHIVO ACTUAL DESDE OTRO ARCHIVO
+    vim:: r  archivo.*   ó     "/carpeta/carpeta/archivo.txt"    "../../desktop/archivo.txt"
 										// pegaDesdeElFocus
 
 

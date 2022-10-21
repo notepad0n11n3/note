@@ -43,6 +43,10 @@ w       avanza palabra focusFinal inicioWord
       las marcas a-z  son marcas locales
       las marcas A-Z  son marcas GLOBALES (saltoEntreArchivos 'Dentro dLaMisma Session de VIM' ) </3 <3 <3
 
+                        -->  $HOME/.viminfo          guarda el historial de marks, jumps, modificaciones, etc... <3 <3 <3
+                        vim:: wviminfo      wv     'write .viminfo file'
+                        vim:: rviminfo      rv     'read  .viminfo file' 
+
   m<caracterNumber>  asignar punto de salto(NORMAL_MODE)
   '<caracterNumber>  ' salta al punto de salto(NORMAL_MODE) 
 
@@ -51,7 +55,7 @@ w       avanza palabra focusFinal inicioWord
 
   vim:: marks             'lista todos los marks'
   vim:: marks cA          ''
-  vim:: delmarks a-z    <3
+  vim:: delmarks a-z    <3                      vim:: delmarks A-Z a-z 0-9    ('se puede eliminar todo de una :) ')
   vim:: delmarks A-Z    <3 <3 <3 
   vim:: delmarks 0-9
       : delmarks \"	      delete mark "  ( \'  \[  \]  \^  \.   )
