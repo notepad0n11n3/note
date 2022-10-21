@@ -1,3 +1,11 @@
+            Ctrl o     Ctrol i    ('normalMode'  avanzar/retroceder ultimas posiciones del cursorFocus )
+
+
+b       regresa palabra focusFinal endWord
+B       regresa palabra focusFinal inicioWord
+e       avanza palabra focusFinal endWord
+w       avanza palabra focusFinal inicioWord
+
 ### DIVISION DE PANTALLA EXTRA	
           
           Ctrl w s       horizontal
@@ -41,11 +49,13 @@
   ['  salta entre todos los marks generados (inicio/fin)
   ]'  salta entre todos los marks generados (fin/inicio)
 
-  vim:: marks
+  vim:: marks             'lista todos los marks'
+  vim:: marks cA          ''
   vim:: delmarks a-z    <3
   vim:: delmarks A-Z    <3 <3 <3 
   vim:: delmarks 0-9
-      : delmarks \"	      deletes mark "
+      : delmarks \"	      delete mark "  ( \'  \[  \]  \^  \.   )
+      : delmarks! 	      delete all lowercase marks for the current buffer (a-z)
 
     vim:: 'g,'k  s/mango/MANGO/g       tambi[en sirve para rangos <3 <3 <3
 #JUMPT POINT 
@@ -57,10 +67,6 @@
 #BUSQUEDA EN LINEA end
 
 
-b       regresa palabra focusFinal endWord
-B       regresa palabra focusFinal inicioWord
-e       avanza palabra focusFinal endWord
-w       avanza palabra focusFinal inicioWord
 
 
 #REPETIR ACCIONES 
