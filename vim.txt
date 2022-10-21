@@ -373,7 +373,7 @@ CMD desde Vim
 
 ### COMENTAR CODIGO Y BORRADO DEL MISMO
 
-					'<,'>  : s/^/# ó // ó <!---   /gc ó g   
+					'<,'>  : s/^/#  ó   //   ó <!---   /gc ó g   
 
 					Ctrl v      modoVisual por bloques, con d es suficiente :)
 																							c = d solo que este deja modoInserción

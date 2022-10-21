@@ -52,6 +52,9 @@ comentar linea en cualquier lenguaje, modi visual (;l)  Shift + 7 (noFuncionaEnM
 ### STEDIN EN PANTALLA Y GUARDADO N PARALELO ********
 
 
+### REEMPLAZAR TEXTO SELECCIONADO  ( Ctrl v  'normalMode' )
+					Ctrl v c     modoVisual por bloques, con d es elimina, c reemplaza 'no funciona con ;l, tienes que usar Ctrl [  o  <Esc>'  :)
+                            parece que solo reemplaza la primera linea seleccionada, pero al salir reemplaza todo 'Ctrl [  <Esc>'  ';l  no funciona </3'
 
 
  ## ### ####  VIM   VIM   VIM   VIM     VIM
