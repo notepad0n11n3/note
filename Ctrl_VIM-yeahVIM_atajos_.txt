@@ -29,7 +29,7 @@ v:: 17,20 | 122put   // copyLine 17-20 and paste line 122
 }
 
 
-*** *** *** insertMode (i/a/o/O)  i_CTRL-
+*** *** *** insertMode (i/a/o/O){     i_CTRL-
 
     Ctrl t    + 1 identaci[on en insertMode
     Ctrl d    - 1 identaci[on en insertMode
@@ -39,7 +39,7 @@ v:: 17,20 | 122put   // copyLine 17-20 and paste line 122
     Ctrl c   ===  Ctrl [  ==  ;l  ===  Esc
 
     Ctrl n   //   Ctrl p      // 'bajar/subir' menuContextual autocompletado
-*** *** *** insertMode (i/a/o/O)
+}*** *** *** insertMode (i/a/o/O)
 
 
 Ctrl y    Ctrl e     // subir/bajar  pantallasSinMover CursoPosici[on

@@ -1,9 +1,16 @@
+        q:     'normalMode' lista de ultimos comandos ingresados en vim::
         :e       actualizar el archivo abierto en vim
       v:: w ! sudo tee %     ##!! GUARDA COMO ROOT SI ESTAMOS COMO USUARIO SIN PRIVILEGIOS....!!!
 
+      f{v%d    selecciona todo entre los {} y dd   <3 <3
+      va{d     selecciona todo entre los {} y dd      
+      vi{d     selecciona todo entre los {} y dd      
+      di{      selecciona todo entre los {} y dd
+      da{
 
 %   sobre () {} []  para saltar entre ellos('normalMode')
 
+  =ap     ('nomalMode' arregla la identacion del codigo "ty_thePrime") <3 <3 <3
 
 Ctrl y    sube todo el contenido(linea a linea) (normalMode)
 Ctrl e    baja todo el contenido(linea a linea) (normalMode)

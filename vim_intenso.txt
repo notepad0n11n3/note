@@ -1,3 +1,19 @@
+  cip   cap   dap   dip    'p PARRAFO  , el parrafo se delimita por las lineas en blanco'  <3 <3 
+
+
+###  Ctrl a/x   se puede usar con Ctrl v     ' Ctrl v  Ctrl a '  ingrementa los numeros seleccionados, todos a la vez ++     tambien funciona con Ctrl V
+                                             ' Ctrl v  g Ctrl a ' ingrementa los numeros sucesivamente...     tambien funciona con Ctrl V
+                              
+                                                                 mi_array[1] = "mango";                     mi_array[1] = "mango";
+                                                                 mi_array[2] = "dango";                     mi_array[1] = "dango";
+                                                                 mi_array[3] = "goro";                      mi_array[1] = "goro";
+                                                                 mi_array[4] = "nee";                       mi_array[1] = "nee";
+    Ctrl a    'ingrementa un numero(normalMode)'   280
+    Ctrl x    'resta un numero'
+
+
+
+
     Ctrl -   "aleja el zoom"              tmux ready 2 <3 
     Ctrl +   (shift =) "aumenta el zoom"  tmux ready 2 <3 
 

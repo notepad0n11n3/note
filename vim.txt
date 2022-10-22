@@ -359,6 +359,26 @@ CMD desde Vim
 										Ctrl + Y                           subir y bajar mientras remplazas
 
 
+      Ctrl v      modoVisual por bloques, con d es suficiente :)
+                        c = d solo que este deja modoInserción
+
+
+      vim:: '<,'>s/\(\w.*\)/mi_array[0] = "\1";
+                
+                  \(\w.*\)     'string seleccionado con Ctrl v(normalMode) para usar como variable \1 '
+
+                              mi_array[0] = "mango";
+                              mi_array[0] = "dango";
+                              mi_array[0] = "goro";
+                              mi_array[0] = "nee";
+             
+
+
+### COMENTAR CODIGO Y BORRADO DEL MISMO
+
+					'<,'>  : s/^/#  ó   //   ó <!---   /gc ó g   
+
+
 ### NERDTree NERDTree NERDTree NERDTree NERDTree NERDTree NERDTree NERDTree NERDTree 
 
 								i     archivo.* split
@@ -371,9 +391,3 @@ CMD desde Vim
 
 
 
-### COMENTAR CODIGO Y BORRADO DEL MISMO
-
-					'<,'>  : s/^/#  ó   //   ó <!---   /gc ó g   
-
-					Ctrl v      modoVisual por bloques, con d es suficiente :)
-																							c = d solo que este deja modoInserción
