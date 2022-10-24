@@ -34,7 +34,7 @@ v:: 17,20 | 122put   // copyLine 17-20 and paste line 122
     Ctrl t    + 1 identaci[on en insertMode
     Ctrl d    - 1 identaci[on en insertMode
 
-    Ctrl y             // CierraElMenuSugerencias Youcompleteme
+    Ctrl y             // CierraElMenuSugerencias Youcompleteme ('insertMode')
 
     Ctrl c   ===  Ctrl [  ==  ;l  ===  Esc
 
