@@ -53,7 +53,7 @@ VENTANAS
   @ ,    rename ventanaActual
 
   @ c    ventanaNueva   *** *** 
-  @ : new-window -c $HOME/Desktop/burningArea                        //  nueva pesta~a con ruta personalizada <3
+  @ : new-window -c $HOME/Desktop/burningArea  -n nameWindow         //  nueva pesta~a con ruta personalizada <3
   @ : neww -c $HOME/Desktop/burningArea -n nameWindow   
 
   @ Ctrl i   cambiar ventana anterior ( @ 1   @ 2   @ 3 )     @ C-i   //sinSoltar Ctrl k i   Alt-a Ctrl-i
