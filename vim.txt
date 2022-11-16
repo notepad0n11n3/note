@@ -1,3 +1,6 @@
+    x    (insertMode)  elimina caracter del focus a derecha    like a <--
+    X    (insertMode)  elimina caracter del focus a izquierda  like a supr/Del
+
 ####     sivvi    ####
   EJECUTA UNA SHELL PARA MORE
    ::: more /etc/passwd    # solo muestra lo que entre en pantalla  like a 89%  40%
