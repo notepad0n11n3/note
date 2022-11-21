@@ -60,8 +60,16 @@ comentar linea en cualquier lenguaje, modi visual (;l)  Shift + 7 (noFuncionaEnM
 
 
 ### REEMPLAZAR TEXTO SELECCIONADO  ( Ctrl v  'normalMode' )
-					Ctrl v c     modoVisual por bloques, con d es elimina, c reemplaza 'no funciona con ;l, tienes que usar Ctrl [  o  <Esc>'  :)
+
+					Ctrl v  c     modoVisual por bloques, con d es elimina, c reemplaza 'no funciona con ;l, tienes que usar Ctrl [  o  <Esc>'  :)
                             parece que solo reemplaza la primera linea seleccionada, pero al salir reemplaza todo 'Ctrl [  <Esc>'  ';l  no funciona </3'
+
+                                        // comentar lineas   -   agregar comentarios al final
+        Ctrl v  I     agrega al INICIO de todo lo selecionado(tienes qSeleccionar la primera columna ^ )
+                   s/^/mango/g
+
+        Ctrl v $ A    agrega al FINAL  de todo lo selecionado($ selecciona todo en la linea, like a Shift v)
+                   s/$/mango/g
 
 
  ## ### ####  VIM   VIM   VIM   VIM     VIM
@@ -105,4 +113,3 @@ comentar linea en cualquier lenguaje, modi visual (;l)  Shift + 7 (noFuncionaEnM
       /_/\_\___/  /_/| .__/ 
                      |_|    
 
- ## ### ####  VIM   VIM   VIM   VIM     VIM
