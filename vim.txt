@@ -1,3 +1,6 @@
+     v::: help i_Ctrl-i    Ctrl i en insertMode
+     v:: help Ctrl -i     Ctrl i en normalMode
+
     x    (insertMode)  elimina caracter del focus a derecha    like a <--
     X    (insertMode)  elimina caracter del focus a izquierda  like a supr/Del
 
