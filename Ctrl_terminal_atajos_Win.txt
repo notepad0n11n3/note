@@ -1,3 +1,5 @@
+    Win  r cme.exe  Enter
+    Win  r cmd.exe  Ctrl Shift Enter      (iniciar programa como administrador)
 
 F8            cambia entre los comandosEjecutados del historial
 
