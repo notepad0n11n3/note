@@ -39,3 +39,10 @@ Tab (tabulador)  completaLasPosiblesCoincidencias (bash/zsh)
 terminal sin bordes <<--
 	Alt f3        m    n       shortCuts para eliminar la barra superior :)
  solo en kde 
+
+
+
+
+ ::: !!       ultimo comando ejecutado
+ ::: !$       argumento del ultimo comando ejecutado
+ ::: !#       ultima parabra escrita, si like a copy/paste en caliente <3 <3 <3...
