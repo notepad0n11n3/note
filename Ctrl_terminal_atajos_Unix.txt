@@ -44,5 +44,9 @@ terminal sin bordes <<--
 
 
  ::: !!       ultimo comando ejecutado
+ ::: !?       ultimo comando ejecutado
+
  ::: !$       argumento del ultimo comando ejecutado
  ::: !#       ultima parabra escrita, si like a copy/paste en caliente <3 <3 <3...
+
+ ::: echo $?     codigo de salida del ultimo comando ejecutado
