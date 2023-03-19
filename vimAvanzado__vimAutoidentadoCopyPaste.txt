@@ -1,10 +1,15 @@
             Ctrl o     Ctrol i    ('normalMode'  avanzar/retroceder ultimas posiciones del cursorFocus )
 
+  b       regresa palabra focusFinal endWord
+  B       regresa palabra focusFinal inicioWord
+  e       avanza palabra focusFinal endWord
+  w       avanza palabra focusFinal inicioWord
 
-b       regresa palabra focusFinal endWord
-B       regresa palabra focusFinal inicioWord
-e       avanza palabra focusFinal endWord
-w       avanza palabra focusFinal inicioWord
+       Ctrl wT    'independizar panel actual a una pesta~a'
+
+       Ctrl w h   go panel izquierdo           Ctrl w l   go panel derecho              Ctrl w k   go panel superior         Ctrl w j   go panel inferior
+
+       Ctrl w H   panel_Actual aLaDerecha      Ctrl w L   panel_Focus aLaIzquierda      Ctrl w K   panel_Focus arriba        Ctrl w J   panel_Focus abajo
 
 ### DIVISION DE PANTALLA EXTRA	
           
