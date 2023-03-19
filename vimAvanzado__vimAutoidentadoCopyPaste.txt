@@ -5,6 +5,7 @@
   e       avanza palabra focusFinal endWord
   w       avanza palabra focusFinal inicioWord
 
+                                                                    vim::: help CTRL-W_CTRL-W             Ctrl w w   'intercambiar focusPaneles/divisiones'
        Ctrl wT    'independizar panel actual a una pesta~a'
 
        Ctrl w h   go panel izquierdo           Ctrl w l   go panel derecho              Ctrl w k   go panel superior         Ctrl w j   go panel inferior
