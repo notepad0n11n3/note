@@ -12,10 +12,13 @@
 
        Ctrl w H   panel_Actual aLaDerecha      Ctrl w L   panel_Focus aLaIzquierda      Ctrl w K   panel_Focus arriba        Ctrl w J   panel_Focus abajo
 
+       Ctrl w R   'rotate panes <3 <3...'
+
 ### DIVISION DE PANTALLA EXTRA	
           
           Ctrl w s       horizontal
           Ctrl w v       vertical
+          Ctrl w _       maximizar panel actual  ( Ctrl w =   'iguala el tama~o de todos los paneles')
 
 ### ## # ::: vim .
                   {
