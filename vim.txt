@@ -12,7 +12,7 @@
       .:  :shell             # devuelve una shell :)
 
    :e  /etc/bandit_pass/bandit26   #editara el archivo especificado de la ruta introducida :)  :)
-####     sivi     ####
+
 
 
 vim:: r !cd      vim:: r! pwd     # imprime en vim la salida del comando ejecutado

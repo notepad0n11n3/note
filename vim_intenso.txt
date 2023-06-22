@@ -25,7 +25,7 @@
 ## Abrir stdin en vim
   ::: cat /etc/passwd | vim -   "Abre una copiaDel passwd en laUbicaci[on (vim:: q!)actual para poder editar tranquilo"
       ls -lah | vim -
-## Abrir stdin en vim
+
 
 ### Buscar archivos     vim:: edit   ====   vim:: e 
   vim:: edit *.c         'con TAB mostrara las sugerenciasCoincidencias'     <3 <3 <3
@@ -33,6 +33,7 @@
 
   vim:: edit .
   vim:: edit $HOME        vim:: edit $desktop             vim:: edit $burn      
+
 
 ### Abrir archivos de manera recursiva 
   ::: vim -p **/**.txt           "Abrir de manera recursiva archivo .c .rb .py etc..."
@@ -43,8 +44,8 @@
         -O     "                           divVerticales"
         -o     "                           divHorizontales"
 
-### Abrir archivos de manera recursiva 
 
+### Abrir archivos de manera recursiva 
 
 
     vim:: put _     'inserta una nueva linea sin entrar en modiInserci[on, _ es como un dev/null, '  <3 <3 <3
