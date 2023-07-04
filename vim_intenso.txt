@@ -12,13 +12,6 @@
     Ctrl x    'resta un numero'
 
 
-
-
-    Ctrl -   "aleja el zoom"              tmux ready 2 <3 
-    Ctrl +   (shift =) "aumenta el zoom"  tmux ready 2 <3 
-
-    Ctrl =   "Iguala el tama~o de los paneles(divisiones)"
-
     Ctrl 6    ===   Ctrl ^       'saltar entre los 2 ultimos archivos abiertos(vim:: files  vim:: buffers)'
     vim:: buffer?   vim:: b?       ? -->  reemplaza el ? por el numero del archivo en el bufferList
 
@@ -114,6 +107,5 @@
 
     "_dd
 }
-
 
 

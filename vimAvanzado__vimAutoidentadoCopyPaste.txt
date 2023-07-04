@@ -6,7 +6,7 @@
   w       avanza palabra focusFinal inicioWord
 
                                                                     vim::: help CTRL-W_CTRL-W             Ctrl w w   'intercambiar focusPaneles/divisiones'
-       Ctrl wT    'independizar panel actual a una pesta~a'
+       Ctrl w T    'independizar panel actual a una pesta~a'
 
        Ctrl w h   go panel izquierdo           Ctrl w l   go panel derecho              Ctrl w k   go panel superior         Ctrl w j   go panel inferior
 
@@ -14,11 +14,26 @@
 
        Ctrl w R   'rotate panes <3 <3...'
 
-### DIVISION DE PANTALLA EXTRA	
+### DIVISION DE PANTALLA EXTRA PANEL PANELES	    ' :h window-moving '      ' :h tabpage   "pesta~as" '
           
-          Ctrl w s       horizontal
-          Ctrl w v       vertical
-          Ctrl w _       maximizar panel actual  ( Ctrl w =   'iguala el tama~o de todos los paneles')
+          Ctrl w T       independizar panel actual a una pesta~a 
+          Ctrl w c       cerrar panel   ' : cl[ose] '
+          Ctrl w o       mantener el panel actual y cerrar el resto   ' :on[ly]  :tabo[nly] '
+
+          Ctrl w s       panel horizontal archivoActual
+          Ctrl w v       panel vertical archivoActual
+          Ctrl w n       panel archivoNuevo
+
+          Ctrl w _       maximizar altura panel actual  ( Ctrl w =   'iguala el tama~o de todos los paneles')
+          Ctrl w |       maximizar altura panel actual  ( Ctrl w =   'iguala el tama~o de todos los paneles')
+          Ctrl w =     restaura/iguala todos los paneles <3 <3 <3...
+
+       [N]Ctrl w _       la altura sera de [N] filas.    ""  30 Ctrl w _  ""
+       [N]Ctrl w |       la altura sera de [N] filas.    "" 119 Ctrl w |  ""
+
+          Ctrl w -      Ctrl w +              'decrese/increase current panel height'
+          Ctrl w <      Ctrl w >              ''
+
 
 ### ## # ::: vim .
                   {

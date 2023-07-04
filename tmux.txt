@@ -1,10 +1,12 @@
                                       @  ->  like_a  ->  Ctrl k/a/b       
                                       @@    Ctrl k  sin_Soltar            @ C-c
 
-          @ d   no congela las seciones, siguen corriendo en segundo plano, aircrack :)
+          @ d   no congela las sesiones, siguen corriendo en segundo plano, aircrack :)
 
           @ f   buscar_porNombreVentana
           @@ f  saltar_aSessionPorNombre
+
+          @ =   lista de clipboard de tmux
 
 SESSION
   ::: tmux new -s "nameSession" -c $burn -n "nameWindow"
