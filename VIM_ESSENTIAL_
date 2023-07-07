@@ -1,4 +1,7 @@
+									|  ==   &&  like unix
 
 :set number relativenumber numberwidth=1 sw=2 tabstop=2 softtabstop=2 noswapfile wrap
 :imap ;l <Esc>
 
+
+:set number relativenumber numberwidth=1 sw=2 tabstop=2 softtabstop=2 noswapfile wrap  |  imap ;l <Esc>
