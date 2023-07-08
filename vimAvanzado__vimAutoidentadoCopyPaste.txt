@@ -1,5 +1,9 @@
             Ctrl o     Ctrol i    ('normalMode'  avanzar/retroceder ultimas posiciones del cursorFocus )
 
+    dwi dWi       w 'usa como limite los " " espacios '       W 'usa como limite espacio y caracteresEspeciales "[;(.!*...etc"  '     esto3asld!__asdf(a;sdlffam_"";sdasdfi./>)[]; 
+
+            vim:: pwd               vim:: cd $burn              vim:: cd -     'like a bash <3'
+
   b       regresa palabra focusFinal endWord
   B       regresa palabra focusFinal inicioWord
   e       avanza palabra focusFinal endWord
