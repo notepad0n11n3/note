@@ -31,6 +31,9 @@ STDR  STDIN STDR  STDIN *******
 ::: comandoHere >/dev/null   STDIN al /dev/null
   : firefox > /dev/null 2>&1
 
+          ::: firefox >/dev/null 2>&1  &  disown
+          ::: firefox &>/dev/null  &  disown
+
 ::: comando &     ejecuta comando en segundoPlano
 ::: jobs      muestra segundo plano en ejecuci[on 
 ::: disown         independiza sedungoPlano
