@@ -4,4 +4,12 @@
 :imap ;l <Esc>
 
 
-:set number relativenumber numberwidth=1 sw=2 tabstop=2 softtabstop=2 noswapfile wrap  |  imap ;l <Esc>
+:set number relativenumber numberwidth=1 sw=2 tabstop=2 softtabstop=2 noswapfile wrap  |  imap ;l <esc>
+
+
+
+
+
+      corregir autoidentacion en vim al copiar codigo... <3 <3 <3
+      
+            gg = G      'corrige todo el archivo de gg a G, igual con modiVisual (  V + =  )' 
