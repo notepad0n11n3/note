@@ -8,6 +8,7 @@
 
 
 
+vim:: r ! cat /etc/passwd | grep "sh$"      ...<3 <3 <3  (' no es necesario escapar  |  con  \  despues del !  ')
 
 
       corregir autoidentacion en vim al copiar codigo... <3 <3 <3
