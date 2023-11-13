@@ -3,10 +3,7 @@
 :set number relativenumber numberwidth=1 sw=2 tabstop=2 softtabstop=2 noswapfile wrap
 :imap ;l <Esc>
 
-
-:set number relativenumber numberwidth=1 sw=2 tabstop=2 softtabstop=2 noswapfile wrap  |  imap ;l <esc>
-
-
+:set number relativenumber numberwidth=1 sw=2 tabstop=2 softtabstop=2 noswapfile wrap  |  imap ;l <esc> | color industry
 
 vim:: r ! cat /etc/passwd | grep "sh$"      ...<3 <3 <3  (' no es necesario escapar  |  con  \  despues del !  ')
 
@@ -14,3 +11,19 @@ vim:: r ! cat /etc/passwd | grep "sh$"      ...<3 <3 <3  (' no es necesario esca
       corregir autoidentacion en vim al copiar codigo... <3 <3 <3
       
             gg = G      'corrige todo el archivo de gg a G, igual con modiVisual (  V + =  )' 
+            =  G        'corrige desde el focus hasta el final de pagina'
+
+
+    :q  !=   q:             q:  ==  " : Ctrl-f  (Ctrl-c  para poder usar Ctrl j)"        'salir de q:   ("Ctrl \ n"  o  "Ctrl w c")'
+
+{
+    ::: cat /etc/passwd | vim - 
+  vim:: %! grep "sh$"             'jugamos con el archivo actual con comandos de shell'
+}
+
+
+    "Ctrl-[  == Ctrl-\-n  ===  Esc  ==  Ctrl-c"
+
+    vim::: term   'mas Ctrl \ n   ES UNA PUTA LOCURA <3 <3 <3   t_CTRL-\_CTRL-N'
+
+vim::: help :      vim::: help Ctrl   vim::: help i_Ctrl-o 'insertMode'
