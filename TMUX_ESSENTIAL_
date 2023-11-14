@@ -2,3 +2,4 @@
 				@ ==  alt m
 
  @ : run 'ls'
+ @ : run -b 'ls'             ejecuta en segundo plano 
