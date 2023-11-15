@@ -1,5 +1,9 @@
 
 				@ ==  alt m
 
- @ : run 'ls'
- @ : run -b 'ls'             ejecuta en segundo plano 
+ @ : run "ls"
+				
+ @ : run -b "ls"             ( -b ejecuta en segundo plano )
+		
+		@ : 
+				run -b "whoami | tr -d '\n' | xclip -sel clip"      ... <3 <3 <3
