@@ -9,3 +9,4 @@
 		
 		@ : 
 				run -b "whoami | tr -d '\n' | xclip -sel clip"      ... <3 <3 <3
+        run -b "firefox & burpsuite & qtermial"
