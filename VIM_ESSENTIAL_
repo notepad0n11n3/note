@@ -26,4 +26,4 @@ vim:: r ! cat /etc/passwd | grep "sh$"      ...<3 <3 <3  (' no es necesario esca
 
     vim::: term   'mas Ctrl \ n   ES UNA PUTA LOCURA <3 <3 <3   t_CTRL-\_CTRL-N'
 
-vim::: help :      vim::: help Ctrl   vim::: help i_Ctrl-o 'insertMode'
+vim::: help :      vim::: help Ctrl   vim::: help i_Ctrl-o 'insertMode'  vim::: c_CTRL-R
