@@ -27,3 +27,9 @@ vim:: r ! cat /etc/passwd | grep "sh$"      ...<3 <3 <3  (' no es necesario esca
     vim::: term   'mas Ctrl \ n   ES UNA PUTA LOCURA <3 <3 <3   t_CTRL-\_CTRL-N'
 
 vim::: help :      vim::: help Ctrl   vim::: help i_Ctrl-o 'insertMode'  vim::: c_CTRL-R
+
+  vim:: tabclose 'close all tab pages except the current one'                 vim:: tabonly   'close all tab pages except the current one'
+  vim:: only  'close all windows/paneles/divisiones except the current one'
+
+  vim::  new   vnew               Ctrl-w-n          Ctrl-w-T 'independizar divisionActual'
+  vim::  tabnew
