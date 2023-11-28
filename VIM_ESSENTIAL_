@@ -33,3 +33,14 @@ vim::: help :      vim::: help Ctrl   vim::: help i_Ctrl-o 'insertMode'  vim::: 
 
   vim::  new   vnew               Ctrl-w-n          Ctrl-w-T 'independizar divisionActual'
   vim::  tabnew
+
+
+  Ctrl-w-n            'division nuevoFicheroVacio'  'new   vnew'
+  Ctrl-w-v  Ctrl-w-s    'fichero(%) actual dividir panel vertical/horizontal'
+  Ctrl-w-q              'cerrar panel/division...<3 <3 <3'
+
+	Ctrl-w-x  Ctrl-w-r  Ctrl-w-R   'intercambiar paneles, rotar paneles(horario/antihorario)(r/R)'
+
+
+	Ctrl-w-f		like  gf				abre en una division/panel <stdou.h> 
+	Ctrl-w-F 		like  gF           'Ctrl-w-gf/gF  ventanaNueva'
