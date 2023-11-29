@@ -1,10 +1,16 @@
 ::: aplicationHere >/dev/null 2>&1 & disown 
+::: aplicationHere &>/dev/null & disown 
+
 			simbolo $ ---  usuario normal           simbolo # ---  usuario ROOT
 
 	xdg-open .              abre el gestor de archivo el la ubicación actual
 	xdg-open archivoHere    abre el archivo como si le hubieras dado dobleClick
 
 Ctrl + j     <Enter>    <3 <3 <3 
+Alt + a     'like Ctrl+j y mantiene el comando ejecutado para continuar ...(soloZSHnoBASH</3) <3 <3'
+
+Alt + 22 + a  'imprime 22 "a"'... <3 <3 <3 
+Alt + .       like a !$  ultimo argumento del comandoAnterior
 
 Ctrl + h     borra caracter like Back KEY               vimReady
 Ctrl + d     borra caracter like Supr KEY               noVim :(
