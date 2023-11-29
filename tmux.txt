@@ -72,12 +72,16 @@ VI MODE vi mode VI MODE vi mode
     copiar Vimode  Espacio para seleccionar despues enter,  pegar con @ ]
 
                         COPIAR / BUSCAR 
-                          @ [   modo copia
+                          @ [             'modo copia'
+                          @ [ V           'like V en c_vim, selecciona toda la linea'  "default"
+                          @ [ Ctrl-v      'like v en c_vim, selecciona por bloque'
+
                             ESPACIO    modoSelecci[on
                               ENTER      para copiar ' Ctrl j == ENTER    READY...<3'
                                 @ ]     pegarPaste
 
-                          @ [ Ctrl S   buscar         /// q para salir
+                          @ [  ?   'busca antes del focus'      /// q para salir
+                          @ [  /   'busca despues del focus'    /// q para salir
 
 *** EXTRA
   ::: tmux list-sessions   :: tmux ls
