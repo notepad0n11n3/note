@@ -1,4 +1,4 @@
-  cip   cap   dap   dip    'p PARRAFO  , el parrafo se delimita por las lineas en blanco'  <3 <3 
+  cip   cap   dap   dip    'p PARRAFO  , el parrafo se delimita por las LINEAS en blanco ("\n")'  <3 <3 
 
 
 ###  Ctrl a/x   se puede usar con Ctrl v     ' Ctrl v  Ctrl a '  ingrementa los numeros seleccionados, todos a la vez ++     tambien funciona con Ctrl V

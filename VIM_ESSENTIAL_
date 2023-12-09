@@ -1,4 +1,4 @@
-									|  ==   &&  like unix
+									|  ==   &&  like unix                           vim:: c_Ctl-r %   "ruta archivo actual... <3 <3 <3"
 
 :set number relativenumber numberwidth=1 sw=2 tabstop=2 softtabstop=2 noswapfile wrap
 :imap ;l <Esc>
@@ -6,6 +6,9 @@
 :set number relativenumber numberwidth=1 sw=2 tabstop=2 softtabstop=2 noswapfile wrap  |  imap ;l <esc> | color industry
 
 vim:: r ! cat /etc/passwd | grep "sh$"      ...<3 <3 <3  (' no es necesario escapar  |  con  \  despues del !  ')
+vim:: w | ! gcc % -o %< && ./%<         "guarda el archivo actual, compila el archivo actual(%) y lo guarda como el nombre actual del archivo sin extension (%<)"
+      
+              @:            repeat the previous ":" command N times 
 
 
       corregir autoidentacion en vim al copiar codigo... <3 <3 <3
@@ -25,6 +28,7 @@ vim:: r ! cat /etc/passwd | grep "sh$"      ...<3 <3 <3  (' no es necesario esca
     "Ctrl-[  == Ctrl-\-n  ===  Esc  ==  Ctrl-c"
 
     vim::: term   'mas Ctrl \ n   ES UNA PUTA LOCURA <3 <3 <3   t_CTRL-\_CTRL-N'
+    vim::: term   ' Ctrl-w .  ===  Ctrl-w '  "delete lastWord"
 
 vim::: help :      vim::: help Ctrl   vim::: help i_Ctrl-o 'insertMode'  vim::: c_CTRL-R
 
@@ -44,3 +48,19 @@ vim::: help :      vim::: help Ctrl   vim::: help i_Ctrl-o 'insertMode'  vim::: 
 
 	Ctrl-w-f		like  gf				abre en una division/panel <stdou.h> 
 	Ctrl-w-F 		like  gF           'Ctrl-w-gf/gF  ventanaNueva'
+
+
+  N Ctrl-w kjlh       "up/down/right/left" "N de saltos de paneles (2 Ctrl-w j)"
+  Ctrl-w p           go to previous (last accessed) window/pane  like { Alt-m ;    Alt-m Ctrl-i }(tmux),  { Win-i i3 } (i3)
+
+  ZZ              ZZ                 write if buffer changed and close window
+  ZQ              ZQ                 close window without writing
+  ``              ``              1  cursor to the position before latest jump  (funciona con '' y ``)  g;  g,   Ctrl-o Ctrl-i 
+
+  `{              `{              1  cursor to the start of the current paragraph (funciona con ')  solo {
+  `}              `}              1  cursor to the end of the current paragraph (funciona con ' )   solo }
+
+  m               m{A-Za-z}          set mark {A-Za-z} at cursor position (funciona con ')
+  `               `{a-zA-Z0-9}    1  cursor to the mark {a-zA-Z0-9} (funciona con ')
+
+
