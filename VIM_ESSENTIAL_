@@ -1,4 +1,15 @@
-									|  ==   &&  like unix                           vim:: c_Ctl-r %   "ruta archivo actual... <3 <3 <3"
+
+				:q  !=  q:          q:  ==  : Ctrl-f  (Ctrl-c  para poder usar Ctrl j)      'salir de q:   ("Ctrl \ n"  o  "Ctrl w c")'
+
+									|  ==   &&  like unix                       ' vim:: c_Ctl-r % '  "ruta archivo actual... <3 <3 <3"
+																		
+																			vim:: .! zsh/bash					'ejecuta linea actual en zsh/bash'				" c_!! ==>>  vim:: .! "
+																			vim:: r! echo %:h		:p		'path archivo actual'      " %:p  path y archivo" 	r! echo %:p   /home/aeo8/.burningArea/vim/main.c
+																			vim:: r! echo #:h		:p		'path archivo anterior'
+
+															vim:: echo expand('%:p')				"muestra el path absoluto con el nombre de archivo ...<3 <3 <3"
+						Ctrl-G		"prints the current file name with path, estado del archivo( [Modified],[ReadOnly] ) , lineas en total, ubicacion porcentual del focus en el archivo " ...<3 <3 <3
+
 
 :set number relativenumber numberwidth=1 sw=2 tabstop=2 softtabstop=2 noswapfile wrap
 :imap ;l <Esc>
@@ -17,45 +28,48 @@ vim:: w | ! gcc % -o %< && ./%<         "guarda el archivo actual, compila el ar
             =  G        'corrige desde el focus hasta el final de pagina'
 
 
-    :q  !=   q:             q:  ==  " : Ctrl-f  (Ctrl-c  para poder usar Ctrl j)"        'salir de q:   ("Ctrl \ n"  o  "Ctrl w c")'
-
 {
     ::: cat /etc/passwd | vim - 
-  vim:: %! grep "sh$"             'jugamos con el archivo actual con comandos de shell'
+			vim:: %! grep "sh$"             'jugamos con el archivo actual con comandos de shell'
 }
 
 
     "Ctrl-[  == Ctrl-\-n  ===  Esc  ==  Ctrl-c"
 
-    vim::: term   'mas Ctrl \ n   ES UNA PUTA LOCURA <3 <3 <3   t_CTRL-\_CTRL-N'
+    vim::: term   'mas Ctrl \ n   ES UNA PUTA LOCURA <3 <3 <3   t_CTRL-\_CTRL-N'		'(vim:: shell)'
     vim::: term   ' Ctrl-w .  ===  Ctrl-w '  "delete lastWord"
 
 vim::: help :      vim::: help Ctrl   vim::: help i_Ctrl-o 'insertMode'  vim::: c_CTRL-R
 
-  vim:: tabclose 'close all tab pages except the current one'                 vim:: tabonly   'close all tab pages except the current one'
-  vim:: only  'close all windows/paneles/divisiones except the current one'
+## PANELES DIVISIONES {
+			vim:: tabclose 'close all tab pages except the current one'                 vim:: tabonly   'close all tab pages except the current one'
+			vim:: only  'close all windows/paneles/divisiones except the current one'
 
-  vim::  new   vnew               Ctrl-w-n          Ctrl-w-T 'independizar divisionActual'
-  vim::  tabnew
+			vim::  new   vnew               Ctrl-w-n          Ctrl-w-T 'independizar divisionActual' ...<3 <3 <3
+			vim::  tabnew
 
+			Ctrl-w-n            'division nuevoFicheroVacio'  'new   vnew'
+			Ctrl-w-v  Ctrl-w-s    'fichero(%) actual dividir panel vertical/horizontal'
+			Ctrl-w-q              'cerrar panel/division...<3 <3 <3'
 
-  Ctrl-w-n            'division nuevoFicheroVacio'  'new   vnew'
-  Ctrl-w-v  Ctrl-w-s    'fichero(%) actual dividir panel vertical/horizontal'
-  Ctrl-w-q              'cerrar panel/division...<3 <3 <3'
+			Ctrl w Shift h/j/k/l        "Mover panel/division Left/Down/Up/Right"... <3 <3 <3
 
-	Ctrl-w-x  Ctrl-w-r  Ctrl-w-R   'intercambiar paneles, rotar paneles(horario/antihorario)(r/R)'
-
-
-	Ctrl-w-f		like  gf				abre en una division/panel <stdou.h> 
-	Ctrl-w-F 		like  gF           'Ctrl-w-gf/gF  ventanaNueva'
+			Ctrl-w-x  Ctrl-w-r  Ctrl-w-R   'intercambiar paneles, rotar paneles(horario/antihorario)(r/R)'
 
 
-  N Ctrl-w kjlh       "up/down/right/left" "N de saltos de paneles (2 Ctrl-w j)"
-  Ctrl-w p           go to previous (last accessed) window/pane  like { Alt-m ;    Alt-m Ctrl-i }(tmux),  { Win-i i3 } (i3)
+			Ctrl-w-f		like  gf				abre en una division/panel <stdou.h> 
+			Ctrl-w-F 		like  gF           'Ctrl-w-gf/gF  ventanaNueva'
+
+
+			Num Ctrl-w kjlh       "up/down/right/left" "Num de saltos de paneles (2 Ctrl-w j)"
+			Ctrl-w p           go to previous (last accessed) window/pane  like { Alt-m ;    Alt-m Ctrl-i }(tmux),  { Win-i i3 } (i3)
+			CTRL-W g <Tab>     same as |g<Tab>|: go to last accessed tab
+
+__ } PANELES DIVISIONES	##
 
   ZZ              ZZ                 write if buffer changed and close window
   ZQ              ZQ                 close window without writing
-  ``              ``              1  cursor to the position before latest jump  (funciona con '' y ``)  g;  g,   Ctrl-o Ctrl-i 
+  ``              ``              1  cursor to the position before latest jump  (funciona con '' y ``)  g;  g,   Ctrl-o Ctrl-i		... <3 <3 <3
 
   `{              `{              1  cursor to the start of the current paragraph (funciona con ')  solo {
   `}              `}              1  cursor to the end of the current paragraph (funciona con ' )   solo }
@@ -64,3 +78,40 @@ vim::: help :      vim::: help Ctrl   vim::: help i_Ctrl-o 'insertMode'  vim::: 
   `               `{a-zA-Z0-9}    1  cursor to the mark {a-zA-Z0-9} (funciona con ')
 
 
+	(" netrw == vim::Ex ") {										vim:: Ex /  ::Ex /home/user/downloads ::Ex ../  ::Ex ./path/here		... <3 <3 <3 
+						<enter>   Open the file in the current window.     |netrw-cr|
+						o   Horizontally split window and display file |netrw-o|
+						v   Vertically split window and display file   |netrw-v|
+						p   Use the |preview-window|       |netrw-p|
+						P   Edit in the previous window      |netrw-P|
+						t   Open file in a new tab         |netrw-t|
+
+	Vim remembers the last directory that you used.  Use "cd -" to go back to it.
+					:pwd			=> 	 /home/Bram/VeryLongFileName
+					:cd /etc
+					:pwd			=>	 /etc
+					:cd -
+					:pwd			=>	 /home/Bram/VeryLongFileName
+					:cd -
+					:pwd			=>	 /etc
+
+  ....To change to the directory of the current file/path :				vim:: cd  %:h		...	<3 <3 <3
+
+		WINDOW LOCAL DIRECTORY
+					When you split a window, both windows use the same current directory.  When
+				you want to edit a number of files somewhere else in the new window, you can
+				make it use a different directory, without changing the current directory in
+				the other window.  This is called a local directory. >
+
+					:pwd		=>		 /home/Bram/VeryLongFileName
+					:split
+					:lcd /etc
+					:pwd		=>		 /etc
+					CTRL-W w
+					:pwd		=>		 /home/Bram/VeryLongFileName
+		
+		TAB LOCAL DIRECTORY		vim:: tcd  /new/path/here
+
+		:edit FileName/file1.txt		 :e FileName/file1.txt
+
+	}

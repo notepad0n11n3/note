@@ -65,6 +65,8 @@ v:: set tabstop=2    espacio de indentación  TAB
       vim:: buffer + número     goBufferNúmero
                     nombre
 
+      vim:: b#		" saltar al archivo('#') anterior , %archivo actual"
+
                     :args *.*
                            * 
                     :tab all
@@ -79,6 +81,15 @@ v:: set tabstop=2    espacio de indentación  TAB
 
       vim:: %bdelete               delete allBuffers
 
+### PATH path
+
+	vim:: set path+=./path/here/				" vim:: find test1.txt "
+
+  To add the CURRENT directory use: 
+                :set path+=
+
+	To remove the CURRENT directory use: 
+                :set path-=
 
 
 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
@@ -310,6 +321,8 @@ CMD desde Vim
 					:lineas+new
 					:lineas+vnew
 
+					
+					Ctrl w Shift h/j/k/l				"Mover panel/division Left/Down/Up/Right"... <3 <3 <3
 
 ### IGUALAR EL TAMAÑO DE LAS DIVISIONES
 
