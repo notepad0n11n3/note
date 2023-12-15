@@ -7,7 +7,8 @@
 																			vim:: r! echo %:h		:p		'path archivo actual'      " %:p  path y archivo" 	r! echo %:p   /home/aeo8/.burningArea/vim/main.c
 																			vim:: r! echo #:h		:p		'path archivo anterior'
 
-															vim:: echo expand('%:p')				"muestra el path absoluto con el nombre de archivo ...<3 <3 <3"
+															vim:: echo expand('%:p')				"muestra el path absoluto con el nombre de archivo ...<3 <3 <3"			 vim:: echo expand('%:h')				
+
 						Ctrl-G/g		"prints the current file name with path, estado del archivo( [Modified],[ReadOnly] ) , lineas en total, ubicacion porcentual del focus en el archivo " ...<3 <3 <3
 
 	vim:: wq   ==   x          " vim:: X   'cifra en archivo actual...<3 <3 <3' "
@@ -54,20 +55,30 @@ vim::: help :      vim::: help Ctrl   vim::: help i_Ctrl-o 'insertMode'  vim::: 
 
 			Ctrl-w-x  Ctrl-w-r  Ctrl-w-R   'intercambiar paneles, rotar paneles(horario/antihorario)(r/R)'
 
+			' Ctrl _ '   ' Ctrl | '     "maximizar alto/ancho  (Ctrl =  'igualaTodos los paneles')"
+			Ctrl +    Ctrl -				"incrementar altura N	'N Ctrl +' "
+			Ctrl <    Ctrl >				"incrementar ancho N  'N Ctrl <' "
+
 			Ctrl-w-f		like  gf				abre en una division/panel <stdou.h> 
 			Ctrl-w-F 		like  gF           'Ctrl-w-gf/gF  ventanaNueva'
 
 
-			Num Ctrl-w kjlh       "up/down/right/left" "Num de saltos de paneles (2 Ctrl-w j)"
+			Num Ctrl-w k/j/l/h       "up/down/right/left" "Num de saltos de paneles (2 Ctrl-w j)"
 			Ctrl-w p           go to previous (last accessed) window/pane  like { Alt-m ;    Alt-m Ctrl-i }(tmux),  { Win-i i3 } (i3)
 			CTRL-W g <Tab>     same as " g Tab  " go to last accessed tab
 
-					*** SALTO ENTRE PANELES/DIVISIONES LIKE TMUX ... ... ... <3 <3 <3{	 " CTRL-W w     go to N next window (wrap around) "
-						  Num Ctrl-w w    " Num => 1-2-3..8-9 "
-								Ctrl-w p		"salta al panel anterior"
-					*** SALTO ENTRE PANELES/DIVISIONES LIKE TMUX ... ... ... <3 <3 <3}
+					*** SALTO ENTRE PANELES/DIVISIONES LIKE TMUX  Alt-m-q ... ... ... <3 <3 <3{	 " CTRL-W w     go to N next window (wrap around) "
+						  Num Ctrl-w w    " Num => 1-2-3..8-9 "					"vim:: set statusline+=\ %{winnr()}"
+								Ctrl-w p		"salta al panel anterior"							Ctrl-w o   "cierra todos los paneles(sin cambios) menos el actual"
 
-__ } PANELES DIVISIONES	##
+					vim:: echo (winnr())			"print the number of the current panel/division... <3 <3 <3" " set statusline+=%F  'fullPath' "
+
+						Ctrl-w t	Move cursor to top-left window.
+						Ctrl-w b  Move cursor to bottom-right window.
+
+					*** SALTO ENTRE PANELES/DIVISIONES LIKE TMUX  Alt-m-q ... ... ... <3 <3 <3}
+
+__ PANELES DIVISIONES## }
 
   ZZ              ZZ                 write if buffer changed and close window
   ZQ              ZQ                 close window without writing
