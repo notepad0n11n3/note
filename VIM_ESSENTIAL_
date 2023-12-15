@@ -8,11 +8,12 @@
 																			vim:: r! echo #:h		:p		'path archivo anterior'
 
 															vim:: echo expand('%:p')				"muestra el path absoluto con el nombre de archivo ...<3 <3 <3"
-						Ctrl-G		"prints the current file name with path, estado del archivo( [Modified],[ReadOnly] ) , lineas en total, ubicacion porcentual del focus en el archivo " ...<3 <3 <3
+						Ctrl-G/g		"prints the current file name with path, estado del archivo( [Modified],[ReadOnly] ) , lineas en total, ubicacion porcentual del focus en el archivo " ...<3 <3 <3
 
+	vim:: wq   ==   x          " vim:: X   'cifra en archivo actual...<3 <3 <3' "
 
-:set number relativenumber numberwidth=1 sw=2 tabstop=2 softtabstop=2 noswapfile wrap
-:imap ;l <Esc>
+vim:: set number relativenumber numberwidth=1 sw=2 tabstop=2 softtabstop=2 noswapfile wrap
+vim:: imap ;l <Esc>
 
 :set number relativenumber numberwidth=1 sw=2 tabstop=2 softtabstop=2 noswapfile wrap  |  imap ;l <esc> | color industry
 
@@ -21,18 +22,15 @@ vim:: w | ! gcc % -o %< && ./%<         "guarda el archivo actual, compila el ar
       
               @:            repeat the previous ":" command N times 
 
-
       corregir autoidentacion en vim al copiar codigo... <3 <3 <3
       
             gg = G      'corrige todo el archivo de gg a G, igual con modiVisual (  V + =  )' 
             =  G        'corrige desde el focus hasta el final de pagina'
 
-
 {
     ::: cat /etc/passwd | vim - 
 			vim:: %! grep "sh$"             'jugamos con el archivo actual con comandos de shell'
 }
-
 
     "Ctrl-[  == Ctrl-\-n  ===  Esc  ==  Ctrl-c"
 
@@ -56,14 +54,18 @@ vim::: help :      vim::: help Ctrl   vim::: help i_Ctrl-o 'insertMode'  vim::: 
 
 			Ctrl-w-x  Ctrl-w-r  Ctrl-w-R   'intercambiar paneles, rotar paneles(horario/antihorario)(r/R)'
 
-
 			Ctrl-w-f		like  gf				abre en una division/panel <stdou.h> 
 			Ctrl-w-F 		like  gF           'Ctrl-w-gf/gF  ventanaNueva'
 
 
 			Num Ctrl-w kjlh       "up/down/right/left" "Num de saltos de paneles (2 Ctrl-w j)"
 			Ctrl-w p           go to previous (last accessed) window/pane  like { Alt-m ;    Alt-m Ctrl-i }(tmux),  { Win-i i3 } (i3)
-			CTRL-W g <Tab>     same as |g<Tab>|: go to last accessed tab
+			CTRL-W g <Tab>     same as " g Tab  " go to last accessed tab
+
+					*** SALTO ENTRE PANELES/DIVISIONES LIKE TMUX ... ... ... <3 <3 <3{	 " CTRL-W w     go to N next window (wrap around) "
+						  Num Ctrl-w w    " Num => 1-2-3..8-9 "
+								Ctrl-w p		"salta al panel anterior"
+					*** SALTO ENTRE PANELES/DIVISIONES LIKE TMUX ... ... ... <3 <3 <3}
 
 __ } PANELES DIVISIONES	##
 
