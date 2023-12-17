@@ -91,13 +91,17 @@ __ PANELES DIVISIONES## }
   `               `{a-zA-Z0-9}    1  cursor to the mark {a-zA-Z0-9} (funciona con ')
 
 
-	(" netrw == vim::Ex ") {										vim:: Ex /  ::Ex /home/user/downloads ::Ex ../  ::Ex ./path/here		... <3 <3 <3 
+### (" netrw == vim::Ex ") {		Ex Ex Ex								vim:: Ex /  ::Ex /home/user/downloads ::Ex ../  ::Ex ./path/here		... <3 <3 <3 
 						<enter>   Open the file in the current window.     |netrw-cr|
 						o   Horizontally split window and display file |netrw-o|
 						v   Vertically split window and display file   |netrw-v|
 						p   Use the |preview-window|       |netrw-p|
 						P   Edit in the previous window      |netrw-P|
 						t   Open file in a new tab         |netrw-t|
+
+						x  "Me permite entrar a las carpetas :) ... <3 <3 <3 "
+						mb "Marca la carpeta actual"
+						gb "Salta a la carpeta marcada"
 
 	Vim remembers the last directory that you used.  Use "cd -" to go back to it.
 					:pwd			=> 	 /home/Bram/VeryLongFileName
@@ -127,4 +131,4 @@ __ PANELES DIVISIONES## }
 
 		:edit FileName/file1.txt		 :e FileName/file1.txt
 
-	}
+___	(" netrw == vim::Ex ")  Ex Ex Ex  }
