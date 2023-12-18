@@ -62,6 +62,8 @@ vim::: help :      vim::: help Ctrl   vim::: help i_Ctrl-o 'insertMode'  vim::: 
 			Ctrl-w-f		like  gf				abre en una division/panel <stdou.h> 
 			Ctrl-w-F 		like  gF           'Ctrl-w-gf/gF  ventanaNueva'
 
+			Ctrl-w-o		"cierra todos los paneles menos el actual ...<3 <3 <3 "
+
 
 			Num Ctrl-w k/j/l/h       "up/down/right/left" "Num de saltos de paneles (2 Ctrl-w j)"
 			Ctrl-w p           go to previous (last accessed) window/pane  like { Alt-m ;    Alt-m Ctrl-i }(tmux),  { Win-i i3 } (i3)
