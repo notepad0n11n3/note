@@ -151,6 +151,9 @@ REPETICIONES DE COMANDOS
 BUSQUEDA DE TEXTO
     /word --- busca para adelante del focus
     ?word --- busca para atras del focus
+
+		vim:: g/word					"busca en todo el documento ( / + ? ) "
+
     /^word --- busca "word" al inicio de cada linea
     /word$  --- busca "word" al final de cada linea
     /c[ao]sa  --- busca casa y cosa en el archivo :)
