@@ -82,15 +82,16 @@ vim::: help :      vim::: help Ctrl   vim::: help i_Ctrl-o 'insertMode'  vim::: 
 
 __ PANELES DIVISIONES## }
 
-  ZZ              ZZ                 write if buffer changed and close window
-  ZQ              ZQ                 close window without writing
-  ``              ``              1  cursor to the position before latest jump  (funciona con '' y ``)  g;  g,   Ctrl-o Ctrl-i		... <3 <3 <3
+  ZZ         write if buffer changed and close window
+  ZQ         close window without writing
 
-  `{              `{              1  cursor to the start of the current paragraph (funciona con ')  solo {
-  `}              `}              1  cursor to the end of the current paragraph (funciona con ' )   solo }
+  ''  ``     1 position before "latest jump"  (funciona con '' y ``)  g;  g,   Ctrl-o Ctrl-i		... <3 <3 <3
 
-  m               m{A-Za-z}          set mark {A-Za-z} at cursor position (funciona con ')
-  `               `{a-zA-Z0-9}    1  cursor to the mark {a-zA-Z0-9} (funciona con ')
+  {          1  cursor to the start of the current paragraph
+  }          1  cursor to the end of the current paragraph
+
+  m    m{A-Za-z}        set mark {A-Za-z} at cursor position
+  '    '{a-zA-Z0-9}     cursor to the mark {a-zA-Z0-9} (funciona tambi[en con `)
 
 
 ### (" netrw == vim::Ex ") {		Ex Ex Ex								vim:: Ex /  ::Ex /home/user/downloads ::Ex ../  ::Ex ./path/here		... <3 <3 <3 

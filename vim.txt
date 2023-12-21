@@ -347,8 +347,8 @@ CMD desde Vim
 				zC
 
         
-        zM  cierraTodo los Fold y los deja como nuevos  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!     
-        zR  abreTodos lo plegado  !!!!  source=>  v:: help folding
+        zM  cierraTodo los Fold y los deja como nuevos							... ... ... <3 <3 <3 
+        zR  abreTodos lo plegado  !!!!  source=>  v:: help folding  ... ... ... <3 <3 <3
 
 
         zA  lo contrario al de arriba :)
