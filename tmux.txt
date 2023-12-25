@@ -63,7 +63,7 @@ VENTANAS
    @ Ctrl - i  ===  @ Tab
 
   @ "numero_Ventana_Here"   saltar entre ventanas
-  @ : swap-window -s 1 -t 3       intercambiar ventana **
+  @ : swap-window -s 1 -t 3       intercambiar ventana **   " -s currentNumber  -t targedNumber "
 
   @ &   cerrar ventana      *** *** *** *
 
