@@ -7,11 +7,14 @@
 																			vim:: r! echo %:h		:p		'path archivo actual'      " %:p  path y archivo" 	r! echo %:p   /home/aeo8/.burningArea/vim/main.c
 																			vim:: r! echo #:h		:p		'path archivo anterior'
 
+												gx "go url under the cursor (controlMode)"  gf "go file under the cursor (controlMode)"
+
 															vim:: echo expand('%:p')				"muestra el path absoluto con el nombre de archivo ...<3 <3 <3"			 vim:: echo expand('%:h')				
 
 						Ctrl-G/g		"prints the current file name with path, estado del archivo( [Modified],[ReadOnly] ) , lineas en total, ubicacion porcentual del focus en el archivo " ...<3 <3 <3
 
 	vim:: wq   ==   x          " vim:: X   'cifra en archivo actual...<3 <3 <3' "
+
 
 vim:: set number relativenumber numberwidth=1 sw=2 tabstop=2 softtabstop=2 noswapfile wrap
 vim:: imap ;l <Esc>
@@ -35,7 +38,7 @@ vim:: w | ! gcc % -o %< && ./%<         "guarda el archivo actual, compila el ar
 
     "Ctrl-[  == Ctrl-\-n  ===  Esc  ==  Ctrl-c"
 
-    vim::: term   'mas Ctrl \ n   ES UNA PUTA LOCURA <3 <3 <3   t_CTRL-\_CTRL-N'		'(vim:: shell)'
+    vim::: term   ' Ctrl \ n  ...<3 <3 <3   t_CTRL-\_CTRL-N == Esc '		'(vim:: shell)'
     vim::: term   ' Ctrl-w .  ===  Ctrl-w '  "delete lastWord"
 
 vim::: help :      vim::: help Ctrl   vim::: help i_Ctrl-o 'insertMode'  vim::: c_CTRL-R
