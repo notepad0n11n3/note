@@ -34,8 +34,9 @@ DIVISIONES
   @ _   //divisionVertical             @ %    like_aVim  new 
  
   @ !                         //independizar exclamaci[on en tabnew  *** *** *** 
-  @ : join-pane -s 1 -t 3     //unir a ventana 1 la ventana 3 como una division
-        'solo junta ventana continuas/seguidas'
+  @ : join-pane -s 1 -t 3     //unir ultimoPanelUsado de la pesta~a 1  a  la pesta~a 3
+  @ : join-pane -t 3					// unir panelActual(division)  a  la pesta~a 3 ... <3 <3 <3
+
   @ q   numero de paneles en ventana actual
   @ q 0...9       saltar de division por numero ... ... ... <3 <3 <3
 
