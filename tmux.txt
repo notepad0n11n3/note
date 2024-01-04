@@ -37,6 +37,11 @@ DIVISIONES
   @ : join-pane -s 1 -t 3     //unir ultimoPanelUsado de la pesta~a 1  a  la pesta~a 3
   @ : join-pane -t 3					// unir panelActual(division)  a  la pesta~a 3 ... <3 <3 <3
 
+	# Join pane a la primera ventana '0' 
+		@ 0														// go window 0
+			@ : join-pane -s ? -t 1			// si... -t 1 
+									 no funciona -t 0 pero si con -t 1 estando en panel 0 (raro)    ...<3 <3 <3
+
   @ q   numero de paneles en ventana actual
   @ q 0...9       saltar de division por numero ... ... ... <3 <3 <3
 
