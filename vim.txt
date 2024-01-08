@@ -4,6 +4,8 @@
     x    (insertMode)  elimina caracter del focus a derecha    like a <--
     X    (insertMode)  elimina caracter del focus a izquierda  like a supr/Del
 
+		v:: g/test						"muestra todas la coincidencias de 'test' en todo el documento... <3 <3 <3"
+
 ####     sivvi    ####
   EJECUTA UNA SHELL PARA MORE
    ::: more /etc/passwd    # solo muestra lo que entre en pantalla  like a 89%  40%

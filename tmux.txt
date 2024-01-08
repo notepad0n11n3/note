@@ -73,17 +73,19 @@ VI MODE vi mode VI MODE vi mode
   @ : setw -g mode-keys vi      teclas vim para usar con @ [  *** *** *** ***
     copiar Vimode  Espacio para seleccionar despues enter,  pegar con @ ]
 
-                        COPIAR / BUSCAR 
-                          @ [             'modo copia'
-                          @ [ V           'like V en c_vim, selecciona toda la linea'  "default"
-                          @ [ Ctrl-v      'like v en c_vim, selecciona por bloque'
+					COPIAR / BUSCAR				@ [      'modo copia'
+								@ [ V           'like V en c_vim, selecciona toda la linea'  "default"
+								@ [ Ctrl-v      'like v en c_vim, selecciona por bloque'
 
-                            ESPACIO    modoSelecci[on
-                              ENTER      para copiar ' Ctrl j == ENTER    READY...<3'
-                                @ ]     pegarPaste
+									ESPACIO    modoSelecci[on
+										ENTER      para copiar ' Ctrl j == ENTER    READY...<3'
+											@ ]     pegarPaste
 
-                          @ [  ?   'busca antes del focus'      /// q para salir
-                          @ [  /   'busca despues del focus'    /// q para salir
+								x        "crea una marca"     "ideal para usar con V o Ctrl-v"
+								Atl-x		 "salta entre la marca y la ultima posici[on del cursor... <3 <3 <3"
+
+								@ [  ?   'busca antes del focus'      /// q para salir
+								@ [  /   'busca despues del focus'    /// q para salir
 
 *** EXTRA
   ::: tmux list-sessions   :: tmux ls
