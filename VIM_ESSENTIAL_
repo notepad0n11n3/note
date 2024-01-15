@@ -22,7 +22,7 @@ vim:: imap ;l <Esc>
 :set number relativenumber numberwidth=1 sw=2 tabstop=2 softtabstop=2 noswapfile wrap  |  imap ;l <esc> | color industry
 
 vim:: r ! cat /etc/passwd | grep "sh$"      ...<3 <3 <3  (' no es necesario escapar  |  con  \  despues del !  ')
-vim:: w | ! gcc % -o %< && ./%<         "guarda el archivo actual, compila el archivo actual(%) y lo guarda como el nombre actual del archivo sin extension (%<)"
+vim:: w | ! gcc % -o %< && ./%<         "guarda el archivo actual, compila el archivo actual(%) y lo guarda como el nombre actual del archivo sin extension (%<)" "LOS ESPACIOS SON IMPORTANTES !!!"
       
               @:            repeat the previous ":" command N times 
 
