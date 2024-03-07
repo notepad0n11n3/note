@@ -1,3 +1,5 @@
+::: firefox &>/dev/null & disown
+::: firefox >/dev/null  2>&1 & disown      2&>1 & disown
 
 ::: cd -       #!regresa al directorio anterior :)
 
