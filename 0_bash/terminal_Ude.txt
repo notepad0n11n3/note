@@ -92,6 +92,9 @@ ln a arhivos y carpetasXigual
       cut -d":" -f1 /etc/passwd === tail /etc/passwd | cut -d":" -f1
       cut -d":" -f1,4,7-10 /etc/passwd
 
+      cut -d":" -f3- /etc/passwd		"desde el tercero hasta el final... <3 <3 <3"
+      cut -d":" -f3-5 /etc/passwd		"desde el tercero hasta el quinto... <3 <3 <3"
+
 ::: cat archivo.txt | awk -F ":" '{print $1}'   $1 primerElem.   $2 segundoElem.
                              'NF{print $NF}'    # imprime el [ultimo elemento
 
