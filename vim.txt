@@ -216,7 +216,9 @@ BORRAR_EX
 
 CMD desde Vim
 
-	:! "nee.exe"   : seEjecutaraSobreLaConsolaDondeCorreVIM
+	:silent ! firefox &>/dev/null & disown					( silent evita el mensaje para presionar una tecla <3... redimensiona la terminal para recuperar la terminal/color)
+
+	:! test.exe   : seEjecutaraSobreLaConsolaDondeCorreVIM
 
 									SE PUEDE JUNTAR :r Y :! .................!!!!!!!!!!
 
