@@ -1,5 +1,5 @@
 
-				:q  !=  q:          q:  ==  : Ctrl-f  (Ctrl-c  para poder usar Ctrl j)      'salir de q:   ("Ctrl \ n"  o  "Ctrl w c")'
+				:q  !=  q:          q:  ==  : Ctrl-f  (Ctrl-c  para poder usar Ctrl j)      'salir de q:   ("Ctrl \ n"  o  "Ctrl w c")'				vim:: Ex == E
 
 									|  ==   &&  like unix                       ' vim:: c_Ctl-r % '  "ruta archivo actual... <3 <3 <3"
 																		
