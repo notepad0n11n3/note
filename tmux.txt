@@ -8,7 +8,11 @@
 
           @ =   lista de clipboard de tmux
 
-			kill-pane -a			" == a :only en vim ...<3 <3 <3"
+
+							kill-pane -a				" == a :only en vim ...<3 <3 <3"
+							kill-window -a			" == a :tabonly en vim ...<3 <3 <3"
+																				 :tabo
+
 
 SESSION
   ::: tmux new -s "nameSession" -c $burn -n "nameWindow"
