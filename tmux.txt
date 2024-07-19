@@ -8,6 +8,8 @@
 
           @ =   lista de clipboard de tmux
 
+			kill-pane -a			" == a :only en vim ...<3 <3 <3"
+
 SESSION
   ::: tmux new -s "nameSession" -c $burn -n "nameWindow"
   ::: tmux new -s nameSession
@@ -30,6 +32,9 @@ SESSION
   @ : kill-ses -t sessionName     @ : kill-ses -a
 
 DIVISIONES
+		kill-pane -a			" == a :only en vim ...<3 <3 <3"
+
+
   @ -   //divisionHorizontal           @ "    like_aVim  vnew      
   @ _   //divisionVertical             @ %    like_aVim  new 
  
