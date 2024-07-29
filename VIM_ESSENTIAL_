@@ -23,6 +23,8 @@ vim:: imap ;l <Esc>
 
 vim:: r ! cat /etc/passwd | grep "sh$"      ...<3 <3 <3  (' no es necesario escapar  |  con  \  despues del !  ')
 vim:: w | ! gcc % -o %< && ./%<         "guarda el archivo actual, compila el archivo actual(%) y lo guarda como el nombre actual del archivo sin extension (%<)" "LOS ESPACIOS SON IMPORTANTES !!!"
+
+::: cat /etc/passwd | vim -				vim:: %! grep "sh$" ...<3 <3 <3...!!!
       
               @:            repeat the previous ":" command N times 
 
