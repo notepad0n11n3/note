@@ -368,7 +368,13 @@ CMD desde Vim
 				:set foldmethod=manual
 
 
-### REMPLAZAR TEXTO 
+### REMPLAZAR TEXTO  sustituciones SUSTITUCIONES
+
+	:%s/\s\+$//e				Reemplaza(elimina) los espacios en blanco al final de cada linea en todo el archivo.
+								\s		Caracter de espacio en blanco (espacios, tabulaciones, etc)
+								\+		Una o mas ocurrencias del caracter anterior, en este caso los espacios
+								$			final de linea
+								e			silenciar los errores
 		
 			:%s/word/wordNew/g        modificaTodo   Go
 			:%s/word/wordNew/gc       preguntasTodosLosRemplazos  cuestion
