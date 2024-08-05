@@ -40,10 +40,14 @@ vim:: w | ! gcc % -o %< && ./%<         "guarda el archivo actual, compila el ar
 
     "Ctrl-[  == Ctrl-\-n  ===  Esc  ==  Ctrl-c"
 
+###  vim::: term
+
     vim::: term   ' Ctrl \ n  ...<3 <3 <3   t_CTRL-\_CTRL-N == Esc '		'(vim:: shell)'
     vim::: term   ' Ctrl-w .  ===  Ctrl-w '  "delete lastWord"
+					
+									Ctrl-w-"-"    'pegar el ultima yy  ... <3 <3 <3, puedes jugar con los registros <3 (vim::: registers)' ... COPY PASTE termMODE... <3 <3 <3
 
-vim::: help :      vim::: help Ctrl   vim::: help i_Ctrl-o 'insertMode'  vim::: c_CTRL-R
+vim::: help :      vim::: help Ctrl   vim::: help i_Ctrl-o 'insertMode'  vim::: help c_CTRL-R		vim::: help t_Ctrl-w 'termMode'
 
 ## PANELES DIVISIONES {
 			vim:: tabclose 'close all tab pages except the current one'                 vim:: tabonly   'close all tab pages except the current one'
@@ -84,6 +88,11 @@ vim::: help :      vim::: help Ctrl   vim::: help i_Ctrl-o 'insertMode'  vim::: 
 						Ctrl-w b  Move cursor to bottom-right window.
 
 					*** SALTO ENTRE PANELES/DIVISIONES LIKE TMUX  Alt-m-q ... ... ... <3 <3 <3}
+
+
+### SALTOS FOCUS
+	'.			(Salta a la ultima linea modificada... <3 <3 <3)
+	''			(Salta entre las 2 ultimas posicionesFocus... <3 <3 <3)
 
 __ PANELES DIVISIONES## }
 
