@@ -9,3 +9,11 @@
     ::: ls -lah /home/ | tee listadoHome.txt     like a  'ls -lah > listadoHome.txt'
 
 ### STEDIN EN PANTALLA Y GUARDADO N PARALELO ********
+
+
+
+### Eliminar todos los archivos de una carpeta MENOS ....
+
+		::: find . -type f ! -name '*.mp4' -exec echo {} +				'MOSTRARA todos los archivos MENOS los .mp4 ...<3'
+
+		::: find . -type f ! -name '*.mp4' -exec rm {} +					'ELIMINARA todos los archivos MENOS los .mp4 ...<3'
