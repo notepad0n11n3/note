@@ -1,8 +1,9 @@
   cip   cap   dap   dip    'p PARRAFO  , el parrafo se delimita por las LINEAS en blanco ("\n")'  <3 <3 
 
 
-###  Ctrl a/x   se puede usar con Ctrl v     ' Ctrl v  Ctrl a '  ingrementa los numeros seleccionados, todos a la vez ++     tambien funciona con Ctrl V
-                                             ' Ctrl v  g Ctrl a ' ingrementa los numeros sucesivamente...     tambien funciona con Ctrl V
+###  Ctrl 'a|x'   se puede usar con Ctrl v     
+																						' Ctrl v  Ctrl a '    ingrementa los numeros seleccionados, todos a la vez ++     tambien funciona con Ctrl V
+                                            ' Ctrl v  g Ctrl a '  ingrementa los numeros SUCESIVAMENTE...!!!     tambien funciona con Ctrl V
                               
                                                                  mi_array[1] = "mango";                     mi_array[1] = "mango";
                                                                  mi_array[2] = "dango";                     mi_array[1] = "dango";
@@ -61,9 +62,9 @@
 
 ### Registros  (los registros sePueden usar enModo inserci[on(pegar) con Ctrl r <registrokey> )
 {  
-                                                                         Ctrl r 0
-                                                                         Ctrl r -
-                                                                         Ctrl r a    etc...
+                                                                         Ctrl r 0  (insertMode)
+                                                                         Ctrl r -  (insertMode)
+                                                                         Ctrl r a  (insertMode)    etc...
               ""p   ===    p     P   ('clipboard por defecto')
     ""p    'RegistroSinNombre, Ultimo texto que modificaste/borraste/copiaste (palabra y linea)' <3 <3
     ""P
@@ -107,5 +108,3 @@
 
     "_dd
 }
-
-

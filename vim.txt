@@ -6,12 +6,14 @@
 
 		v:: g/test						"muestra todas la coincidencias de 'test' en todo el documento... <3 <3 <3"
 
+							vim ::: tabs   (muestra el contenidoDetallado de todas las pestanas ... <3 <3 <3)
+
 ####     sivvi    ####
   EJECUTA UNA SHELL PARA MORE
    ::: more /etc/passwd    # solo muestra lo que entre en pantalla  like a 89%  40%
             si presionas  v  entraras en el modo vi
-     .:  :set shell=/bin/bash
-      .:  :shell             # devuelve una shell :)
+     :  :set shell=/bin/bash
+      :  :shell             # devuelve una shell :)
 
    :e  /etc/bandit_pass/bandit26   #editara el archivo especificado de la ruta introducida :)  :)
 
@@ -272,12 +274,12 @@ CMD desde Vim
 
 
 ### PESTAÑAS EN VIM
-			
-						vim -p 
+						::: vim -p 
+
+						: tabs   (muestra el contenidoDetallado de todas las pestanas ... <3 <3 <3)
 
 						gt                   modo comando, saltar entre pestañas
 						"númeroPestaña"gt    salta a la pestaña especifica 
-
 
 						:tabnew archivo.*
 						:tabnew ./carpeta/archivo.*

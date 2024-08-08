@@ -1,0 +1,26 @@
+						Ctrl 6    ===   Ctrl ^       'saltar entre los 2 ultimos archivos abiertos(vim:: files  vim:: buffers)'
+
+						vim ::: tabs   (muestra el contenidoDetallado de todas las pestanas ... <3 <3 <3)
+
+### :term				
+						CERRAR	Term
+
+														'Ctrl d Ctrl w q'    ...ojo, puedes cerrarCUALQUIERtERMINAL con Ctrl-d... <3 <3 <3
+														'Ctrl \ n  Shift Z Q'  ...esto cierro todo el split, no solo el term... <3 <3 <3 <3
+
+
+
+	vim::: term bash -c "echo Hello, World!"
+
+	vim::: term htop	(cuando son aplicaciones que se deben cerrar manualmente, aun mantiene el programaActivo <3)
+
+
+
+
+### Acceder a la ubicaci[on actual del archivo
+	
+		 : let mango=expand('%:p') | execute 'cd ' . mango | term
+
+		: let mango=expand('%:p')
+		: execute 'cd ' . mango
+		: term

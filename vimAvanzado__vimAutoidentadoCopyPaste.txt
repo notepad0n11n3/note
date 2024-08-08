@@ -21,6 +21,8 @@
 ### DIVISION DE PANTALLA EXTRA PANEL PANELES	    ' :h window-moving '      ' :h tabpage   "pesta~as" '
           
           Ctrl w T       independizar panel actual a una pesta~a 
+							vim ::: tabs   (muestra el contenidoDetallado de todas las pestanas ... <3 <3 <3)
+
           Ctrl w c       cerrar panel   ' : cl[ose] '
           Ctrl w o       mantener el panel actual y cerrar el resto   ' :on[ly]  :tabo[nly] '
 
