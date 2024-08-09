@@ -66,6 +66,12 @@ comentar linea en cualquier lenguaje, modi visual (;l)  Shift + 7 (noFuncionaEnM
 													https://10.10.10.10:445
 													http://10.10.10.10:445
 
+### Completar... <3 <3 
+
+			CTRL-E		Insert the character which is below the cursor.
+									*i_CTRL-Y*
+			CTRL-Y		Insert the character which is above the cursor.
+
 
 ### MenuContextual  AutocompletadoNativo		(insertMode... <3 <3 <3)
     Ctrl n (insertMode) => 'bajar' lanza un menu contextual con las palabras del archivo, autocompletado noPlugin 

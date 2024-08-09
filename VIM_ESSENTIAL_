@@ -15,7 +15,14 @@
 
 					gx "go url under the cursor (normalMode)"  gf "go file under the cursor (controlMode)"
 
-					vim:: echo expand('%:p')				"muestra el path absoluto con el nombre de archivo ...<3 <3 <3"			 vim:: echo expand('%:h')				
+					vim:: echo expand('%:p')				"muestra el path absoluto con el nombre de archivo ...<3 <3 <3"			 vim:: echo expand('%:h')				: help %<
+
+										%:h:p
+										%:p
+										%:t				'muestra solo el nombre del archivo en edicion...  <3 <3 <3   (  : echo expand('%:t')   ) '
+
+																	: w ./%:t | w $desk/%:t   .... <3 <3 <3 
+								
 
 					Ctrl-G/g		"prints the current file name with path, estado del archivo( [Modified],[ReadOnly] ) , lineas en total, ubicacion porcentual del focus en el archivo " ...<3 <3 <3
 

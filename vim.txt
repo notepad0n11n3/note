@@ -425,3 +425,13 @@ CMD desde Vim
 
 
 
+### diferencias : ' !'  '! '
+							*:_!*
+The '!' (bang) character after an Ex command makes the command behave in a
+different way.  The '!' should be placed immediately after the command, without
+any blanks in between.  If you insert blanks the '!' will be seen as an
+argument for the command, which has a different meaning.  For example:
+	:w! name	write the current buffer to file "name", overwriting
+			any existing file
+	:w !name	send the current buffer as standard input to command
+			"name"
