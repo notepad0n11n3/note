@@ -24,3 +24,9 @@
 ###		Salta entre los comando anteriores ':'		(up/down)
 		: Ctrl p						'up'
 		: Ctrl n						'down'
+
+###  Pasar linea completa al modo comandos ':' ...<3 <3 <3
+
+		: Ctrl-r =getline('.') <CR>				
+										
+																		<CR>  ---  ENTER
