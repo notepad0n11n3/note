@@ -276,6 +276,11 @@ CMD desde Vim
 ### PESTAÑAS EN VIM
 						::: vim -p 
 
+						gt	siguiente pestana
+						gT  pestana anterior
+						num gt  salta a la pestana numero
+						g<TAB> salta entre las 2 ultimas pestanas ... <3 <3 <3 
+
 						: tabs   (muestra el contenidoDetallado de todas las pestanas ... <3 <3 <3)
 
 						gt                   modo comando, saltar entre pestañas
