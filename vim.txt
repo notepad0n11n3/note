@@ -440,3 +440,10 @@ argument for the command, which has a different meaning.  For example:
 			any existing file
 	:w !name	send the current buffer as standard input to command
 			"name"
+
+
+### session seciones
+
+	vim:: mksession my_sesison.vim
+
+		::: vim -S ./my_session.vim
