@@ -133,6 +133,8 @@ COPIAR                   w 'usa como limite los " " espacios '       W 'usa como
     y$
     y0
 
+									c_Ctrl-r-"-"			(pega la linea focus en el como comandos...<3 <3 <3)
+
 INSERCIONES
     i
     a

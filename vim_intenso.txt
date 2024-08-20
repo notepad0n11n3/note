@@ -107,4 +107,9 @@
   ## DEV NULL en vim  'Eliminar algo sin guardar en ningun registro, incluso el por defecto'
 
     "_dd
+
+
+	### PEGA LINEAFocus en el como COMANDOS
+									c_Ctrl-r-"-"			(pega la linea focus en el como comandos...<3 <3 <3)
+
 }

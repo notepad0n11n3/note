@@ -27,6 +27,7 @@
 
 ###  Pasar linea completa al modo comandos ':' ...<3 <3 <3
 
-		: Ctrl-r =getline('.') <CR>				
-										
-																		<CR>  ---  ENTER
+		: Ctrl-r =getline('.') <CR>									<CR>  ---  ENTER         ( interesante... :3  <3 )
+
+
+	c_Ctrl-r-"-"			(pega la linea focus en el como comandos...<3 <3 <3)   este si funciona...<3 <3 <3 

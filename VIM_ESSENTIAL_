@@ -134,6 +134,7 @@ __ PANELES DIVISIONES## }
 						o   Horizontally split window and display file |netrw-o|
 						v   Vertically split window and display file   |netrw-v|
 						p   Use the |preview-window|       |netrw-p|
+									Ctrl-w-o   (cerrer el preview, 'only' )
 						P   Edit in the previous window      |netrw-P|
 						t   Open file in a new tab         |netrw-t|
 
@@ -170,3 +171,7 @@ __ PANELES DIVISIONES## }
 		:edit FileName/file1.txt		 :e FileName/file1.txt
 
 ___	(" netrw == vim::Ex ")  Ex Ex Ex  }
+
+
+### INGRESAR LA LINEA FOCUS AL MODO COMANDOS
+									c_Ctrl-r-"-"			(pega la linea focus en el como comandos...<3 <3 <3)
