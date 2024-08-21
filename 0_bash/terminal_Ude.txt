@@ -199,6 +199,8 @@ ln a arhivos y carpetasXigual
             . === \.   . === \. 
 
 
+	sed -E 's/ +/ /g'     (reemplaza las mutliples repeticiones de '      ' por solo ' ' ...<3 <3 <3)
+
 
 cut -d";" -f1,5
 ---------------------EXPRESIONES REGULARES----------------------------------
