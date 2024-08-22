@@ -62,9 +62,9 @@
 
 ### Registros  (los registros sePueden usar enModo inserci[on(pegar) con Ctrl r <registrokey> )
 {  
-                                                                         Ctrl r 0  (insertMode)
-                                                                         Ctrl r -  (insertMode)
-                                                                         Ctrl r a  (insertMode)    etc...
+                                                                         i_Ctrl r 0  (insertMode)
+                                                                         i_Ctrl r -  (insertMode)
+                                                                         i_Ctrl r a  (insertMode)    etc...
               ""p   ===    p     P   ('clipboard por defecto')
     ""p    'RegistroSinNombre, Ultimo texto que modificaste/borraste/copiaste (palabra y linea)' <3 <3
     ""P
@@ -109,7 +109,9 @@
     "_dd
 
 
-	### PEGA LINEAFocus en el como COMANDOS
-									c_Ctrl-r-"-"			(pega la linea focus en el como comandos...<3 <3 <3)
-
 }
+### INGRESAR LA LINEA FOCUS AL MODO COMANDOS
+									c_Ctrl r l      (inserta la linea focus al modoComandos post ':' )
+									c_Ctrl r " "		(pega la linea post yy ...<3 <3 <3)
+
+									t_Ctrl w " i		(pega en al terminal':term' el registro "  yy ) ... <3 <3 <3 

@@ -9,9 +9,12 @@
           @ =   lista de clipboard de tmux
 
 
-							kill-pane -a				" == a :only en VIM ...<3 <3 <3"
-							kill-window -a			" == a :tabonly en VIM ...<3 <3 <3"
+							kill-pane -a				" == a :only en VIM ...<3 <3 <3"		 --all
+							kill-pane -t 1    (cierra el split 1 ...<3 <3 <3)
+
+							kill-window -a			" == a :tabonly en VIM ...<3 <3 <3"   --all
 																				 :tabo
+							kill-window -t 2   (cierra la pestana 2 ... <3 <3 <3)
 
 
 SESSION

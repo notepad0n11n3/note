@@ -68,9 +68,9 @@ comentar linea en cualquier lenguaje, modi visual (;l)  Shift + 7 (noFuncionaEnM
 
 ### Completar... <3 <3 
 
-			CTRL-E		Insert the character which is below the cursor.
+			i_CTRL-e		Insert the character which is below the cursor.
 									*i_CTRL-Y*
-			CTRL-Y		Insert the character which is above the cursor.
+			i_CTRL-y		Insert the character which is above the cursor.
 
 
 ### MenuContextual  AutocompletadoNativo		(insertMode... <3 <3 <3)

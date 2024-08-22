@@ -25,9 +25,12 @@
 		: Ctrl p						'up'
 		: Ctrl n						'down'
 
-###  Pasar linea completa al modo comandos ':' ...<3 <3 <3
 
+### INGRESAR LA LINEA FOCUS AL MODO COMANDOS
+									c_Ctrl r l      (inserta la linea focus al modoComandos post ':' )
+									c_Ctrl r " "		(pega la linea post yy ...<3 <3 <3)
+
+									t_Ctrl w " i		(pega en al terminal':term' el registro "  yy ) ... <3 <3 <3 
+
+  #  Pasar linea completa al modo comandos ':'  interesante pero NADA PRACTICO :U
 		: Ctrl-r =getline('.') <CR>									<CR>  ---  ENTER         ( interesante... :3  <3 )
-
-
-	c_Ctrl-r-"-"			(pega la linea focus en el como comandos...<3 <3 <3)   este si funciona...<3 <3 <3 
