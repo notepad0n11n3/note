@@ -1,3 +1,4 @@
+xset q | grep "Caps Lock" | sed -E 's/ +/ /g' | cut -d' ' -f3,5 | tr -d "\n"
   cip   cap   dap   dip    'p PARRAFO  , el parrafo se delimita por las LINEAS en blanco ("\n")'  <3 <3 
 
 
@@ -112,6 +113,6 @@
 }
 ### INGRESAR LA LINEA FOCUS AL MODO COMANDOS
 									c_Ctrl r l      (inserta la linea focus al modoComandos post ':' )
-									c_Ctrl r " "		(pega la linea post yy ...<3 <3 <3)
+									c_Ctrl r "  		(pega la linea post yy ...<3 <3 <3)
 
-									t_Ctrl w " i		(pega en al terminal':term' el registro "  yy ) ... <3 <3 <3 
+									t_Ctrl w " "		(pega en al terminal':term' el registro "  yy ) ... <3 <3 <3 
