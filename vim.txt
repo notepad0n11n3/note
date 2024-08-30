@@ -8,15 +8,8 @@
 
 							vim ::: tabs   (muestra el contenidoDetallado de todas las pestanas ... <3 <3 <3)
 
-####     sivvi    ####
-  EJECUTA UNA SHELL PARA MORE
-   ::: more /etc/passwd    # solo muestra lo que entre en pantalla  like a 89%  40%
-            si presionas  v  entraras en el modo vi
-     :  :set shell=/bin/bash
-      :  :shell             # devuelve una shell :)
 
-   :e  /etc/bandit_pass/bandit26   #editara el archivo especificado de la ruta introducida :)  :)
-
+		::: cat /etc/passwd | vim -c "%! grep sh$" -		... <3 <3 <3 
 
 
 vim:: r !cd      vim:: r! pwd     # imprime en vim la salida del comando ejecutado
@@ -464,3 +457,36 @@ argument for the command, which has a different meaning.  For example:
 
 				c_Ctrl r p			'muestra la ruta completa para poder usar el :tabnew  '
 
+
+
+
+####     sivvi    ####
+  EJECUTA UNA SHELL PARA MORE
+   ::: more /etc/passwd    # solo muestra lo que entre en pantalla  like a 89%  40%
+            si presionas  v  entraras en el modo vi
+     :  :set shell=/bin/bash
+      :  :shell             # devuelve una shell :)
+
+   :e  /etc/bandit_pass/bandit26   #editara el archivo especificado de la ruta introducida :)  :)
+#### END sivvi    ####
+
+
+
+
+### REMPLAZAR SUSTITUIR  AVANZADO... <3 <3 <3
+
+						vim:: %s/.*::\(.*\) .*/MochimangoREADY = \1;/g
+
+		vim:: '<,'>s/pub const \(.*\) =.*/test _ = { \1 ;}
+
+
+							pub const tower = @import("tower.zig");
+							pub const creep = @import("creep.zig");
+							pub const renderer = @import("renderer");
+							pub const input = @import("input.zig");
+
+
+							test _ = { tower ;}
+							test _ = { creep ;}
+							test _ = { renderer ;}
+							test _ = { gamestate ;}

@@ -1,5 +1,5 @@
 
-vim:: set number relativenumber numberwidth=1 sw=2 tabstop=2 softtabstop=2 noswapfile wrap | map <C-j> <CR> | color murphy
+vim:: set number relativenumber numberwidth=1 sw=2 tabstop=2 softtabstop=2 noswapfile wrap | map <C-j> <CR>|cmap <C-v> <Left>| color murphy
 vim:: imap ;l <Esc>
 
 									
@@ -10,9 +10,9 @@ vim:: imap ;l <Esc>
 																											"Ctrl-[  == Ctrl-\-n  ===  Esc  ==  Ctrl-c"
 
 ### MODO-COMANDOS ONELINER ... <3 <3 <3
-	vim:: tabnew | Ex $burn | call Lterm() ... <3 <3 <3 
-	vim:: vnew | Ex $burn | call Lterm() ... <3 <3 <3 
-	vim:: tabnew | execute 'read! cat /etc/passwd' | execute ' %! grep sh$' | call Lterm()
+	vim:: tabnew | Ex $burn | call Lterm() ... <3 <3 <3																					ejecuta todo en la nueva pestana... <3 <3 <3
+	vim:: vnew | Ex $burn | call Lterm() ... <3 <3 <3																						ejecuta todo en la nueva pestana... <3 <3 <3
+	vim:: tabnew | execute 'read! cat /etc/passwd' | execute ' %! grep sh$' | call Lterm()			ejecuta todo en la nueva pestana... <3 <3 <3
 
 ### MUESTRA INFORMACION DEL ARCHIVO ACTUAL, FULLPATH,  ESTADO[MODIFICADO], LINEA Y PORCENTAJEACTUAL ...<3 <3 <3  (NORMALMODE)
 
@@ -66,10 +66,13 @@ vim:: imap ;l <Esc>
 
 
 
-vim:: r ! cat /etc/passwd | grep "sh$"      ...<3 <3 <3  (' no es necesario escapar  |  con  \  despues del !  ')
-::: cat /etc/passwd | vim - 
-::: cat /etc/passwd | vim -				vim:: %! grep "sh$" ...<3 <3 <3...!!!
-vim:: %! grep "sh$"             'jugamos con el archivo actual con comandos de shell'
+### VIM -		 GREP ::VIM   
+
+		::: cat /etc/passwd | vim -c "%! grep sh$" -
+
+		vim:: r ! cat /etc/passwd | grep "sh$"      ...<3 <3 <3  (' no es necesario escapar  |  con  \  despues del !  ')
+
+		::: cat /etc/passwd | vim -				vim:: %! grep "sh$" ...<3 <3 <3...!!!			'jugamos con el archivo actual con comandos de shell'
 
 
 ###  vim::: term
