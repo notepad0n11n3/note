@@ -115,4 +115,5 @@ xset q | grep "Caps Lock" | sed -E 's/ +/ /g' | cut -d' ' -f3,5 | tr -d "\n"
 									c_Ctrl r l      (inserta la linea focus al modoComandos post ':' )
 									c_Ctrl r "  		(pega la linea post yy ...<3 <3 <3)
 
+### PEGA REGISTROS EN TERMINAL :TERM :term   pre... yy    ...<3 <3 <3
 									t_Ctrl w " "		(pega en al terminal':term' el registro "  yy ) ... <3 <3 <3 
