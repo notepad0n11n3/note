@@ -31,14 +31,14 @@ v:: 17,20 | 122put   // copyLine 17-20 and paste line 122
 
 *** *** *** insertMode (i/a/o/O){     i_CTRL-
 
-    Ctrl t    + 1 identaci[on en insertMode
-    Ctrl d    - 1 identaci[on en insertMode
+    i_Ctrl t    + 1 identaci[on en insertMode
+    i_Ctrl d    - 1 identaci[on en insertMode
 
-    Ctrl y             // CierraElMenuSugerencias Youcompleteme ('insertMode')
+    i_Ctrl y             // CierraElMenuSugerencias Youcompleteme ('insertMode')
 
-    Ctrl c   ===  Ctrl [  ==  ;l  ===  Esc
+    i_Ctrl c   ===  i_Ctrl [  ==  ;l  ===  i_Ctrl \ n  ===  Esc
 
-    Ctrl n   //   Ctrl p      // 'bajar/subir' menuContextual autocompletado
+    i_Ctrl n   //   i_Ctrl p      // 'bajar/subir' menuContextual autocompletado
 }*** *** *** insertMode (i/a/o/O)
 
 
