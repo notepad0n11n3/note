@@ -13,6 +13,7 @@ vim:: imap ;l <Esc>
 	vim:: tabnew | Ex $burn | call Lterm() ... <3 <3 <3																					ejecuta todo en la nueva pestana... <3 <3 <3
 	vim:: vnew | Ex $burn | call Lterm() ... <3 <3 <3																						ejecuta todo en la nueva pestana... <3 <3 <3
 	vim:: tabnew | execute 'read! cat /etc/passwd' | execute ' %! grep sh$' | call Lterm()			ejecuta todo en la nueva pestana... <3 <3 <3
+	vim:: tabnew | call Mvnb('-ip')
 
 ### MUESTRA INFORMACION DEL ARCHIVO ACTUAL, FULLPATH,  ESTADO[MODIFICADO], LINEA Y PORCENTAJEACTUAL ...<3 <3 <3  (NORMALMODE)
 
