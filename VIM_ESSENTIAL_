@@ -15,6 +15,9 @@ vim:: imap ;l <Esc>
 	vim:: tabnew | execute 'read! cat /etc/passwd' | execute ' %! grep sh$' | call Lterm()			ejecuta todo en la nueva pestana... <3 <3 <3
 	vim:: tabnew | call Mvnb('-ip')
 
+	vim::  execute 'w ! sudo tee %' | ! sudo update-grub
+	vim::  execute 'w ! sudo tee %' | execute '! sudo update-grub'
+
 ### MUESTRA INFORMACION DEL ARCHIVO ACTUAL, FULLPATH,  ESTADO[MODIFICADO], LINEA Y PORCENTAJEACTUAL ...<3 <3 <3  (NORMALMODE)
 
 				Ctrl-G/g		"prints the current file name with path, estado del archivo, lineas en total, ubicacion porcentual del focus en el archivo " ...<3 <3 <3
