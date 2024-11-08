@@ -344,26 +344,24 @@ CMD desde Vim
 
 ### FOLDING  PLEGADO DE CODIGO 
 
-				za			abreCierra elFold en cualquierParte delBloque
-				zA			abreTodoSubBloque y cierra  " " "      "
+				zf      creaNuevoFold con modoVisual   '<,'> (seleccionar)
+				zF      3 zF   'visualMode'
 
-				zo			abreFold
-				zO
-				zc			cierraFold
-				zC
+				za			abreCierra elFold en cualquierParte delBloque  'noRecursivo'
+				zA			abreCierra recursivo
 
-        
         zM  cierraTodo los Fold y los deja como nuevos							... ... ... <3 <3 <3 
         zR  abreTodos lo plegado  !!!!  source=>  v:: help folding  ... ... ... <3 <3 <3
 
+				zE		Elimina todos los folds... <3 <3 <3
 
-        zA  lo contrario al de arriba :)
-        za  para abrirCerrar
+				zd    elimina 1 fold en el focusCursor
+				zD    elimina folds recursivamente 'focusCursor'
 
-
-				zf      creaNuevoFold con modoVisual   '<,'>
-				zd								elimina los pliegues
-
+				zo			abreFold focus noRecursivo
+				zO			abreFold focus recursivo
+				zc			cierraFold focus noRecursivo
+				zC			cierraFold focus recursivo
 
 				:set foldmethod=syntax
 				:set foldmethod=indent
