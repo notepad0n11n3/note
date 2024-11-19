@@ -13,29 +13,40 @@ sudo apt-get purge programHere
 ::: id               info_user       
 ::: sudo -i          root
 
-::: ls 
-        -l  listaDetalle
-        -h  tama~o
-        -a  ocultos
-        -S  ordenaXtama~s
-        -t  ordenXfecha
-        -r  invierteElPrint
-::: ls -lhS   _tama~o ><
-  : ls -lhSr      <>
-ls -lhs ??? du -sh .  ??
+### LISTADO DE ARCHIVOS
+	::: ls 
+					-l			listaDetalle
+					-h  		tama~o
+					-a  		ocultos
+					-S  		ordenaXtama~s
+					-t  		ordenXfecha
+					-r  		invierteElPrint
+					-R  		Recursivo en los directorios			(ls -lahR)
+					-d */   soloDirectorios, * cualquier nombreDeArchivo pero el / al final lo restringe solo aDirectorios
+										ls -d */
+										ls -d /ruta/del/directorio/*/				(:find . -maxdepth 1 -type d)  (ls -l | greh ^d)
 
-::: Ctrl r    searchComandHistory
-::: history 
- .: !numberComandHistory
+	::: ls -lhS   _tama~o ><
+		: ls -lhSr      <>
+	ls -lhs ??? du -sh .  ??
+
+  ::: tree				'lista todo like a tree :v'
+		: tree -d			'solo directorios'
+
+### HISORIAL DE COMANDOS
+		::: Ctrl r    searchComandHistory
+		::: history 
+		 .: !numberComandHistory
 
 ::: mkdir -p newDir/Newdir/newNew  creaTodo mkdir recursivo *** ** ***
 
 ::: rm -r dir5/fotos    dltFotos noDir5
 
-::: df -h /rutaDirOptional/  espacioUsado/Libre
+### ESPACIO EN DISCO ARCHIVOS 
+		::: df -h /rutaDirOptional/  espacioUsado/Libre
 
-::: du -h    tama~oQ_ocupa1fichero o todoContenidoDirectorio
-    du -hs .
+		::: du -h    tama~oQ_ocupa1fichero o todoContenidoDirectorio
+				du -hs .
 
 ""A los directorio solo enlaces simb[olicos
 ::: ln -s panda8hat.sh enlaSimboli    enlaceSimbolico like a accesoDirecto
