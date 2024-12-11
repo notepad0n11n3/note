@@ -13,7 +13,9 @@ Alt + 22 + a  'imprime 22 "a"'... <3 <3 <3
 Alt + .       like a !$  ultimo argumento del comandoAnterior
 
 Ctrl + h     borra caracter like Back KEY               vimReady
-Ctrl + d     borra caracter like Supr KEY               noVim :(
+
+Ctrl + d     CIERRA la terminal si no tiene nada escrito ...<3 <3 <3
+						 si tiene algo escrito muestra sugerencias.
 
 Ctrl + w     elimina una palabra entera                 vimReady
 
