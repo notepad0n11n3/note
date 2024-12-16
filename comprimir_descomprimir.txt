@@ -11,7 +11,7 @@ ARCHIVOS .zip
 ARCHIVOS .tar.gz
   Comprimir:
     ::: tar -czvf empaqutado.tr.gz  /carpeta/a/empaquetar/
-  Descomprimier:
+  Descomprimir:					'valido para  .tgz tambien <3'
     ::: tar -xzvf archivo.tar.gz
 
 ARCHIVOS .tar
