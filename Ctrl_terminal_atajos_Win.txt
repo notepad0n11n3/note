@@ -1,3 +1,5 @@
+														Ctrl-m			=====			Ctrl-j(unix) ....<3 <3 <3			{solo en CMD, noPowershell :u ':::powershell -command 'firefox.exe --private-window "..."''}
+
     Win  r cme.exe  Enter
     Win  r cmd.exe  Ctrl Shift Enter      (iniciar programa como administrador)
 
